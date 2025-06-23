@@ -1,0 +1,20 @@
+[
+  {
+    "id": "joaquina",
+    "nome": "Praia da Joaquina",
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "latitude": -27.6068,
+    "longitude": -48.4563,
+    "mapa": "https://www.google.com/maps?q=-27.6068,-48.4563"
+  },
+  {
+    "id": "mole",
+    "nome": "Praia do Mole",
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "latitude": -27.5913,
+    "longitude": -48.4352,
+    "mapa": "https://www.google.com/maps?q=-27.5913,-48.4352"
+  }
+]
