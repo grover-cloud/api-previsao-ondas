@@ -1,45 +1,97 @@
-# 🌊 API de Previsão de Ondas 🌊
+# API de Previsão de Ondas e Clima do Brasil
 
+Esta API fornece dados completos de **ondas, clima e clima Google** de praias do Brasil, usando:
+- [Open-Meteo Marine](https://open-meteo.com)
+- [Open-Meteo Forecast](https://open-meteo.com)
+- Google Weather API (não oficial)
+- Banco de dados MongoDB com cadastro de praias
 
-API de previsão de ondas no Brasil feita através de um WebScraping na área de ondas do INPE, acesse através do [Link](https://previsao-ondas.herokuapp.com/).
+---
 
-[![Build Status](https://travis-ci.com/andrelmlins/previsao-ondas.svg?branch=master)](https://travis-ci.com/andrelmlins/previsao-ondas)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/previsao-ondas/blob/master/LICENSE)
-[![Known Vulnerabilities](https://snyk.io/test/github/andrelmlins/previsao-ondas/badge.svg)](https://snyk.io/test/github/andrelmlins/previsao-ondas)
-[![Dependencies](https://david-dm.org/andrelmlins/previsao-ondas.svg)](https://david-dm.org/andrelmlins/previsao-ondas)
-[![Badge Docker](https://images.microbadger.com/badges/image/andrelmlins1/previsao-ondas.svg)](https://microbadger.com/images/andrelmlins1/previsao-ondas "Get your own image badge on microbadger.com")
-[![Docker Pulls](https://img.shields.io/docker/pulls/andrelmlins1/previsao-ondas.svg)](https://hub.docker.com/r/andrelmlins1/previsao-ondas)
+## Como rodar localmente
 
-## Como rodar
+```bash
+# Instalar dependências
+npm install
 
-```
-# instalar as dependências
-yarn install
+# Criar arquivo .env com:
+MONGO_URL= sua conexão Mongo Atlas
+PORT=3000
+GOOGLE_API_KEY= sua chave do Google Weather
 
-# iniciar a API
-yarn start
-```
-
-## Como usar
-
-Abaixo a lista básica de rotas
-
-* Estados Litorâneos -> http://previsao-ondas.herokuapp.com/litoral/estados
-* Detalhes do Estado: -> http://previsao-ondas.herokuapp.com/litoral/estado/PE
-* Previsão de Ondas por Cidade: -> http://previsao-ondas.herokuapp.com/ondas/cidade/1058
-
-## Docker
-
-Para utilizar a imagem docker faça os seguintes comandos.
-
-```
-$ docker pull andrelmlins1/previsao-ondas
-$ docker run -d -p 80:8080 --name andrelmlins1/previsao-ondas
+# Iniciar local
+npm start
 ```
 
-## Tecnologias
+---
 
-- NodeJS
+## Endpoints disponíveis
+
+### Praia
+| Método | Rota | Descrição |
+|--------|------|------------|
+| `GET` | `/beaches` | Lista todas as praias cadastradas com dados completos (clima, ondas, Google Weather). |
+| `GET` | `/beaches/:state` | Lista todas as praias de um estado específico. |
+| `GET` | `/beaches/:state/:name` | Retorna os dados completos de uma praia específica. |
+| `GET` | `/beach/:name/forecast` | Retorna somente as previsões (ondas, clima e clima_google). |
+| `POST` | `/beaches/register` | Cadastra uma nova praia |
+| `POST` | `/beaches/register-all` | Cadastro em lote (bulk insert) |
+| `DELETE` | `/beaches/:name` | Deleta uma praia por nome |
+
+
+---
+
+## Exemplo de resposta JSON
+```json
+{
+  "name": "Praia da Joaquina",
+  "neighborhood": "Lagoa da Conceição",
+  "city": "Florianópolis",
+  "state": "SC",
+  "latitude": -27.6293577,
+  "longitude": -48.4490173,
+  "google_maps": "https://maps.google.com/?q=-27.6293577,-48.4490173",
+  "waves": {
+    "altura_onda_m": 0.42,
+    "direcao_onda_deg": 115,
+    "periodo_onda_s": 8.1,
+    "swell_period_s": 7.7
+  },
+  "weather": {
+    "temperatura_ar_c": 23.3,
+    "vento_vel_kmh": 11.8,
+    "vento_dir_deg": 280,
+    "umidade_relativa": 75,
+    "pressao_superficie": 1014.2
+  },
+  "google_weather": {
+    "tempo": "Parcialmente nublado",
+    "icone_url": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+    "temperatura_c": 23,
+    "vento_vel_kmh": 12
+  }
+}
+```
+
+---
+
+## Tecnologias Utilizadas
+
+- Node.js
 - Express
-- Cheerio
 - Axios
+- Mongoose
+- MongoDB Atlas
+- Google Weather API
+- Open-Meteo
+- Dotenv
+
+---
+
+## Produção
+
+Disponível via [Render.com](https://api-previsao-ondas.onrender.com/)
+
+---
+
+Desenvolvido por **Guilherme Pires Rover** | Projeto: Hie Wave 

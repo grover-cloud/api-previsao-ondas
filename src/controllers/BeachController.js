@@ -3,33 +3,66 @@ const { get_wave_data, get_weather_data, get_google_weather_data } = require('..
 
 module.exports = {
   async listAll(req, res) {
-    const beaches = await Beach.find();
-    const result = beaches.map(beach => {
-      const lat = beach.latitude;
-      const lon = beach.longitude;
-      return {
-        name: beach.name,
-        neighborhood: beach.neighborhood,
-        city: beach.city,
-        state: beach.state,
-        latitude: lat,
-        longitude: lon,
-        google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-        waves: get_wave_data(lat, lon),
-        weather: get_weather_data(lat, lon),
-        google_weather: get_google_weather_data(lat, lon)
-      };
-    });
-    res.status(200).json(result);
+    try {
+      const beaches = await Beach.find().limit(10);
+      const result = await Promise.all(beaches.map(async beach => {
+        const lat = beach.latitude;
+        const lon = beach.longitude;
+        return {
+          name: beach.name,
+          neighborhood: beach.neighborhood,
+          city: beach.city,
+          state: beach.state,
+          latitude: lat,
+          longitude: lon,
+          google_maps: `https://maps.google.com/?q=${lat},${lon}`,
+          waves: await get_wave_data(lat, lon),
+          weather: await get_weather_data(lat, lon),
+          google_weather: await get_google_weather_data(lat, lon)
+        };
+      }));
+      res.status(200).json(result);
+    } catch (error) {
+      res.status(500).json({ error: 'Error loading beaches.' });
+    }
   },
 
   async listByState(req, res) {
-    const state = req.params.state.toUpperCase();
-    const beaches = await Beach.find({ state });
-    const result = beaches.map(beach => {
+    try {
+      const state = req.params.state.toUpperCase();
+      const beaches = await Beach.find({ state }).limit(10);
+      const result = await Promise.all(beaches.map(async beach => {
+        const lat = beach.latitude;
+        const lon = beach.longitude;
+        return {
+          name: beach.name,
+          neighborhood: beach.neighborhood,
+          city: beach.city,
+          state: beach.state,
+          latitude: lat,
+          longitude: lon,
+          google_maps: `https://maps.google.com/?q=${lat},${lon}`,
+          waves: await get_wave_data(lat, lon),
+          weather: await get_weather_data(lat, lon),
+          google_weather: await get_google_weather_data(lat, lon)
+        };
+      }));
+      res.status(200).json(result);
+    } catch (error) {
+      res.status(500).json({ error: 'Error loading beaches by state.' });
+    }
+  },
+
+  async getByStateAndName(req, res) {
+    try {
+      const state = req.params.state.toUpperCase();
+      const name = req.params.nome;
+      const beach = await Beach.findOne({ state, name });
+      if (!beach) return res.status(404).json({ error: 'Beach not found.' });
+
       const lat = beach.latitude;
       const lon = beach.longitude;
-      return {
+      res.status(200).json({
         name: beach.name,
         neighborhood: beach.neighborhood,
         city: beach.city,
@@ -37,34 +70,13 @@ module.exports = {
         latitude: lat,
         longitude: lon,
         google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-        waves: get_wave_data(lat, lon),
-        weather: get_weather_data(lat, lon),
-        google_weather: get_google_weather_data(lat, lon)
-      };
-    });
-    res.status(200).json(result);
-  },
-
-  async getByStateAndName(req, res) {
-    const state = req.params.state.toUpperCase();
-    const name = req.params.nome;
-    const beach = await Beach.findOne({ state, name });
-    if (!beach) return res.status(404).json({ error: 'Beach not found.' });
-
-    const lat = beach.latitude;
-    const lon = beach.longitude;
-    res.status(200).json({
-      name: beach.name,
-      neighborhood: beach.neighborhood,
-      city: beach.city,
-      state: beach.state,
-      latitude: lat,
-      longitude: lon,
-      google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-      waves: get_wave_data(lat, lon),
-      weather: get_weather_data(lat, lon),
-      google_weather: get_google_weather_data(lat, lon)
-    });
+        waves: await get_wave_data(lat, lon),
+        weather: await get_weather_data(lat, lon),
+        google_weather: await get_google_weather_data(lat, lon)
+      });
+    } catch (error) {
+      res.status(500).json({ error: 'Error loading beach details.' });
+    }
   },
 
   async register(req, res) {
