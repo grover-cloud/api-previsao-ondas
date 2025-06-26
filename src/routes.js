@@ -1,22 +1,14 @@
+const express = require('express');
+const router = express.Router();
+
 const LitoralController = require('./controllers/LitoralController');
 const PrevisaoOndaController = require('./controllers/PrevisaoOndaController');
 const Controller = require('./controllers/Controller');
 const PraiaController = require('./controllers/PraiaController');
 
-const express = require('express');
-const router = express.Router();
-const PraiaController = require('./controllers/PraiaController');
-
-const initializeRoutes = (app) => {
-    app.use('/litoral', LitoralController);
-    app.use('/onda', PrevisaoOndaController);
-    app.use('/', Controller);
-}
-
-module.exports = initializeRoutes;
-
-
-
+router.use('/litoral', LitoralController);
+router.use('/onda', PrevisaoOndaController);
 router.use('/praias', PraiaController);
+router.use('/', Controller);
 
 module.exports = router;

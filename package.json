@@ -10,26 +10,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/andrelmlins/api-previsao-ondas.git"
+    "url": "https://github.com/grover-cloud/api-previsao-ondas"
   },
   "keywords": [
     "api",
     "previsao",
     "ondas"
   ],
-  "author": "André Lins",
+  "author": "Guilherme Pires Rover",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrelmlins/api-previsao-ondas/issues"
+    "url": "https://github.com/grover-cloud/api-previsao-ondas/issues"
   },
-  "homepage": "https://github.com/andrelmlins/api-previsao-ondas#readme",
+  "homepage": "https://github.com/grover-cloud/api-previsao-ondas#readme",
   "dependencies": {
     "axios": "^0.19.0",
     "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^4.17.1",
     "iso-8859-2": "^1.0.0",
     "moment": "^2.24.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.0",
     "morgan": "^1.9.1",
     "swagger-jsdoc": "^3.2.9",
     "swagger-ui-express": "^4.0.5",
