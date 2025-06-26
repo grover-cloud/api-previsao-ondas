@@ -23,6 +23,7 @@ module.exports = {
       }));
       res.status(200).json(result);
     } catch (error) {
+      console.error('[Erro interno listAll]', error);
       res.status(500).json({ error: 'Error loading beaches.' });
     }
   },
@@ -49,6 +50,7 @@ module.exports = {
       }));
       res.status(200).json(result);
     } catch (error) {
+      console.error('[Erro interno listByState]', error);
       res.status(500).json({ error: 'Error loading beaches by state.' });
     }
   },
@@ -75,6 +77,7 @@ module.exports = {
         google_weather: await get_google_weather_data(lat, lon)
       });
     } catch (error) {
+      console.error('[Erro interno getByStateAndName]', error);
       res.status(500).json({ error: 'Error loading beach details.' });
     }
   },
