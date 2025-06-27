@@ -6,6 +6,8 @@ const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 
 const getWeatherData = async (latitude, longitude) => {
   try {
+    console.log("[INFO] Buscando dados para:", latitude, longitude);
+
     const meteoResponse = await axios.get(OPEN_METEO_API_URL, {
       params: {
         latitude,
@@ -26,14 +28,18 @@ const getWeatherData = async (latitude, longitude) => {
       }
     });
 
+    console.log("[OK] Open-Meteo Marine carregado com sucesso");
+
     const weatherResponse = await axios.get("https://api.open-meteo.com/v1/forecast", {
       params: {
         latitude,
         longitude,
-        current_weather: true,
+        hourly: ["temperature_2m", "relative_humidity_2m", "surface_pressure", "wind_speed_10m", "wind_direction_10m"].join(","),
         timezone: "America/Sao_Paulo"
       }
     });
+
+    console.log("[OK] Open-Meteo Forecast carregado com sucesso");
 
     const googleWeatherResponse = await axios.post(`https://weather.googleapis.com/v1/currentConditions:lookup?key=${GOOGLE_API_KEY}`, {
       location: {
@@ -42,8 +48,10 @@ const getWeatherData = async (latitude, longitude) => {
       }
     });
 
+    console.log("[OK] Google Weather carregado com sucesso");
+
     const waveData = meteoResponse.data?.hourly || {};
-    const currentWeather = weatherResponse.data?.current_weather || {};
+    const currentWeather = weatherResponse.data?.hourly || {};
     const googleWeather = googleWeatherResponse.data?.currentConditions?.[0] || {};
 
     return {
@@ -60,16 +68,16 @@ const getWeatherData = async (latitude, longitude) => {
         "temperatura_agua_c": waveData.sea_surface_temperature?.[0] || null
       },
       weather: {
-        "temperatura_ar_c": currentWeather.temperature || null,
-        "vento_vel_kmh": currentWeather.windspeed || null,
-        "vento_dir_deg": currentWeather.winddirection || null,
-        "umidade_relativa": null,
-        "pressao_superficie": null,
+        "temperatura_ar_c": currentWeather.temperature_2m?.[0] || null,
+        "vento_vel_kmh": currentWeather.wind_speed_10m?.[0] ? parseFloat((currentWeather.wind_speed_10m[0] * 3.6).toFixed(1)) : null,
+        "vento_dir_deg": currentWeather.wind_direction_10m?.[0] || null,
+        "umidade_relativa": currentWeather.relative_humidity_2m?.[0] || null,
+        "pressao_superficie": currentWeather.surface_pressure?.[0] || null,
       },
       google_weather: googleWeather
     };
   } catch (error) {
-    console.error("Erro ao obter dados meteorológicos:", error.message);
+    console.error("[ERRO getWeatherData]", error);
     return { error: "Erro ao obter dados meteorológicos." };
   }
 };
