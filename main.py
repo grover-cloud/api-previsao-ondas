@@ -37,7 +37,7 @@ app.add_middleware(
 # Middleware de verificação de access_key
 @app.middleware("http")
 async def verificar_chave(request: Request, call_next):
-    if not request.url.path.startswith("/docs") and not request.url.path.startswith("/openapi"):
+    if request.url.path not in ["/docs", "/openapi.json", "/favicon.ico"]:
         key = request.headers.get("x-access-key")
         if key != ACCESS_KEY:
             raise HTTPException(status_code=401, detail="Chave de acesso inválida ou ausente")
