@@ -1,7 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const MarineController = require('./controllers/MarineController');
-
 
 const BeachController = require('./controllers/BeachController');
 const ForecastController = require('./controllers/ForecastController');
