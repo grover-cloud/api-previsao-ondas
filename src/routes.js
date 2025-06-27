@@ -3,7 +3,7 @@ const router = express.Router();
 
 const BeachController = require('./controllers/BeachController');
 const ForecastController = require('./controllers/ForecastController');
-const MarineController = require('./controllers/MarineController');
+const MarineController = require('./MarineController');
 
 router.get('/beaches', BeachController.listAll);
 router.get('/beaches/:state', BeachController.listByState);

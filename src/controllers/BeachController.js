@@ -1,6 +1,6 @@
 const Beach = require('../models/BeachModel');
 const { getWeatherData } = require('../services/openMeteoService');
-const { getMarineData } = require('../services/marineService');
+const { getMarineData, getFaunaDataBrazil } = require('../services/marineService');
 const { getGoogleWeatherData } = require('../services/googleWeatherService');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
@@ -25,6 +25,8 @@ module.exports = {
         const forecast = await getWeatherData(lat, lon);
         const marine = await getMarineData(lat, lon);
         const googleWeather = await getGoogleWeatherData(lat, lon);
+        const marineFauna = await getFaunaDataBrazil();
+
         return {
           name: beach.name,
           neighborhood: beach.neighborhood,
@@ -34,7 +36,10 @@ module.exports = {
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
           forecast,
-          marine,
+          marine: {
+            ...marine,
+            marine_fauna: marineFauna
+          },
           google_weather: googleWeather
         };
       }));
@@ -56,6 +61,8 @@ module.exports = {
         const forecast = await getWeatherData(lat, lon);
         const marine = await getMarineData(lat, lon);
         const googleWeather = await getGoogleWeatherData(lat, lon);
+        const marineFauna = await getFaunaDataBrazil();
+
         return {
           name: beach.name,
           neighborhood: beach.neighborhood,
@@ -65,7 +72,10 @@ module.exports = {
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
           forecast,
-          marine,
+          marine: {
+            ...marine,
+            marine_fauna: marineFauna
+          },
           google_weather: googleWeather
         };
       }));
@@ -89,6 +99,8 @@ module.exports = {
       const forecast = await getWeatherData(lat, lon);
       const marine = await getMarineData(lat, lon);
       const googleWeather = await getGoogleWeatherData(lat, lon);
+      const marineFauna = await getFaunaDataBrazil();
+
       res.status(200).json({
         name: beach.name,
         neighborhood: beach.neighborhood,
@@ -98,7 +110,10 @@ module.exports = {
         longitude: lon,
         google_maps: `https://maps.google.com/?q=${lat},${lon}`,
         forecast,
-        marine,
+        marine: {
+          ...marine,
+          marine_fauna: marineFauna
+        },
         google_weather: googleWeather
       });
     } catch (error) {
