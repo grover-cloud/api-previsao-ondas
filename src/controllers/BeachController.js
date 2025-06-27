@@ -1,5 +1,6 @@
 const Beach = require('../models/BeachModel');
 const { getWeatherData } = require('../services/openMeteoService');
+const { getGoogleWeatherData } = require('../services/googleWeatherService');
 
 module.exports = {
   async listAll(req, res) {
@@ -9,6 +10,7 @@ module.exports = {
         const lat = beach.latitude;
         const lon = beach.longitude;
         const dados = await getWeatherData(lat, lon);
+        const googleWeather = await getGoogleWeatherData(lat, lon);
         return {
           name: beach.name,
           neighborhood: beach.neighborhood,
@@ -17,7 +19,8 @@ module.exports = {
           latitude: lat,
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-          ...dados
+          ...dados,
+          google_weather: googleWeather
         };
       }));
       res.status(200).json(result);
@@ -35,6 +38,7 @@ module.exports = {
         const lat = beach.latitude;
         const lon = beach.longitude;
         const dados = await getWeatherData(lat, lon);
+        const googleWeather = await getGoogleWeatherData(lat, lon);
         return {
           name: beach.name,
           neighborhood: beach.neighborhood,
@@ -43,7 +47,8 @@ module.exports = {
           latitude: lat,
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-          ...dados
+          ...dados,
+          google_weather: googleWeather
         };
       }));
       res.status(200).json(result);
@@ -63,6 +68,7 @@ module.exports = {
       const lat = beach.latitude;
       const lon = beach.longitude;
       const dados = await getWeatherData(lat, lon);
+      const googleWeather = await getGoogleWeatherData(lat, lon);
       res.status(200).json({
         name: beach.name,
         neighborhood: beach.neighborhood,
@@ -71,7 +77,8 @@ module.exports = {
         latitude: lat,
         longitude: lon,
         google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-        ...dados
+        ...dados,
+        google_weather: googleWeather
       });
     } catch (error) {
       console.error('[Erro interno getByStateAndName]', error);

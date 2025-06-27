@@ -88,14 +88,14 @@ def previsao_simples(nome: str):
     try:
         r1 = requests.get(url_marine)
         r2 = requests.get(url_forecast)
-        r3 = requests.get(url_google)
+        r3 = requests.get(url_google, headers={"Content-Type": "application/json"})
 
         if r3.status_code != 200:
             raise Exception(f"Erro Google API: {r3.text}")
 
         d1 = r1.json().get("hourly", {})
         d2 = r2.json().get("hourly", {})
-        d3 = r3.json().get("currentConditions", [{}])[0]
+        d3 = r3.json() if isinstance(r3.json(), dict) else r3.json()[0] if isinstance(r3.json(), list) and r3.json() else {}
 
         return {
             "ondas": {
