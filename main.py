@@ -81,13 +81,14 @@ def previsao_simples(nome: str):
     )
 
     url_google = (
-        f"https://weather.googleapis.com/v1/currentConditions:lookup?key={GOOGLE_API_KEY}"
+        f"https://weather.googleapis.com/v1/currentConditions:lookup?"
+        f"key={GOOGLE_API_KEY}&location.latitude={lat}&location.longitude={lon}"
     )
 
     try:
         r1 = requests.get(url_marine)
         r2 = requests.get(url_forecast)
-        r3 = requests.get(url_google, json={"location": {"latitude": lat, "longitude": lon}})
+        r3 = requests.get(url_google)
 
         d1 = r1.json().get("hourly", {})
         d2 = r2.json().get("hourly", {})
