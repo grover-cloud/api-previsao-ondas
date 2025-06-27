@@ -13,6 +13,8 @@ load_dotenv()
 MONGO_URL = os.getenv("MONGO_URL")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 ACCESS_KEY = os.getenv("ACCESS_KEY")
+print(f"[DEBUG] ACCESS_KEY carregada: {ACCESS_KEY}")
+
 if not MONGO_URL:
     MONGO_URL = "mongodb+srv://admin:surf20255@cluster0.nnkjrl1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -35,9 +37,6 @@ app.add_middleware(
 # Middleware de verificação de access_key
 @app.middleware("http")
 async def verificar_chave(request: Request, call_next):
-    print(f"🔐 HEADERS: {request.headers.get('x-access-key')}")
-    print(f"🔑 ACCESS_KEY esperada: {ACCESS_KEY}")
-    
     if not request.url.path.startswith("/docs") and not request.url.path.startswith("/openapi"):
         key = request.headers.get("x-access-key")
         if key != ACCESS_KEY:
