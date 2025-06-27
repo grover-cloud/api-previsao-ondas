@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pymongo import MongoClient
 from bson import ObjectId
@@ -6,12 +6,13 @@ import requests
 import os
 from dotenv import load_dotenv
 
-# 🔥 Carregar .env
+# Carregar .env
 load_dotenv()
 
-# 🔗 Conexão MongoDB
+# Conexão MongoDB
 MONGO_URL = os.getenv("MONGO_URL")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+ACCESS_KEY = os.getenv("ACCESS_KEY")
 if not MONGO_URL:
     MONGO_URL = "mongodb+srv://admin:surf20255@cluster0.nnkjrl1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -19,10 +20,10 @@ client = MongoClient(MONGO_URL)
 db = client["api-surf"]
 collection = db["praias"]
 
-# 🚀 Iniciar FastAPI
+# Iniciar FastAPI
 app = FastAPI(title="Hie Wave API 🌊 - Praias e Previsão")
 
-# 🔓 CORS liberado
+# CORS liberado
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -31,7 +32,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 🔧 Função serializar MongoDB
+# Middleware de verificação de access_key
+@app.middleware("http")
+async def verificar_chave(request: Request, call_next):
+    if not request.url.path.startswith("/docs") and not request.url.path.startswith("/openapi"):
+        key = request.headers.get("x-access-key")
+        if key != ACCESS_KEY:
+            raise HTTPException(status_code=401, detail="Chave de acesso inválida ou ausente")
+    return await call_next(request)
+
+# Função serializar MongoDB
 def serialize_praia(praia):
     return {
         "name": praia["nome"],
