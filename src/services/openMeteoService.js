@@ -20,7 +20,7 @@ const getWeatherData = async (latitude, longitude) => {
           "swell_wave_height",
           "swell_wave_direction",
           "swell_wave_period",
-          "water_temperature"
+          "sea_surface_temperature"
         ].join(","),
         timezone: "America/Sao_Paulo"
       }
@@ -57,7 +57,7 @@ const getWeatherData = async (latitude, longitude) => {
         "altura_swell_m": waveData.swell_wave_height?.[0] || null,
         "direcao_swell_graus": waveData.swell_wave_direction?.[0] || null,
         "periodo_swell_s": waveData.swell_wave_period?.[0] || null,
-        "temperatura_agua_c": waveData.water_temperature?.[0] || null
+        "temperatura_agua_c": waveData.sea_surface_temperature?.[0] || null
       },
       weather: {
         "temperatura_ar_c": currentWeather.temperature || null,

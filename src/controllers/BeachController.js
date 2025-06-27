@@ -1,5 +1,5 @@
 const Beach = require('../models/BeachModel');
-const { get_wave_data, get_weather_data, get_google_weather_data } = require('../services/openMeteoService');
+const { getWeatherData } = require('../services/openMeteoService');
 
 module.exports = {
   async listAll(req, res) {
@@ -8,6 +8,7 @@ module.exports = {
       const result = await Promise.all(beaches.map(async beach => {
         const lat = beach.latitude;
         const lon = beach.longitude;
+        const dados = await getWeatherData(lat, lon);
         return {
           name: beach.name,
           neighborhood: beach.neighborhood,
@@ -16,9 +17,7 @@ module.exports = {
           latitude: lat,
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-          waves: await get_wave_data(lat, lon),
-          weather: await get_weather_data(lat, lon),
-          google_weather: await get_google_weather_data(lat, lon)
+          ...dados
         };
       }));
       res.status(200).json(result);
@@ -35,6 +34,7 @@ module.exports = {
       const result = await Promise.all(beaches.map(async beach => {
         const lat = beach.latitude;
         const lon = beach.longitude;
+        const dados = await getWeatherData(lat, lon);
         return {
           name: beach.name,
           neighborhood: beach.neighborhood,
@@ -43,9 +43,7 @@ module.exports = {
           latitude: lat,
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-          waves: await get_wave_data(lat, lon),
-          weather: await get_weather_data(lat, lon),
-          google_weather: await get_google_weather_data(lat, lon)
+          ...dados
         };
       }));
       res.status(200).json(result);
@@ -64,6 +62,7 @@ module.exports = {
 
       const lat = beach.latitude;
       const lon = beach.longitude;
+      const dados = await getWeatherData(lat, lon);
       res.status(200).json({
         name: beach.name,
         neighborhood: beach.neighborhood,
@@ -72,9 +71,7 @@ module.exports = {
         latitude: lat,
         longitude: lon,
         google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-        waves: await get_wave_data(lat, lon),
-        weather: await get_weather_data(lat, lon),
-        google_weather: await get_google_weather_data(lat, lon)
+        ...dados
       });
     } catch (error) {
       console.error('[Erro interno getByStateAndName]', error);

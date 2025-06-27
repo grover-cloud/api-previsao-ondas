@@ -11,6 +11,7 @@ load_dotenv()
 
 # 🔗 Conexão MongoDB
 MONGO_URL = os.getenv("MONGO_URL")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if not MONGO_URL:
     MONGO_URL = "mongodb+srv://admin:surf20255@cluster0.nnkjrl1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -33,38 +34,34 @@ app.add_middleware(
 # 🔧 Função serializar MongoDB
 def serialize_praia(praia):
     return {
-        "id": str(praia["_id"]),
         "nome": praia["nome"],
+        "bairro": praia["bairro"],
         "municipio": praia["municipio"],
         "estado": praia["estado"],
         "latitude": praia["latitude"],
-        "longitude": praia["longitude"],
-        "google_maps": praia["google_maps"],
-        "tipo": praia["tipo"],
-        "perfil": praia["perfil"],
-        "area_aproximada_m2": praia["area_aproximada_m2"],
-        "qualidade_agua": praia["qualidade_agua"],
-        "salva_vidas": praia["salva_vidas"],
-        "fauna_flora": praia["fauna_flora"],
+        "longitude": praia["longitude"]
     }
 
-# 🌍 Listar todas as praias
-@app.get("/praias")
-def get_praias():
+@app.get("/beaches")
+def listar_todas():
     praias = list(collection.find())
     return [serialize_praia(p) for p in praias]
 
-# 🔍 Detalhes de uma praia
-@app.get("/praias/{id}")
-def get_praia(id: str):
-    praia = collection.find_one({"_id": ObjectId(id)})
-    if praia:
-        return serialize_praia(praia)
-    raise HTTPException(status_code=404, detail="Praia não encontrada")
+@app.get("/beaches/{estado}")
+def listar_por_estado(estado: str):
+    praias = list(collection.find({"estado": estado.upper()}))
+    return [serialize_praia(p) for p in praias]
 
-@app.get("/praias/{id}/previsao")
-def get_previsao(id: str):
-    praia = collection.find_one({"_id": ObjectId(id)})
+@app.get("/beaches/{estado}/{nome}")
+def praia_estado_nome(estado: str, nome: str):
+    praia = collection.find_one({"estado": estado.upper(), "nome": nome})
+    if not praia:
+        raise HTTPException(status_code=404, detail="Praia não encontrada")
+    return serialize_praia(praia)
+
+@app.get("/beach/{nome}/forecast")
+def previsao_simples(nome: str):
+    praia = collection.find_one({"nome": nome})
     if not praia:
         raise HTTPException(status_code=404, detail="Praia não encontrada")
 
@@ -74,7 +71,7 @@ def get_previsao(id: str):
     url_marine = (
         f"https://marine-api.open-meteo.com/v1/marine?"
         f"latitude={lat}&longitude={lon}"
-        f"&hourly=wave_height,wave_direction,wave_period"
+        f"&hourly=wave_height,wave_direction,wave_period,sea_surface_temperature"
     )
 
     url_forecast = (
@@ -83,87 +80,57 @@ def get_previsao(id: str):
         f"&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m,wind_direction_10m,surface_pressure"
     )
 
-    try:
-        response_marine = requests.get(url_marine)
-        response_forecast = requests.get(url_forecast)
-
-        if response_marine.status_code != 200 or response_forecast.status_code != 200:
-            raise HTTPException(status_code=500, detail="Erro na API de previsão externa")
-
-        data_marine = response_marine.json()
-        data_forecast = response_forecast.json()
-
-        marine_hour = {k: v[0] for k, v in data_marine.get("hourly", {}).items()}
-        forecast_hour = {k: v[0] for k, v in data_forecast.get("hourly", {}).items()}
-
-        previsao = {
-            "ondas": {
-                "altura_onda_m": marine_hour.get("wave_height"),
-                "direcao_onda": marine_hour.get("wave_direction"),
-                "periodo_onda_s": marine_hour.get("wave_period")
-            },
-            "vento": {
-                "velocidade_kmh": round(forecast_hour.get("wind_speed_10m", 0) * 3.6, 1) if forecast_hour.get("wind_speed_10m") else None,
-                "direcao": forecast_hour.get("wind_direction_10m")
-            },
-            "clima": {
-                "temperatura_ar_c": forecast_hour.get("temperature_2m"),
-                "umidade_relativa": forecast_hour.get("relative_humidity_2m"),
-                "pressao_superficie": forecast_hour.get("surface_pressure")
-            }
-        }
-
-        return previsao
-
-    except Exception as e:
-        print(f"Erro na previsão: {e}")
-        raise HTTPException(status_code=500, detail="Erro na API de previsão")
-
-    url_forecast = (
-        f"https://api.open-meteo.com/v1/forecast?"
-        f"latitude={lat}&longitude={lon}"
-        f"&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m,wind_direction_10m,surface_pressure"
+    url_google = (
+        f"https://weather.googleapis.com/v1/currentConditions:lookup?key={GOOGLE_API_KEY}"
     )
 
     try:
-        response_marine = requests.get(url_marine)
-        response_forecast = requests.get(url_forecast)
+        r1 = requests.get(url_marine)
+        r2 = requests.get(url_forecast)
+        r3 = requests.post(url_google, json={"location": {"latitude": lat, "longitude": lon}})
 
-        if response_marine.status_code != 200 or response_forecast.status_code != 200:
-            raise HTTPException(status_code=500, detail="Erro na API de previsão externa")
+        d1 = r1.json().get("hourly", {})
+        d2 = r2.json().get("hourly", {})
+        d3 = r3.json().get("currentConditions", [{}])[0]
 
-        data_marine = response_marine.json()
-        data_forecast = response_forecast.json()
-
-        marine_hour = {k: v[0] for k, v in data_marine.get("hourly", {}).items()}
-        forecast_hour = {k: v[0] for k, v in data_forecast.get("hourly", {}).items()}
-
-        previsao = {
+        return {
             "ondas": {
-                "altura_onda_m": marine_hour.get("wave_height"),
-                "direcao_onda": marine_hour.get("wave_direction"),
-                "periodo_onda_s": marine_hour.get("wave_period")
-            },
-            "corrente": {
-                "velocidade_corrente_m_s": marine_hour.get("current_speed"),
-                "direcao_corrente": marine_hour.get("current_direction")
-            },
-            "nivel_mar": {
-                "sea_level_m": marine_hour.get("sea_level")
-            },
-            "vento": {
-                "velocidade_kmh": round(forecast_hour.get("wind_speed_10m", 0) * 3.6, 1) if forecast_hour.get("wind_speed_10m") else None,
-                "direcao": forecast_hour.get("wind_direction_10m")
+                "altura_onda_m": d1.get("wave_height", [None])[0],
+                "direcao_onda": d1.get("wave_direction", [None])[0],
+                "periodo_onda_s": d1.get("wave_period", [None])[0],
+                "temperatura_agua_c": d1.get("sea_surface_temperature", [None])[0],
             },
             "clima": {
-                "temperatura_ar_c": forecast_hour.get("temperature_2m"),
-                "umidade_relativa": forecast_hour.get("relative_humidity_2m"),
-                "pressao_superficie": forecast_hour.get("surface_pressure")
-            }
+                "temperatura_ar_c": d2.get("temperature_2m", [None])[0],
+                "umidade_relativa": d2.get("relative_humidity_2m", [None])[0],
+                "vento_kmh": round(d2.get("wind_speed_10m", [0])[0] * 3.6, 1),
+                "direcao_vento": d2.get("wind_direction_10m", [None])[0],
+                "pressao_superficie": d2.get("surface_pressure", [None])[0]
+            },
+            "google_weather": d3
         }
 
-        return previsao
-
     except Exception as e:
-        print(f"Erro na previsão: {e}")
-        raise HTTPException(status_code=500, detail="Erro na API de previsão")
+        print("Erro:", e)
+        raise HTTPException(status_code=500, detail="Erro na API externa")
+
+@app.post("/beaches/register")
+def cadastrar_praia(data: dict):
+    obrigatorios = ["nome", "bairro", "municipio", "estado", "latitude", "longitude"]
+    if not all(k in data for k in obrigatorios):
+        raise HTTPException(status_code=400, detail="Campos obrigatórios ausentes")
+
+    collection.insert_one(data)
+    return {"mensagem": "Praia cadastrada com sucesso"}
+
+@app.post("/beaches/register-all")
+def cadastrar_lote(lista: list):
+    collection.insert_many(lista)
+    return {"mensagem": f"{len(lista)} praias inseridas com sucesso"}
+
+@app.delete("/beaches/{nome}")
+def deletar_praia(nome: str):
+    res = collection.delete_one({"nome": nome})
+    if res.deleted_count == 0:
+        raise HTTPException(status_code=404, detail="Praia não encontrada para exclusão")
+    return {"mensagem": "Praia removida com sucesso"}
