@@ -37,10 +37,17 @@ app.add_middleware(
 # Middleware de verificação de access_key
 @app.middleware("http")
 async def verificar_chave(request: Request, call_next):
-    if request.url.path not in ["/docs", "/openapi.json", "/favicon.ico"]:
+    rotas_livres = ["/docs", "/openapi.json", "/favicon.ico"]
+
+    # Só verifica a chave se a rota NÃO estiver em rotas livres
+    if not any(request.url.path.startswith(r) for r in rotas_livres):
         key = request.headers.get("x-access-key")
-        if key != ACCESS_KEY:
+        if not key or key != ACCESS_KEY:
+            print(f"[SEGURANÇA] Acesso bloqueado - chave inválida ou ausente. Recebida: {key}")
             raise HTTPException(status_code=401, detail="Chave de acesso inválida ou ausente")
+        else:
+            print("[SEGURANÇA] Chave de acesso válida.")
+
     return await call_next(request)
 
 # Função serializar MongoDB
