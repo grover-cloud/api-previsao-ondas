@@ -37,10 +37,10 @@ app.add_middleware(
 # Middleware de verificação de access_key
 @app.middleware("http")
 async def verificar_chave(request: Request, call_next):
+    key = request.headers.get("x-access-key")
+    print(f"[DEBUG] x-access-key recebida: {key}")  # Coloque isso aqui sempre
     if request.url.path not in ["/docs", "/openapi.json", "/favicon.ico"]:
-        key = request.headers.get("x-access-key")
         if key != ACCESS_KEY:
-            print(f"[DEBUG] Chave inválida recebida: {key}")
             raise HTTPException(status_code=401, detail="Chave de acesso inválida ou ausente")
     return await call_next(request)
 
