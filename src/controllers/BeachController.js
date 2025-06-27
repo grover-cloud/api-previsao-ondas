@@ -3,8 +3,20 @@ const { getWeatherData } = require('../services/openMeteoService');
 const { getMarineData } = require('../services/marineService');
 const { getGoogleWeatherData } = require('../services/googleWeatherService');
 
+const ACCESS_KEY = process.env.ACCESS_KEY;
+
+function verificarChave(req, res) {
+  const key = req.headers['x-access-key'];
+  if (key !== ACCESS_KEY) {
+    res.status(401).json({ error: 'Unauthorized. Invalid or missing access key.' });
+    return false;
+  }
+  return true;
+}
+
 module.exports = {
   async listAll(req, res) {
+    if (!verificarChave(req, res)) return;
     try {
       const beaches = await Beach.find().limit(10);
       const result = await Promise.all(beaches.map(async beach => {
@@ -34,6 +46,7 @@ module.exports = {
   },
 
   async listByState(req, res) {
+    if (!verificarChave(req, res)) return;
     try {
       const state = req.params.state.toUpperCase();
       const beaches = await Beach.find({ state }).limit(10);
@@ -64,6 +77,7 @@ module.exports = {
   },
 
   async getByStateAndName(req, res) {
+    if (!verificarChave(req, res)) return;
     try {
       const state = req.params.state.toUpperCase();
       const name = req.params.nome;
@@ -94,6 +108,7 @@ module.exports = {
   },
 
   async register(req, res) {
+    if (!verificarChave(req, res)) return;
     const data = req.body;
     const requiredFields = ["name", "neighborhood", "city", "state", "latitude", "longitude"];
     if (!requiredFields.every(k => data[k])) return res.status(400).json({ error: "Missing required fields." });
@@ -110,6 +125,7 @@ module.exports = {
   },
 
   async registerAll(req, res) {
+    if (!verificarChave(req, res)) return;
     const beaches = req.body;
     if (!Array.isArray(beaches)) return res.status(400).json({ error: "Please send a list of beaches." });
 
@@ -128,6 +144,7 @@ module.exports = {
   },
 
   async remove(req, res) {
+    if (!verificarChave(req, res)) return;
     const name = req.params.nome;
     const result = await Beach.deleteOne({ name });
     if (result.deletedCount === 0) return res.status(404).json({ error: "Beach not found to delete." });
