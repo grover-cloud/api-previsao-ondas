@@ -39,16 +39,13 @@ app.add_middleware(
 async def verificar_chave(request: Request, call_next):
     key = request.headers.get("x-access-key")
     print(f"[DEBUG] x-access-key recebida: {key}")
-    if key != ACCESS_KEY:
-        raise HTTPException(status_code=401, detail="Chave de acesso inválida ou ausente")
-    
-    # Bloquear todos os métodos GET, POST, PUT e DELETE sem chave válida
+
     if request.method in ["GET", "POST", "PUT", "DELETE"]:
         if key != ACCESS_KEY:
-            raise HTTPException(status_code=401, detail="Chave de acesso inválida ou ausente")
+            return JSONResponse(status_code=401, content={"detail": "Chave de acesso inválida ou ausente"})
 
-    return await call_next(request)
-
+    response = await call_next(request)
+    return response
 
 # Função serializar MongoDB
 def serialize_praia(praia):
