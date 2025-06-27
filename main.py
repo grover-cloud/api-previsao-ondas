@@ -34,10 +34,10 @@ app.add_middleware(
 # 🔧 Função serializar MongoDB
 def serialize_praia(praia):
     return {
-        "nome": praia["nome"],
-        "bairro": praia["bairro"],
-        "municipio": praia["municipio"],
-        "estado": praia["estado"],
+        "name": praia["nome"],
+        "neighborhood": praia["bairro"],
+        "city": praia["municipio"],
+        "state": praia["estado"],
         "latitude": praia["latitude"],
         "longitude": praia["longitude"]
     }

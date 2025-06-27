@@ -4,14 +4,14 @@ require("dotenv").config();
 const OPEN_METEO_API_URL = "https://marine-api.open-meteo.com/v1/marine";
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 
-const getWeatherData = async (latitude, longitude) => {
+const getWeatherData = async (lat, lon) => {
   try {
-    console.log("[INFO] Buscando dados para:", latitude, longitude);
+    console.log("[INFO] Buscando dados para:", lat, lon);
 
     const meteoResponse = await axios.get(OPEN_METEO_API_URL, {
       params: {
-        latitude,
-        longitude,
+        latitude: lat,
+        longitude: lon,
         hourly: [
           "wave_height",
           "wave_direction",
@@ -32,8 +32,8 @@ const getWeatherData = async (latitude, longitude) => {
 
     const weatherResponse = await axios.get("https://api.open-meteo.com/v1/forecast", {
       params: {
-        latitude,
-        longitude,
+        latitude: lat,
+        longitude: lon,
         hourly: ["temperature_2m", "relative_humidity_2m", "surface_pressure", "wind_speed_10m", "wind_direction_10m"].join(","),
         timezone: "America/Sao_Paulo"
       }
@@ -43,8 +43,8 @@ const getWeatherData = async (latitude, longitude) => {
 
     const googleWeatherResponse = await axios.post(`https://weather.googleapis.com/v1/currentConditions:lookup?key=${GOOGLE_API_KEY}`, {
       location: {
-        latitude,
-        longitude,
+        latitude: lat,
+        longitude: lon,
       }
     });
 
@@ -56,23 +56,23 @@ const getWeatherData = async (latitude, longitude) => {
 
     return {
       wave: {
-        "altura_onda_m": waveData.wave_height?.[0] || null,
-        "direcao_onda_graus": waveData.wave_direction?.[0] || null,
-        "periodo_onda_s": waveData.wave_period?.[0] || null,
-        "altura_vento_onda_m": waveData.wind_wave_height?.[0] || null,
-        "direcao_vento_onda_graus": waveData.wind_wave_direction?.[0] || null,
-        "periodo_vento_onda_s": waveData.wind_wave_period?.[0] || null,
-        "altura_swell_m": waveData.swell_wave_height?.[0] || null,
-        "direcao_swell_graus": waveData.swell_wave_direction?.[0] || null,
-        "periodo_swell_s": waveData.swell_wave_period?.[0] || null,
-        "temperatura_agua_c": waveData.sea_surface_temperature?.[0] || null
+        "wave_height_m": waveData.wave_height?.[0] || null,
+        "wave_direction_deg": waveData.wave_direction?.[0] || null,
+        "wave_period_s": waveData.wave_period?.[0] || null,
+        "wind_wave_height_m": waveData.wind_wave_height?.[0] || null,
+        "wind_wave_direction_deg": waveData.wind_wave_direction?.[0] || null,
+        "wind_wave_period_s": waveData.wind_wave_period?.[0] || null,
+        "swell_height_m": waveData.swell_wave_height?.[0] || null,
+        "swell_direction_deg": waveData.swell_wave_direction?.[0] || null,
+        "swell_period_s": waveData.swell_wave_period?.[0] || null,
+        "sea_surface_temperature_c": waveData.sea_surface_temperature?.[0] || null
       },
       weather: {
-        "temperatura_ar_c": currentWeather.temperature_2m?.[0] || null,
-        "vento_vel_kmh": currentWeather.wind_speed_10m?.[0] ? parseFloat((currentWeather.wind_speed_10m[0] * 3.6).toFixed(1)) : null,
-        "vento_dir_deg": currentWeather.wind_direction_10m?.[0] || null,
-        "umidade_relativa": currentWeather.relative_humidity_2m?.[0] || null,
-        "pressao_superficie": currentWeather.surface_pressure?.[0] || null,
+        "air_temperature_c": currentWeather.temperature_2m?.[0] || null,
+        "wind_speed_kmh": currentWeather.wind_speed_10m?.[0] ? parseFloat((currentWeather.wind_speed_10m[0] * 3.6).toFixed(1)) : null,
+        "wind_direction_deg": currentWeather.wind_direction_10m?.[0] || null,
+        "humidity_percent": currentWeather.relative_humidity_2m?.[0] || null,
+        "surface_pressure": currentWeather.surface_pressure?.[0] || null,
       },
       google_weather: googleWeather
     };
