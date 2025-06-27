@@ -38,11 +38,17 @@ app.add_middleware(
 @app.middleware("http")
 async def verificar_chave(request: Request, call_next):
     key = request.headers.get("x-access-key")
-    print(f"[DEBUG] x-access-key recebida: {key}")  # Coloque isso aqui sempre
-    if request.url.path not in ["/docs", "/openapi.json", "/favicon.ico"]:
+    print(f"[DEBUG] x-access-key recebida: {key}")
+    if key != ACCESS_KEY:
+        raise HTTPException(status_code=401, detail="Chave de acesso inválida ou ausente")
+    
+    # Bloquear todos os métodos GET, POST, PUT e DELETE sem chave válida
+    if request.method in ["GET", "POST", "PUT", "DELETE"]:
         if key != ACCESS_KEY:
             raise HTTPException(status_code=401, detail="Chave de acesso inválida ou ausente")
+
     return await call_next(request)
+
 
 # Função serializar MongoDB
 def serialize_praia(praia):
