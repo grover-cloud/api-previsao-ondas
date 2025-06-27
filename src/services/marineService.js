@@ -6,7 +6,6 @@ const TIMEZONE = "America/Sao_Paulo";
 const getWeatherData = async (lat, lon) => {
   try {
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_speed_10m,wind_direction_10m,relative_humidity_2m,surface_pressure&timezone=${TIMEZONE}`;
-
     const response = await axios.get(url);
     const current = response.data?.current || {};
 
@@ -26,7 +25,6 @@ const getWeatherData = async (lat, lon) => {
 const getMarineData = async (lat, lon) => {
   try {
     const url = `https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&hourly=wave_height,wave_direction,wave_period,swell_wave_period,sea_surface_temperature&timezone=${TIMEZONE}`;
-
     const response = await axios.get(url);
     const hourly = response.data?.hourly || {};
 
@@ -43,4 +41,24 @@ const getMarineData = async (lat, lon) => {
   }
 };
 
-module.exports = { getWeatherData, getMarineData };
+const getFaunaDataBrazil = async () => {
+  try {
+    const url = `https://api.obis.org/v3/occurrence?marine=true&country=Brazil`;
+    const response = await axios.get(url);
+    const data = response.data.results || [];
+
+    return data.map((item) => ({
+      scientificName: item.scientificName,
+      eventDate: item.eventDate,
+      depth: item.depth,
+      locality: item.locality,
+      sst: item.sst,
+      sss: item.sss
+    }));
+  } catch (error) {
+    console.error('[Erro ao buscar dados da fauna marinha]', error.message);
+    return [];
+  }
+};
+
+module.exports = { getWeatherData, getMarineData, getFaunaDataBrazil };
