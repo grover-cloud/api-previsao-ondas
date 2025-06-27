@@ -41,6 +41,24 @@ const getMarineData = async (lat, lon) => {
   }
 };
 
+const getFaunaDataBrazil = async () => {
+  try {
+    const url = `https://api.obis.org/v3/occurrence?marine=true&country=Brazil`;
+    const response = await axios.get(url);
+    const data = response.data.results || [];
 
+    return data.map((item) => ({
+      scientificName: item.scientificName,
+      eventDate: item.eventDate,
+      depth: item.depth,
+      locality: item.locality,
+      sst: item.sst,
+      sss: item.sss
+    }));
+  } catch (error) {
+    console.error('[Erro ao buscar dados da fauna marinha]', error.message);
+    return [];
+  }
+};
 
 module.exports = { getWeatherData, getMarineData, getFaunaDataBrazil };
