@@ -1,5 +1,5 @@
 const Beach = require('../models/BeachModel');
-const { getWeatherData } = require('../services/openMeteoService');
+const { getWeatherData, getMarineData } = require('../services/openMeteoService');
 const { getGoogleWeatherData } = require('../services/googleWeatherService');
 
 module.exports = {
@@ -10,6 +10,7 @@ module.exports = {
         const lat = beach.latitude;
         const lon = beach.longitude;
         const dados = await getWeatherData(lat, lon);
+        const mar = await getMarineData(lat, lon);
         const googleWeather = await getGoogleWeatherData(lat, lon);
         return {
           name: beach.name,
@@ -20,6 +21,7 @@ module.exports = {
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
           ...dados,
+          ...mar,
           google_weather: googleWeather
         };
       }));
@@ -38,6 +40,7 @@ module.exports = {
         const lat = beach.latitude;
         const lon = beach.longitude;
         const dados = await getWeatherData(lat, lon);
+        const mar = await getMarineData(lat, lon);
         const googleWeather = await getGoogleWeatherData(lat, lon);
         return {
           name: beach.name,
@@ -48,6 +51,7 @@ module.exports = {
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
           ...dados,
+          ...mar,
           google_weather: googleWeather
         };
       }));
@@ -68,6 +72,7 @@ module.exports = {
       const lat = beach.latitude;
       const lon = beach.longitude;
       const dados = await getWeatherData(lat, lon);
+      const mar = await getMarineData(lat, lon);
       const googleWeather = await getGoogleWeatherData(lat, lon);
       res.status(200).json({
         name: beach.name,
@@ -78,6 +83,7 @@ module.exports = {
         longitude: lon,
         google_maps: `https://maps.google.com/?q=${lat},${lon}`,
         ...dados,
+        ...mar,
         google_weather: googleWeather
       });
     } catch (error) {

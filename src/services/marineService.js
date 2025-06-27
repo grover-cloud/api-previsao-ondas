@@ -23,4 +23,24 @@ const getWeatherData = async (lat, lon) => {
   }
 };
 
-module.exports = { getWeatherData };
+const getMarineData = async (lat, lon) => {
+  try {
+    const url = `https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&hourly=wave_height,wave_direction,wave_period,swell_wave_period,sea_surface_temperature&timezone=${TIMEZONE}`;
+
+    const response = await axios.get(url);
+    const hourly = response.data?.hourly || {};
+
+    return {
+      wave_height_m: hourly.wave_height?.[0] ?? null,
+      wave_direction_deg: hourly.wave_direction?.[0] ?? null,
+      wave_period_s: hourly.wave_period?.[0] ?? null,
+      swell_period_s: hourly.swell_wave_period?.[0] ?? null,
+      sea_surface_temperature_c: hourly.sea_surface_temperature?.[0] ?? null,
+    };
+  } catch (error) {
+    console.error('[Erro ao buscar dados marinhos do Open-Meteo]', error.message);
+    return { error: 'Erro ao obter dados do mar.' };
+  }
+};
+
+module.exports = { getWeatherData, getMarineData };
