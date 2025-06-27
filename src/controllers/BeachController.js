@@ -10,8 +10,8 @@ module.exports = {
       const result = await Promise.all(beaches.map(async beach => {
         const lat = beach.latitude;
         const lon = beach.longitude;
-        const dados = await getWeatherData(lat, lon);
-        const mar = await getMarineData(lat, lon);
+        const forecast = await getWeatherData(lat, lon);
+        const marine = await getMarineData(lat, lon);
         const googleWeather = await getGoogleWeatherData(lat, lon);
         return {
           name: beach.name,
@@ -21,8 +21,8 @@ module.exports = {
           latitude: lat,
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-          ...dados,
-          ...mar,
+          forecast,
+          marine,
           google_weather: googleWeather
         };
       }));
@@ -40,8 +40,8 @@ module.exports = {
       const result = await Promise.all(beaches.map(async beach => {
         const lat = beach.latitude;
         const lon = beach.longitude;
-        const dados = await getWeatherData(lat, lon);
-        const mar = await getMarineData(lat, lon);
+        const forecast = await getWeatherData(lat, lon);
+        const marine = await getMarineData(lat, lon);
         const googleWeather = await getGoogleWeatherData(lat, lon);
         return {
           name: beach.name,
@@ -51,8 +51,8 @@ module.exports = {
           latitude: lat,
           longitude: lon,
           google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-          ...dados,
-          ...mar,
+          forecast,
+          marine,
           google_weather: googleWeather
         };
       }));
@@ -72,8 +72,8 @@ module.exports = {
 
       const lat = beach.latitude;
       const lon = beach.longitude;
-      const dados = await getWeatherData(lat, lon);
-      const mar = await getMarineData(lat, lon);
+      const forecast = await getWeatherData(lat, lon);
+      const marine = await getMarineData(lat, lon);
       const googleWeather = await getGoogleWeatherData(lat, lon);
       res.status(200).json({
         name: beach.name,
@@ -83,8 +83,8 @@ module.exports = {
         latitude: lat,
         longitude: lon,
         google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-        ...dados,
-        ...mar,
+        forecast,
+        marine,
         google_weather: googleWeather
       });
     } catch (error) {
