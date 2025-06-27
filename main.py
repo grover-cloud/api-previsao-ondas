@@ -35,6 +35,9 @@ app.add_middleware(
 # Middleware de verificação de access_key
 @app.middleware("http")
 async def verificar_chave(request: Request, call_next):
+    print(f"🔐 HEADERS: {request.headers.get('x-access-key')}")
+    print(f"🔑 ACCESS_KEY esperada: {ACCESS_KEY}")
+    
     if not request.url.path.startswith("/docs") and not request.url.path.startswith("/openapi"):
         key = request.headers.get("x-access-key")
         if key != ACCESS_KEY:
