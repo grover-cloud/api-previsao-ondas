@@ -11,3 +11,4 @@ const getFauna = async (req, res) => {
 };
 
 module.exports = { getFauna };
+
