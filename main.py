@@ -81,14 +81,17 @@ def previsao_simples(nome: str):
     )
 
     url_google = (
-        f"https://weather.googleapis.com/v1/currentConditions:lookup?"
-        f"key={GOOGLE_API_KEY}&location.latitude={lat}&location.longitude={lon}"
+        f"https://weather.googleapis.com/v1/currentConditions:lookup"
+        f"?key={GOOGLE_API_KEY}&location.latitude={lat}&location.longitude={lon}"
     )
 
     try:
         r1 = requests.get(url_marine)
         r2 = requests.get(url_forecast)
         r3 = requests.get(url_google)
+
+        if r3.status_code != 200:
+            raise Exception(f"Erro Google API: {r3.text}")
 
         d1 = r1.json().get("hourly", {})
         d2 = r2.json().get("hourly", {})
