@@ -1,5 +1,5 @@
 const Beach = require('../models/BeachModel');
-const { getWeatherData, getMarineData } = require('../services/openMeteoService');
+const { getWeatherData, getMarineData } = require('../services/GoogleWeatherService');
 const { getGoogleWeatherData } = require('../services/googleWeatherService');
 
 module.exports = {
