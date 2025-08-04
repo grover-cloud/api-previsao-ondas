@@ -1,5 +1,7 @@
 const Beach = require('../models/BeachModel');
-const { get_wave_data, get_weather_data, get_google_weather_data } = require('../services/openMeteoService');
+const waves = require('../services/waves');
+const { getWeatherData } = require('../services/openMeteoService');
+const { getGoogleWeatherData } = require('../services/googleWeatherService');
 
 module.exports = {
   async getForecast(req, res) {
@@ -15,9 +17,9 @@ module.exports = {
       name: beach.name,
       latitude: lat,
       longitude: lon,
-      waves: get_wave_data(lat, lon),
-      weather: get_weather_data(lat, lon),
-      google_weather: get_google_weather_data(lat, lon)
+      waves: waves.get_wave_data(lat, lon),
+      weather: await getWeatherData(lat, lon),
+      google_weather: await getGoogleWeatherData(lat, lon)
     });
   }
 };
