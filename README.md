@@ -51,19 +51,18 @@ npm start
   "latitude": -27.6293577,
   "longitude": -48.4490173,
   "google_maps": "https://maps.google.com/?q=-27.6293577,-48.4490173",
-  "waves": {
-    "altura_onda_m": 0.42,
-    "direcao_onda_deg": 115,
-    "periodo_onda_s": 8.1,
-    "swell_period_s": 7.7
-  },
-  "weather": {
-    "temperatura_ar_c": 23.3,
-    "vento_vel_kmh": 11.8,
-    "vento_dir_deg": 280,
-    "umidade_relativa": 75,
-    "pressao_superficie": 1014.2
-  },
+  "forecast": [
+    {
+      "time": "2025-08-05T06:00:00Z",
+      "wave_height_m": 0.5,
+      "wave_period_s": 6.2,
+      "sea_surface_temperature_c": 19.3,
+      "air_temperature_c": 18.2,
+      "wind_speed_kmh": 12.1,
+      "wind_direction_deg": 120,
+      "wave_direction_deg": 140
+    }
+  ],
   "google_weather": {
     "tempo": "Parcialmente nublado",
     "icone_url": "https://maps.gstatic.com/weather/v1/partly_cloudy",
