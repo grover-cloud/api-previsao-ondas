@@ -1,8 +1,5 @@
 const Beach = require('../models/BeachModel');
-const { getWeatherData } = require('../services/openMeteoService');
-const { getMarineData } = require('../services/marineService');
-const { getGoogleWeatherData } = require('../services/googleWeatherService');
-const { getHourlyForecast } = require('../services/forecastService');
+const { formatBeach } = require('../helpers/beachFormatter');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 
@@ -20,26 +17,7 @@ module.exports = {
     if (!verificarChave(req, res)) return;
     try {
       const beaches = await Beach.find().limit(10);
-      const result = await Promise.all(beaches.map(async beach => {
-        const lat = beach.latitude;
-        const lon = beach.longitude;
-        const forecast = await getWeatherData(lat, lon);
-        const marine = await getMarineData(lat, lon);
-        const googleWeather = await getGoogleWeatherData(lat, lon);
-
-        return {
-          name: beach.name,
-          neighborhood: beach.neighborhood,
-          city: beach.city,
-          state: beach.state,
-          latitude: lat,
-          longitude: lon,
-          google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-          forecast,
-          marine,
-          google_weather: googleWeather
-        };
-      }));
+      const result = await Promise.all(beaches.map(formatBeach));
       res.status(200).json(result);
     } catch (error) {
       console.error('[Erro interno listAll]', error);
@@ -52,26 +30,7 @@ module.exports = {
     try {
       const state = req.params.state.toUpperCase();
       const beaches = await Beach.find({ state }).limit(10);
-      const result = await Promise.all(beaches.map(async beach => {
-        const lat = beach.latitude;
-        const lon = beach.longitude;
-        const forecast = await getWeatherData(lat, lon);
-        const marine = await getMarineData(lat, lon);
-        const googleWeather = await getGoogleWeatherData(lat, lon);
-
-        return {
-          name: beach.name,
-          neighborhood: beach.neighborhood,
-          city: beach.city,
-          state: beach.state,
-          latitude: lat,
-          longitude: lon,
-          google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-          forecast,
-          marine,
-          google_weather: googleWeather
-        };
-      }));
+      const result = await Promise.all(beaches.map(formatBeach));
       res.status(200).json(result);
     } catch (error) {
       console.error('[Erro interno listByState]', error);
@@ -87,22 +46,8 @@ module.exports = {
       const beach = await Beach.findOne({ state, name });
       if (!beach) return res.status(404).json({ error: 'Beach not found.' });
 
-      const lat = beach.latitude;
-      const lon = beach.longitude;
-      const forecast = await getHourlyForecast(lat, lon);
-      const googleWeather = await getGoogleWeatherData(lat, lon);
-
-      res.status(200).json({
-        name: beach.name,
-        neighborhood: beach.neighborhood,
-        city: beach.city,
-        state: beach.state,
-        latitude: lat,
-        longitude: lon,
-        google_maps: `https://maps.google.com/?q=${lat},${lon}`,
-        forecast,
-        google_weather: googleWeather
-      });
+      const result = await formatBeach(beach);
+      res.status(200).json(result);
     } catch (error) {
       console.error('[Erro interno getByStateAndName]', error);
       res.status(500).json({ error: 'Error loading beach details.' });
