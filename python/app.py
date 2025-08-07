@@ -12,46 +12,43 @@ db = mongo.cx.get_database("test")
 TIMEZONE = "America/Sao_Paulo"
 GOOGLE_API_KEY = "AIzaSyByiDrtIP05T3fIhFWejFgFvhWmjVk5Ju4"
 
-def get_wave_data(lat, lon):
+
+def get_forecast_data(lat, lon):
     url = (
         "https://marine-api.open-meteo.com/v1/marine"
         f"?latitude={lat}&longitude={lon}"
-        "&hourly=wave_height,wave_direction,wave_period,swell_wave_period,sea_surface_temperature"
+        "&hourly=wave_height,wave_direction,wave_period,sea_surface_temperature"
         f"&timezone={TIMEZONE}"
+        "&forecast_days=1"
     )
-    try:
-        r = requests.get(url)
-        data = r.json()
-        return {
-            "wave_height_m": data["hourly"].get("wave_height", [None])[0],
-            "wave_direction_deg": data["hourly"].get("wave_direction", [None])[0],
-            "wave_period_s": data["hourly"].get("wave_period", [None])[0],
-            "swell_period_s": data["hourly"].get("swell_wave_period", [None])[0],
-            "sea_surface_temperature_c": data["hourly"].get("sea_surface_temperature", [None])[0]
-        }
-    except:
-        return {}
-
-
-def get_weather_data(lat, lon):
-    url = (
+    weather_url = (
         "https://api.open-meteo.com/v1/forecast"
         f"?latitude={lat}&longitude={lon}"
-        "&current=temperature_2m,wind_speed_10m,wind_direction_10m,relative_humidity_2m,surface_pressure"
+        "&hourly=temperature_2m,wind_speed_10m,wind_direction_10m"
         f"&timezone={TIMEZONE}"
+        "&forecast_days=1"
     )
     try:
-        r = requests.get(url)
-        current = r.json().get("current", {})
-        return {
-            "air_temperature_c": current.get("temperature_2m"),
-            "wind_speed_kmh": current.get("wind_speed_10m"),
-            "wind_direction_deg": current.get("wind_direction_10m"),
-            "humidity_percent": current.get("relative_humidity_2m"),
-            "surface_pressure": current.get("surface_pressure")
-        }
-    except:
-        return {}
+        marine_res = requests.get(url).json()
+        weather_res = requests.get(weather_url).json()
+
+        forecast = []
+        for i in range(len(marine_res["hourly"]["time"])):
+            forecast.append({
+                "time": marine_res["hourly"]["time"][i],
+                "wave_height_m": marine_res["hourly"].get("wave_height", [None])[i],
+                "wave_period_s": marine_res["hourly"].get("wave_period", [None])[i],
+                "sea_surface_temperature_c": marine_res["hourly"].get("sea_surface_temperature", [None])[i],
+                "air_temperature_c": weather_res["hourly"].get("temperature_2m", [None])[i],
+                "wind_speed_kmh": weather_res["hourly"].get("wind_speed_10m", [None])[i],
+                "wind_direction_deg": weather_res["hourly"].get("wind_direction_10m", [None])[i],
+                "wave_direction_deg": marine_res["hourly"].get("wave_direction", [None])[i],
+            })
+        return forecast
+    except Exception as e:
+        print(f"[FORECAST ERROR] {e}")
+        return []
+
 
 def get_google_weather_data(lat, lon):
     try:
@@ -96,45 +93,6 @@ def get_google_weather_data(lat, lon):
         print(f"[GOOGLE WEATHER ERROR] {lat},{lon} - {e}")
         return {}
 
-@app.route("/beaches/register", methods=["POST"])
-def register_beach():
-    data = request.json
-    required_fields = ["name", "neighborhood", "city", "state", "latitude", "longitude"]
-
-    if not all(field in data for field in required_fields):
-        return jsonify({"error": "Missing required fields."}), 400
-
-    db.beaches.insert_one({
-        "name": data["name"],
-        "neighborhood": data["neighborhood"],
-        "city": data["city"],
-        "state": data["state"].upper(),
-        "latitude": data["latitude"],
-        "longitude": data["longitude"]
-    })
-    return jsonify({"message": "Beach successfully registered."}), 201
-
-@app.route("/beaches/register-all", methods=["POST"])
-def register_many_beaches():
-    beaches = request.json
-    if not isinstance(beaches, list):
-        return jsonify({"error": "Send a list of beaches."}), 400
-
-    new_beaches = []
-    for data in beaches:
-        if all(k in data for k in ["name", "neighborhood", "city", "state", "latitude", "longitude"]):
-            new_beaches.append({
-                "name": data["name"],
-                "neighborhood": data["neighborhood"],
-                "city": data["city"],
-                "state": data["state"].upper(),
-                "latitude": data["latitude"],
-                "longitude": data["longitude"]
-            })
-    if new_beaches:
-        db.beaches.insert_many(new_beaches)
-    return jsonify({"message": f"{len(new_beaches)} beaches successfully registered."}), 201
-
 @app.route("/beaches", methods=["GET"])
 def list_beaches():
     result = []
@@ -149,8 +107,7 @@ def list_beaches():
             "latitude": lat,
             "longitude": lon,
             "google_maps": f"https://maps.google.com/?q={lat},{lon}",
-            "waves": get_wave_data(lat, lon),
-            "weather": get_weather_data(lat, lon),
+            "forecast": get_forecast_data(lat, lon),
             "google_weather": get_google_weather_data(lat, lon)
         })
     return jsonify(result)
@@ -169,8 +126,7 @@ def list_by_state(state):
             "latitude": lat,
             "longitude": lon,
             "google_maps": f"https://maps.google.com/?q={lat},{lon}",
-            "waves": get_wave_data(lat, lon),
-            "weather": get_weather_data(lat, lon),
+            "forecast": get_forecast_data(lat, lon),
             "google_weather": get_google_weather_data(lat, lon)
         })
     return jsonify(result)
@@ -191,8 +147,7 @@ def find_by_state_and_name(state, name):
         "latitude": lat,
         "longitude": lon,
         "google_maps": f"https://maps.google.com/?q={lat},{lon}",
-        "waves": get_wave_data(lat, lon),
-        "weather": get_weather_data(lat, lon),
+        "forecast": get_forecast_data(lat, lon),
         "google_weather": get_google_weather_data(lat, lon)
     })
 
@@ -205,20 +160,9 @@ def forecast_by_name(name):
     lat = beach["latitude"]
     lon = beach["longitude"]
     return jsonify({
-        "name": name,
-        "latitude": lat,
-        "longitude": lon,
-        "waves": get_wave_data(lat, lon),
-        "weather": get_weather_data(lat, lon),
+        "forecast": get_forecast_data(lat, lon),
         "google_weather": get_google_weather_data(lat, lon)
     })
-
-@app.route("/beaches/<name>", methods=["DELETE"])
-def delete_beach(name):
-    result = db.beaches.delete_one({"name": name})
-    if result.deleted_count == 0:
-        return jsonify({"error": "Beach not found to delete."}), 404
-    return jsonify({"message": "Beach successfully deleted."})
 
 if __name__ == "__main__":
     app.run(debug=True)

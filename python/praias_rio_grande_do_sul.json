@@ -1,0 +1,1146 @@
+[
+  {
+    "nome": "Praia do Oceano",
+    "bairro": "Balneário Mostardense",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -31.99345629999999,
+    "longitude": -51.9273051
+  },
+  {
+    "nome": "Praia dos Molhes",
+    "bairro": "Cassino",
+    "municipio": "Rio Grande",
+    "estado": "RS",
+    "latitude": -32.1666667,
+    "longitude": -52.1166667
+  },
+  {
+    "nome": "Praia do Cassino",
+    "bairro": "Cassino",
+    "municipio": "Rio Grande",
+    "estado": "RS",
+    "latitude": -32.2112752,
+    "longitude": -52.18194
+  },
+  {
+    "nome": "Praia do Mar Grosso",
+    "bairro": "Praia do mar grosso",
+    "municipio": "São José do Norte",
+    "estado": "RS",
+    "latitude": -32.0547171,
+    "longitude": -51.9932753
+  },
+  {
+    "nome": "Praia da MARUMBI",
+    "bairro": "Marambaia",
+    "municipio": "São José do Norte",
+    "estado": "RS",
+    "latitude": -32.0443558,
+    "longitude": -51.9870995
+  },
+  {
+    "nome": "Molhe Leste",
+    "bairro": "Cassino",
+    "municipio": "Rio Grande",
+    "estado": "RS",
+    "latitude": -32.1874041,
+    "longitude": -52.0745529
+  },
+  {
+    "nome": "Praia do Oceano",
+    "bairro": "Marambaia",
+    "municipio": "São José do Norte",
+    "estado": "RS",
+    "latitude": -32.0925973,
+    "longitude": -52.036356
+  },
+  {
+    "nome": "PR da Barra",
+    "bairro": "Povo Novo",
+    "municipio": "Rio Grande",
+    "estado": "RS",
+    "latitude": -32.1609339,
+    "longitude": -52.0980959
+  },
+  {
+    "nome": "Praia do Bojuru",
+    "bairro": "Bojuru",
+    "municipio": "São José do Norte",
+    "estado": "RS",
+    "latitude": -31.6629574,
+    "longitude": -51.3830118
+  },
+  {
+    "nome": "Balneário Lagoa Dos Patos",
+    "bairro": "Tavares",
+    "municipio": "Tavares",
+    "estado": "RS",
+    "latitude": -31.2787563,
+    "longitude": -51.1555634
+  },
+  {
+    "nome": "Balneário Mostardense",
+    "bairro": "Balneário Mostardense",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -31.15373,
+    "longitude": -50.8090482
+  },
+  {
+    "nome": "Balneário Lagoa Dos Patos",
+    "bairro": "Tavares",
+    "municipio": "Tavares",
+    "estado": "RS",
+    "latitude": -31.2787563,
+    "longitude": -51.1555634
+  },
+  {
+    "nome": "Praia de Bacupari",
+    "bairro": "Bacupari",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.5358011,
+    "longitude": -50.4251177
+  },
+  {
+    "nome": "Praia do Farol da Solidão Rio Grande do Sul",
+    "bairro": "Solidão",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.6973299,
+    "longitude": -50.4791965
+  },
+  {
+    "nome": "Praia",
+    "bairro": "Bacupari",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.5244246,
+    "longitude": -50.355248
+  },
+  {
+    "nome": "Dunas Altas",
+    "bairro": "Dunas Altas",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3974529,
+    "longitude": -50.2905765
+  },
+  {
+    "nome": "Dunas Altas",
+    "bairro": "Dunas Altas",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.4253979,
+    "longitude": -50.298206
+  },
+  {
+    "nome": "Praia",
+    "bairro": "Bacupari",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.5425449,
+    "longitude": -50.3645059
+  },
+  {
+    "nome": "Praia",
+    "bairro": "Solidão",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.6820255,
+    "longitude": -50.4663784
+  },
+  {
+    "nome": "Praia da Santinha - Lagoa dos Barros",
+    "bairro": "Evaristo",
+    "municipio": "Santo Antônio da Patrulha",
+    "estado": "RS",
+    "latitude": -29.9891981,
+    "longitude": -50.37923929999999
+  },
+  {
+    "nome": "Praia de Tramandaí",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -29.9974438,
+    "longitude": -50.1280832
+  },
+  {
+    "nome": "Praia do Pinhal",
+    "bairro": "Balneário Pinhal",
+    "municipio": "Balneário Pinhal",
+    "estado": "RS",
+    "latitude": -30.2679491,
+    "longitude": -50.2376428
+  },
+  {
+    "nome": "Praia da Costa do Sol",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.214744,
+    "longitude": -50.2396933
+  },
+  {
+    "nome": "Praia do Terminal Turístico",
+    "bairro": "Balneário Jardim Beira Mar",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0219708,
+    "longitude": -50.1388335
+  },
+  {
+    "nome": "Praia Rei do Peixe - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3529716,
+    "longitude": -50.2753671
+  },
+  {
+    "nome": "Praia do Frade - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3677658,
+    "longitude": -50.27767069999999
+  },
+  {
+    "nome": "Praia Santa Rita - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3752369,
+    "longitude": -50.2839734
+  },
+  {
+    "nome": "Portal do Éden",
+    "bairro": "Portal Do Éden",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0754922,
+    "longitude": -50.16661149999999
+  },
+  {
+    "nome": "Praia da Santinha - Lagoa dos Barros",
+    "bairro": "Evaristo",
+    "municipio": "Santo Antônio da Patrulha",
+    "estado": "RS",
+    "latitude": -29.9525807,
+    "longitude": -50.4128413
+  },
+  {
+    "nome": "Praia da Costa do Sol",
+    "bairro": "Costa do Sol",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.2210691,
+    "longitude": -50.2319246
+  },
+  {
+    "nome": "Albatroz",
+    "bairro": "Albatroz",
+    "municipio": "Imbé",
+    "estado": "RS",
+    "latitude": -29.9112319,
+    "longitude": -50.0891649
+  },
+  {
+    "nome": "Praia de Cidreira",
+    "bairro": "Centro",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.0873958,
+    "longitude": -50.1651574
+  },
+  {
+    "nome": "Jardim Éden",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0694839,
+    "longitude": -50.16278029999999
+  },
+  {
+    "nome": "Praia de Tramandaí",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -29.9853949,
+    "longitude": -50.1229631
+  },
+  {
+    "nome": "São José",
+    "bairro": "CIDREIRA",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.2325645,
+    "longitude": -50.2234771
+  },
+  {
+    "nome": "Prainha da Lagoa da Rondinha",
+    "bairro": "Rondinha",
+    "municipio": "Balneário Pinhal",
+    "estado": "RS",
+    "latitude": -30.231945,
+    "longitude": -50.2538066
+  },
+  {
+    "nome": "Cantinho da Lagoa",
+    "bairro": "CIDREIRA",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.1572167,
+    "longitude": -50.224404
+  },
+  {
+    "nome": "Dunas Altas",
+    "bairro": "Dunas Altas",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3974529,
+    "longitude": -50.2905765
+  },
+  {
+    "nome": "Dunas Altas",
+    "bairro": "Dunas Altas",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.4253979,
+    "longitude": -50.298206
+  },
+  {
+    "nome": "Praia da Santinha - Lagoa dos Barros",
+    "bairro": "Evaristo",
+    "municipio": "Santo Antônio da Patrulha",
+    "estado": "RS",
+    "latitude": -29.9891981,
+    "longitude": -50.37923929999999
+  },
+  {
+    "nome": "Praia de Tramandaí",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -29.9974438,
+    "longitude": -50.1280832
+  },
+  {
+    "nome": "Praia do Pinhal",
+    "bairro": "Balneário Pinhal",
+    "municipio": "Balneário Pinhal",
+    "estado": "RS",
+    "latitude": -30.2679491,
+    "longitude": -50.2376428
+  },
+  {
+    "nome": "Praia da Costa do Sol",
+    "bairro": "CIDREIRA",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.214744,
+    "longitude": -50.2396933
+  },
+  {
+    "nome": "Praia Rei do Peixe - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3529716,
+    "longitude": -50.2753671
+  },
+  {
+    "nome": "Praia do Terminal Turístico",
+    "bairro": "Balneário Jardim Beira Mar",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0219708,
+    "longitude": -50.1388335
+  },
+  {
+    "nome": "Praia do Frade - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3677658,
+    "longitude": -50.27767069999999
+  },
+  {
+    "nome": "Praia Santa Rita - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3752369,
+    "longitude": -50.2839734
+  },
+  {
+    "nome": "Portal do Éden",
+    "bairro": "Portal Do Éden",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0754922,
+    "longitude": -50.16661149999999
+  },
+  {
+    "nome": "Praia da Costa do Sol",
+    "bairro": "Costa do Sol",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.2210691,
+    "longitude": -50.2319246
+  },
+  {
+    "nome": "Praia de Cidreira",
+    "bairro": "Centro",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.0873958,
+    "longitude": -50.1651574
+  },
+  {
+    "nome": "Jardim Éden",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0694839,
+    "longitude": -50.16278029999999
+  },
+  {
+    "nome": "Praia",
+    "bairro": "Bacupari",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.5244246,
+    "longitude": -50.355248
+  },
+  {
+    "nome": "Prainha da Lagoa da Rondinha",
+    "bairro": "Rondinha",
+    "municipio": "Balneário Pinhal",
+    "estado": "RS",
+    "latitude": -30.231945,
+    "longitude": -50.2538066
+  },
+  {
+    "nome": "São José",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.2325645,
+    "longitude": -50.2234771
+  },
+  {
+    "nome": "Cantinho da Lagoa",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.1572167,
+    "longitude": -50.224404
+  },
+  {
+    "nome": "Dunas Altas",
+    "bairro": "Dunas Altas",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3974529,
+    "longitude": -50.2905765
+  },
+  {
+    "nome": "Dunas Altas",
+    "bairro": "Dunas Altas",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.4253979,
+    "longitude": -50.298206
+  },
+  {
+    "nome": "Balneário Tiarajú",
+    "bairro": "Loteamento Tramandaí Zona Sul",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0785641,
+    "longitude": -50.1672649
+  },
+  {
+    "nome": "Praia Paraiso",
+    "bairro": "Paraíso",
+    "municipio": "Torres",
+    "estado": "RS",
+    "latitude": -29.4401492,
+    "longitude": -49.8013675
+  },
+  {
+    "nome": "Praia Santa Rita de Cássia",
+    "bairro": "",
+    "municipio": "Terra de Areia",
+    "estado": "RS",
+    "latitude": -29.6103645,
+    "longitude": -49.9257032
+  },
+  {
+    "nome": "Praia da Guarita",
+    "bairro": "Santa Rita",
+    "municipio": "Torres",
+    "estado": "RS",
+    "latitude": -29.359621,
+    "longitude": -49.736782
+  },
+  {
+    "nome": "Praia da Cal",
+    "bairro": "Praia da Cal",
+    "municipio": "Torres",
+    "estado": "RS",
+    "latitude": -29.3490602,
+    "longitude": -49.7305494
+  },
+  {
+    "nome": "Lagoinha",
+    "bairro": "Lagoinha",
+    "municipio": "Balneário Gaivota",
+    "estado": "SC",
+    "latitude": -29.1244899,
+    "longitude": -49.5419999
+  },
+  {
+    "nome": "Praia Rondinha Nova",
+    "bairro": "Rondinha Nova",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5001441,
+    "longitude": -49.84736830000001
+  },
+  {
+    "nome": "Balneário São Jorge",
+    "bairro": "dos Santos",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5283398,
+    "longitude": -49.8701032
+  },
+  {
+    "nome": "Praia Grande",
+    "bairro": "Praia Grande",
+    "municipio": "Torres",
+    "estado": "RS",
+    "latitude": -29.3338084,
+    "longitude": -49.71753229999999
+  },
+  {
+    "nome": "Praia Itapeva",
+    "bairro": "Itapeva Sul",
+    "municipio": "Torres",
+    "estado": "RS",
+    "latitude": -29.3595599,
+    "longitude": -49.7366409
+  },
+  {
+    "nome": "Praia Arroio Seco",
+    "bairro": "Arroio Seco",
+    "municipio": "Torres",
+    "estado": "RS",
+    "latitude": -29.3948832,
+    "longitude": -49.7657132
+  },
+  {
+    "nome": "Praia Areias Brancas",
+    "bairro": "Areias Brancas",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.54046349999999,
+    "longitude": -49.8768073
+  },
+  {
+    "nome": "Balneário Atlântico",
+    "bairro": "Atlântico",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.4820174,
+    "longitude": -49.83828579999999
+  },
+  {
+    "nome": "Praia Sereia do Mar",
+    "bairro": "Sereia do Mar",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.582836,
+    "longitude": -49.9069012
+  },
+  {
+    "nome": "Praia Xangrilá dos Mares",
+    "bairro": "Xangrilá dos Mares",
+    "municipio": "Passo de Torres",
+    "estado": "SC",
+    "latitude": -29.2481414,
+    "longitude": -49.66227079999999
+  },
+  {
+    "nome": "Figueirinha - Arroio do Sal",
+    "bairro": "Figueirinha",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5592535,
+    "longitude": -49.8902516
+  },
+  {
+    "nome": "Bela Torres",
+    "bairro": "Bela Torres",
+    "municipio": "Balneário Gaivota",
+    "estado": "SC",
+    "latitude": -29.1762713,
+    "longitude": -49.5820978
+  },
+  {
+    "nome": "Perola - Arroio do Sal",
+    "bairro": "Pérola",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5949307,
+    "longitude": -49.9152278
+  },
+  {
+    "nome": "Praia Rondinha Velha",
+    "bairro": "Rondinha Velha",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.4903321,
+    "longitude": -49.8403306
+  },
+  {
+    "nome": "Praia Tupancy",
+    "bairro": "Tupancy",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.49096389999999,
+    "longitude": -49.8402729
+  },
+  {
+    "nome": "Balneário Jardim Olivia",
+    "bairro": "Jardim Olívia",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5195082,
+    "longitude": -49.8607924
+  },
+  {
+    "nome": "Rondinha",
+    "bairro": "Rondinha Nova",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5013789,
+    "longitude": -49.8476449
+  },
+  {
+    "nome": "Prainha",
+    "bairro": "Prainha",
+    "municipio": "Torres",
+    "estado": "RS",
+    "latitude": -29.3432585,
+    "longitude": -49.7254474
+  },
+  {
+    "nome": "Valverde",
+    "bairro": "Valverde",
+    "municipio": "Balneário Gaivota",
+    "estado": "SC",
+    "latitude": -29.2298169,
+    "longitude": -49.6364449
+  },
+  {
+    "nome": "Aguas Claras",
+    "bairro": "Águas Claras",
+    "municipio": "Balneário Gaivota",
+    "estado": "SC",
+    "latitude": -29.1833439,
+    "longitude": -49.5967709
+  },
+  {
+    "nome": "Praia Balneário Atlântico",
+    "bairro": "Atlântico",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.4765671,
+    "longitude": -49.8307352
+  },
+  {
+    "nome": "São Pedro - Arroio do Sal",
+    "bairro": "São Pedro",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5149784,
+    "longitude": -49.8582462
+  },
+  {
+    "nome": "Balneário Torres Sul",
+    "bairro": "Torres Sul",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.4491856,
+    "longitude": -49.8128948
+  },
+  {
+    "nome": "Praia Azul",
+    "bairro": "Praia Azul",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.4761339,
+    "longitude": -49.8292639
+  },
+  {
+    "nome": "Praia Azul",
+    "bairro": "Praia Azul",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.46754839999999,
+    "longitude": -49.8233798
+  },
+  {
+    "nome": "Gaivotas",
+    "bairro": "Gaivotas",
+    "municipio": "Balneário Gaivota",
+    "estado": "SC",
+    "latitude": -29.1564659,
+    "longitude": -49.5718079
+  },
+  {
+    "nome": "Balneário Atlântico",
+    "bairro": "Atlântico",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.48580789999999,
+    "longitude": -49.8362639
+  },
+  {
+    "nome": "Praia Paraiso",
+    "bairro": "Paraíso",
+    "municipio": "Torres",
+    "estado": "RS",
+    "latitude": -29.4401492,
+    "longitude": -49.8013675
+  },
+  {
+    "nome": "Praia Santa Rita de Cássia",
+    "bairro": "Santa Rita",
+    "municipio": "Terra de Areia",
+    "estado": "RS",
+    "latitude": -29.6103645,
+    "longitude": -49.9257032
+  },
+  {
+    "nome": "Praia Rondinha Nova",
+    "bairro": "Rondinha Nova",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5001441,
+    "longitude": -49.84736830000001
+  },
+  {
+    "nome": "Balneário São Jorge",
+    "bairro": "São Jorge",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5283398,
+    "longitude": -49.8701032
+  },
+  {
+    "nome": "Praia Areias Brancas",
+    "bairro": "Areias Brancas",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.54046349999999,
+    "longitude": -49.8768073
+  },
+  {
+    "nome": "Praia de Xangri-lá",
+    "bairro": "Xangri-lá",
+    "municipio": "Xangri-lá",
+    "estado": "RS",
+    "latitude": -29.7922085,
+    "longitude": -50.0287118
+  },
+  {
+    "nome": "Praia Rainha do Mar",
+    "bairro": "Miriapolis",
+    "municipio": "Osório",
+    "estado": "RS",
+    "latitude": -29.8640383,
+    "longitude": -50.06658729999999
+  },
+  {
+    "nome": "Albatroz",
+    "bairro": "Albatroz",
+    "municipio": "Imbé",
+    "estado": "RS",
+    "latitude": -29.9112319,
+    "longitude": -50.0891649
+  },
+  {
+    "nome": "Balneário Atlântico",
+    "bairro": "Atlântico",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.4820174,
+    "longitude": -49.83828579999999
+  },
+  {
+    "nome": "Praia Rota do Sol",
+    "bairro": "Zona Nova",
+    "municipio": "Capão da Canoa",
+    "estado": "RS",
+    "latitude": -29.6438296,
+    "longitude": -49.9466228
+  },
+  {
+    "nome": "Praia Sul Atlântida",
+    "bairro": "Atlantida Sul",
+    "municipio": "Osório",
+    "estado": "RS",
+    "latitude": -29.8683683,
+    "longitude": -50.0685138
+  },
+  {
+    "nome": "Praia Sereia do Mar",
+    "bairro": "Sereia do Mar",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.582836,
+    "longitude": -49.9069012
+  },
+  {
+    "nome": "Praia Rondinha Velha",
+    "bairro": "Rondinha Velha",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.4903321,
+    "longitude": -49.8403306
+  },
+  {
+    "nome": "Perola - Arroio do Sal",
+    "bairro": "Pérola",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5949307,
+    "longitude": -49.9152278
+  },
+  {
+    "nome": "Figueirinha - Arroio do Sal",
+    "bairro": "Figueirinha",
+    "municipio": "Arroio do Sal",
+    "estado": "RS",
+    "latitude": -29.5592535,
+    "longitude": -49.8902516
+  },
+  {
+    "nome": "Atlântida",
+    "bairro": "Atlântida",
+    "municipio": "Capão da Canoa",
+    "estado": "RS",
+    "latitude": -29.7301132,
+    "longitude": -49.995991
+  },
+  {
+    "nome": "Praia da Santinha - Lagoa dos Barros",
+    "bairro": "Evaristo",
+    "municipio": "Santo Antônio da Patrulha",
+    "estado": "RS",
+    "latitude": -29.9891981,
+    "longitude": -50.37923929999999
+  },
+  {
+    "nome": "Praia de Tramandaí",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -29.9974438,
+    "longitude": -50.1280832
+  },
+  {
+    "nome": "Praia da Costa do Sol",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.214744,
+    "longitude": -50.2396933
+  },
+  {
+    "nome": "Praia do Terminal Turístico",
+    "bairro": "Balneário Jardim Beira Mar",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0219708,
+    "longitude": -50.1388335
+  },
+  {
+    "nome": "Portal do Éden",
+    "bairro": "Portal Do Éden",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0754922,
+    "longitude": -50.16661149999999
+  },
+  {
+    "nome": "Praia de Xangri-lá",
+    "bairro": "Xangri-lá",
+    "municipio": "Xangri-lá",
+    "estado": "RS",
+    "latitude": -29.7922085,
+    "longitude": -50.0287118
+  },
+  {
+    "nome": "Praia Rainha do Mar",
+    "bairro": "Miriapolis",
+    "municipio": "Osório",
+    "estado": "RS",
+    "latitude": -29.8640383,
+    "longitude": -50.06658729999999
+  },
+  {
+    "nome": "Praia da Santinha - Lagoa dos Barros",
+    "bairro": "Evaristo",
+    "municipio": "Santo Antônio da Patrulha",
+    "estado": "RS",
+    "latitude": -29.9525807,
+    "longitude": -50.4128413
+  },
+  {
+    "nome": "Praia da Costa do Sol",
+    "bairro": "Costa do Sol",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.2210691,
+    "longitude": -50.2319246
+  },
+  {
+    "nome": "Albatroz",
+    "bairro": "Albatroz",
+    "municipio": "Imbé",
+    "estado": "RS",
+    "latitude": -29.9112319,
+    "longitude": -50.0891649
+  },
+  {
+    "nome": "Praia de Cidreira",
+    "bairro": "Centro",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.0873958,
+    "longitude": -50.1651574
+  },
+  {
+    "nome": "Jardim Éden",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0694839,
+    "longitude": -50.16278029999999
+  },
+  {
+    "nome": "Praia de Tramandaí",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -29.9853949,
+    "longitude": -50.1229631
+  },
+  {
+    "nome": "Praia Sul Atlântida",
+    "bairro": "Atlantida Sul",
+    "municipio": "Osório",
+    "estado": "RS",
+    "latitude": -29.8683683,
+    "longitude": -50.0685138
+  },
+  {
+    "nome": "São José",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.2325645,
+    "longitude": -50.2234771
+  },
+  {
+    "nome": "Prainha da Lagoa da Rondinha",
+    "bairro": "Rondinha",
+    "municipio": "Balneário Pinhal",
+    "estado": "RS",
+    "latitude": -30.231945,
+    "longitude": -50.2538066
+  },
+  {
+    "nome": "Cantinho da Lagoa",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.1572167,
+    "longitude": -50.224404
+  },
+  {
+    "nome": "Atlântida",
+    "bairro": "Atlântida",
+    "municipio": "Capão da Canoa",
+    "estado": "RS",
+    "latitude": -29.7301132,
+    "longitude": -49.995991
+  },
+  {
+    "nome": "Praia do Terminal Turístico",
+    "bairro": "Balneário Jardim Beira Mar",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0219708,
+    "longitude": -50.1388335
+  },
+  {
+    "nome": "Praia do Pinhal",
+    "bairro": "Balneário Pinhal",
+    "municipio": "Balneário Pinhal",
+    "estado": "RS",
+    "latitude": -30.2679491,
+    "longitude": -50.2376428
+  },
+  {
+    "nome": "Praia da Costa do Sol",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.214744,
+    "longitude": -50.2396933
+  },
+  {
+    "nome": "Portal do Éden",
+    "bairro": "Portal Do Éden",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0754922,
+    "longitude": -50.16661149999999
+  },
+  {
+    "nome": "Praia Rei do Peixe - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3529716,
+    "longitude": -50.2753671
+  },
+  {
+    "nome": "Praia do Frade - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3677658,
+    "longitude": -50.27767069999999
+  },
+  {
+    "nome": "Praia de Bacupari",
+    "bairro": "Bacupari",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.5358011,
+    "longitude": -50.4251177
+  },
+  {
+    "nome": "Praia da Costa do Sol",
+    "bairro": "Costa do Sol",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.2210691,
+    "longitude": -50.2319246
+  },
+  {
+    "nome": "Jardim Éden",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0694839,
+    "longitude": -50.16278029999999
+  },
+  {
+    "nome": "Praia de Cidreira",
+    "bairro": "Centro",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.0873958,
+    "longitude": -50.1651574
+  },
+  {
+    "nome": "Praia",
+    "bairro": "Bacupari",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.5244246,
+    "longitude": -50.355248
+  },
+  {
+    "nome": "São José",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.2325645,
+    "longitude": -50.2234771
+  },
+  {
+    "nome": "Praia Santa Rita - Balneário Quintão/RS",
+    "bairro": "Balneário Quintão",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3752369,
+    "longitude": -50.2839734
+  },
+  {
+    "nome": "Prainha da Lagoa da Rondinha",
+    "bairro": "Rondinha",
+    "municipio": "Balneário Pinhal",
+    "estado": "RS",
+    "latitude": -30.231945,
+    "longitude": -50.2538066
+  },
+  {
+    "nome": "Cantinho da Lagoa",
+    "bairro": "Cidreira",
+    "municipio": "Cidreira",
+    "estado": "RS",
+    "latitude": -30.1572167,
+    "longitude": -50.224404
+  },
+  {
+    "nome": "Balneário Tiarajú",
+    "bairro": "Loteamento Tramandaí Zona Sul",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0785641,
+    "longitude": -50.1672649
+  },
+  {
+    "nome": "Praia",
+    "bairro": "Bacupari",
+    "municipio": "Mostardas",
+    "estado": "RS",
+    "latitude": -30.5425449,
+    "longitude": -50.3645059
+  },
+  {
+    "nome": "Dunas Altas",
+    "bairro": "Dunas Altas",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.3974529,
+    "longitude": -50.2905765
+  },
+  {
+    "nome": "Dunas Altas",
+    "bairro": "Dunas Altas",
+    "municipio": "Palmares do Sul",
+    "estado": "RS",
+    "latitude": -30.4253979,
+    "longitude": -50.298206
+  },
+  {
+    "nome": "Balneário Tiarajú - Tramandaí/RS",
+    "bairro": "Tramandaí",
+    "municipio": "Tramandaí",
+    "estado": "RS",
+    "latitude": -30.0778307,
+    "longitude": -50.1697648
+  }
+]
