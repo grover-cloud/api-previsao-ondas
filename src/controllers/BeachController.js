@@ -2,6 +2,7 @@ const Beach = require('../models/BeachModel');
 const { getWeatherData } = require('../services/openMeteoService');
 const { getMarineData } = require('../services/marineService');
 const { getGoogleWeatherData } = require('../services/googleWeatherService');
+const { getHourlyForecast } = require('../services/forecastService');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 
@@ -88,8 +89,7 @@ module.exports = {
 
       const lat = beach.latitude;
       const lon = beach.longitude;
-      const forecast = await getWeatherData(lat, lon);
-      const marine = await getMarineData(lat, lon);
+      const forecast = await getHourlyForecast(lat, lon);
       const googleWeather = await getGoogleWeatherData(lat, lon);
 
       res.status(200).json({
@@ -101,7 +101,6 @@ module.exports = {
         longitude: lon,
         google_maps: `https://maps.google.com/?q=${lat},${lon}`,
         forecast,
-        marine,
         google_weather: googleWeather
       });
     } catch (error) {
