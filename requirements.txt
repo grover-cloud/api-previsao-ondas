@@ -1,5 +1,6 @@
-fastapi
-uvicorn
-pymongo
-python-dotenv
+Flask
+gunicorn
 requests
+flask-pymongo
+pymongo[srv]
+python-dotenv
