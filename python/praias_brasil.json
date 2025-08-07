@@ -24,22 +24,6 @@
     "longitude": -51.1043483
   },
   {
-    "name": "Recanto Das Palmeiras",
-    "neighborhood": "Porto Santana",
-    "city": "Santana",
-    "state": "AP",
-    "latitude": -0.0268053,
-    "longitude": -51.20724860000001
-  },
-  {
-    "name": "Balneário do Américo",
-    "neighborhood": "Brasil",
-    "city": "Macapá",
-    "state": "AP",
-    "latitude": 0.0825706,
-    "longitude": -51.1241727
-  },
-  {
     "name": "Balneário do Joel",
     "neighborhood": "Renascer II",
     "city": "Macapá",
@@ -88,22 +72,6 @@
     "longitude": -48.56312759999999
   },
   {
-    "name": "Praia de Cuipiranga",
-    "neighborhood": "Barcarena",
-    "city": "Barcarena",
-    "state": "PA",
-    "latitude": -1.4445689,
-    "longitude": -48.6935396
-  },
-  {
-    "name": "Praia do Caripi",
-    "neighborhood": "Murucupi",
-    "city": "Barcarena",
-    "state": "PA",
-    "latitude": -1.4915957,
-    "longitude": -48.7061064
-  },
-  {
     "name": "Praia do Bispo",
     "neighborhood": "Vila",
     "city": "Belém",
@@ -128,28 +96,12 @@
     "longitude": -48.3865775
   },
   {
-    "name": "Sun Beach",
-    "neighborhood": "Barcarena",
-    "city": "Barcarena",
-    "state": "PA",
-    "latitude": -1.4479584,
-    "longitude": -48.6948462
-  },
-  {
     "name": "Praia do Carananduba",
     "neighborhood": "Carananduba (Mosqueiro)",
     "city": "Belém",
     "state": "PA",
     "latitude": -1.0915448,
     "longitude": -48.4109089
-  },
-  {
-    "name": "Praia de Itupanema - Barcarena/PA",
-    "neighborhood": "Murucupi",
-    "city": "Barcarena",
-    "state": "PA",
-    "latitude": -1.5127222,
-    "longitude": -48.7266079
   },
   {
     "name": "Praia Grande",
@@ -176,36 +128,12 @@
     "longitude": -48.400807
   },
   {
-    "name": "Mangabeira beach",
-    "neighborhood": "Brasil",
-    "city": "Ponta de Pedras",
-    "state": "PA",
-    "latitude": -1.3578083,
-    "longitude": -48.80281129999999
-  },
-  {
     "name": "Praia do Farol",
     "neighborhood": "Farol",
     "city": "Belém",
     "state": "PA",
     "latitude": -1.1329192,
     "longitude": -48.459831
-  },
-  {
-    "name": "Lighthouse Beach",
-    "neighborhood": "Barcarena",
-    "city": "Barcarena",
-    "state": "PA",
-    "latitude": -1.4543523,
-    "longitude": -48.7003796
-  },
-  {
-    "name": "Praia Guajarino",
-    "neighborhood": "Barcarena",
-    "city": "Barcarena",
-    "state": "PA",
-    "latitude": -1.4334533,
-    "longitude": -48.6829201
   },
   {
     "name": "Praia Grande",
@@ -248,30 +176,6 @@
     "longitude": -48.449469
   },
   {
-    "name": "Ilha Nova Esperança",
-    "neighborhood": "Brasil",
-    "city": "Ananindeua",
-    "state": "PA",
-    "latitude": -1.3035434,
-    "longitude": -48.3800001
-  },
-  {
-    "name": "Trapiche PONTA PEDRAS",
-    "neighborhood": "Brasil",
-    "city": "Ponta de Pedras",
-    "state": "PA",
-    "latitude": -1.3924139,
-    "longitude": -48.8737643
-  },
-  {
-    "name": "Praia Funda - Cotijuba",
-    "neighborhood": "Outeiro",
-    "city": "Belém",
-    "state": "PA",
-    "latitude": -1.2379865,
-    "longitude": -48.56094230000001
-  },
-  {
     "name": "Outeiro",
     "neighborhood": "São João do Outeiro",
     "city": "Belém",
@@ -288,22 +192,6 @@
     "longitude": -48.331643
   },
   {
-    "name": "Praia do Guajará de Béja",
-    "neighborhood": "Beja",
-    "city": "Abaetetuba",
-    "state": "PA",
-    "latitude": -1.6464449,
-    "longitude": -48.8458834
-  },
-  {
-    "name": "Praia da Flexeira - Cotijuba",
-    "neighborhood": "Outeiro",
-    "city": "Belém",
-    "state": "PA",
-    "latitude": -1.2323696,
-    "longitude": -48.5583794
-  },
-  {
     "name": "Praia do Cachimbo",
     "neighborhood": "Caruara",
     "city": "Belém",
@@ -312,44 +200,12 @@
     "longitude": -48.39206530000001
   },
   {
-    "name": "Itupanema",
-    "neighborhood": "Murucupi",
-    "city": "Barcarena",
-    "state": "PA",
-    "latitude": -1.51575,
-    "longitude": -48.72481500000001
-  },
-  {
-    "name": "Balneário do Neguinho",
-    "neighborhood": "Brasil",
-    "city": "Nova Esperança do Piriá",
-    "state": "PA",
-    "latitude": -2.2796944,
-    "longitude": -46.97172399999999
-  },
-  {
-    "name": "Balneário Riacho Doce",
-    "neighborhood": "Brasil",
-    "city": "Aurora do Pará",
-    "state": "PA",
-    "latitude": -2.2874937,
-    "longitude": -47.5642119
-  },
-  {
     "name": "Praia de Água Doce do Lado Norte de Ourém",
     "neighborhood": "70",
     "city": "Ourém",
     "state": "PA",
     "latitude": -1.5518155,
     "longitude": -47.1133152
-  },
-  {
-    "name": "Balneário Geladeira",
-    "neighborhood": "Brasil",
-    "city": "Capitão Poço",
-    "state": "PA",
-    "latitude": -1.6752155,
-    "longitude": -47.0398153
   },
   {
     "name": "Meio's beach",
@@ -376,30 +232,6 @@
     "longitude": -44.3304988
   },
   {
-    "name": "Praia Litorânea",
-    "neighborhood": "Brasil",
-    "city": "São Luís",
-    "state": "MA",
-    "latitude": -2.4874442,
-    "longitude": -44.2763792
-  },
-  {
-    "name": "Praia de Guarapiranga",
-    "neighborhood": "Mata",
-    "city": "São José de Ribamar",
-    "state": "MA",
-    "latitude": -2.6816882,
-    "longitude": -44.1420951
-  },
-  {
-    "name": "Panaquatira Beach",
-    "neighborhood": "São José de Ribamar",
-    "city": "São José de Ribamar",
-    "state": "MA",
-    "latitude": -2.4894791,
-    "longitude": -44.0385431
-  },
-  {
     "name": "Praia da guia",
     "neighborhood": "Vl Nova Bcn",
     "city": "São Luís",
@@ -416,102 +248,6 @@
     "longitude": -44.2398152
   },
   {
-    "name": "Caúra",
-    "neighborhood": "São José de Ribamar",
-    "city": "São José de Ribamar",
-    "state": "MA",
-    "latitude": -2.5553625,
-    "longitude": -44.0502056
-  },
-  {
-    "name": "Praia do Barco",
-    "neighborhood": "Brasil",
-    "city": "Alcântara",
-    "state": "MA",
-    "latitude": -2.4103892,
-    "longitude": -44.4180794
-  },
-  {
-    "name": "Praia do Itapéua",
-    "neighborhood": "Brasil",
-    "city": "Cajapió",
-    "state": "MA",
-    "latitude": -2.8524767,
-    "longitude": -44.63431840000001
-  },
-  {
-    "name": "Caburé Beach",
-    "neighborhood": "Brasil",
-    "city": "Barreirinhas",
-    "state": "MA",
-    "latitude": -2.5770863,
-    "longitude": -42.6964815
-  },
-  {
-    "name": "Porto Do Chico Pedro",
-    "neighborhood": "Brasil",
-    "city": "Barreirinhas",
-    "state": "MA",
-    "latitude": -2.7475823,
-    "longitude": -42.8249665
-  },
-  {
-    "name": "Rio Alegre, Santo Amaro Do Maranhão",
-    "neighborhood": "Brasil",
-    "city": "Santo Amaro do Maranhão",
-    "state": "MA",
-    "latitude": -2.5055999,
-    "longitude": -43.2502901
-  },
-  {
-    "name": "Santa Maria",
-    "neighborhood": "Brasil",
-    "city": "Barreirinhas",
-    "state": "MA",
-    "latitude": -2.8093847,
-    "longitude": -42.9313081
-  },
-  {
-    "name": "Ponta da Brasília",
-    "neighborhood": "Brasil",
-    "city": "Barreirinhas",
-    "state": "MA",
-    "latitude": -2.5577366,
-    "longitude": -42.7467013
-  },
-  {
-    "name": "Rio Mocambo",
-    "neighborhood": "Brasil",
-    "city": "Urbano Santos",
-    "state": "MA",
-    "latitude": -3.2077754,
-    "longitude": -43.4087108
-  },
-  {
-    "name": "Olaria",
-    "neighborhood": "Brasil",
-    "city": "Urbano Santos",
-    "state": "MA",
-    "latitude": -3.2163209,
-    "longitude": -43.4104156
-  },
-  {
-    "name": "Carnaubas Bar",
-    "neighborhood": "Brasil",
-    "city": "Água Doce do Maranhão",
-    "state": "MA",
-    "latitude": -3.0784772,
-    "longitude": -42.23303689999999
-  },
-  {
-    "name": "Lagoinha Beach",
-    "neighborhood": "Lagoinha",
-    "city": "Paraipaba",
-    "state": "CE",
-    "latitude": -3.3432917,
-    "longitude": -39.1465637
-  },
-  {
     "name": "Praia de Barra Grande",
     "neighborhood": "Canabrava",
     "city": "Trairi",
@@ -520,60 +256,12 @@
     "longitude": -39.2008467
   },
   {
-    "name": "Paraipaba",
-    "neighborhood": "Paraipaba",
-    "city": "Paraipaba",
-    "state": "CE",
-    "latitude": -3.42582,
-    "longitude": -39.1459929
-  },
-  {
-    "name": "Praia de Capim Açú",
-    "neighborhood": "Camboas",
-    "city": "Paraipaba",
-    "state": "CE",
-    "latitude": -3.3817125,
-    "longitude": -39.0945124
-  },
-  {
-    "name": "Bica do General Sampaio",
-    "neighborhood": "General Sampaio",
-    "city": "General Sampaio",
-    "state": "CE",
-    "latitude": -4.0610701,
-    "longitude": -39.4546395
-  },
-  {
-    "name": "Véu Das Noivas - Açude Da Idê",
-    "neighborhood": "Umirim",
-    "city": "Umirim",
-    "state": "CE",
-    "latitude": -3.6906903,
-    "longitude": -39.2952894
-  },
-  {
-    "name": "Barra do Rio",
-    "neighborhood": "Brasil",
-    "city": "Trairi",
-    "state": "CE",
-    "latitude": -3.290605,
-    "longitude": -39.188796
-  },
-  {
     "name": "Praia da Leste",
     "neighborhood": "Moura Brasil",
     "city": "Fortaleza",
     "state": "CE",
     "latitude": -3.7149722,
     "longitude": -38.5416873
-  },
-  {
-    "name": "Águas Belas Beach - CE",
-    "neighborhood": "Brasil",
-    "city": "Cascavel",
-    "state": "CE",
-    "latitude": -4.050292499999999,
-    "longitude": -38.1849869
   },
   {
     "name": "Praia do Poço da Draga",
@@ -592,14 +280,6 @@
     "longitude": -38.4912329
   },
   {
-    "name": "Beach crystal waters",
-    "neighborhood": "Guararu",
-    "city": "Caucaia",
-    "state": "CE",
-    "latitude": -3.6092437,
-    "longitude": -38.7834701
-  },
-  {
     "name": "Praia do Futuro",
     "neighborhood": "Cais do Porto",
     "city": "Fortaleza",
@@ -616,28 +296,12 @@
     "longitude": -38.7273467
   },
   {
-    "name": "Praia de Barra Nova - Cascavel-ce",
-    "neighborhood": "Jacarecoara",
-    "city": "Cascavel",
-    "state": "CE",
-    "latitude": -4.0998807,
-    "longitude": -38.151334
-  },
-  {
     "name": "Praia Formosa",
     "neighborhood": "Jacarecanga",
     "city": "Fortaleza",
     "state": "CE",
     "latitude": -3.7127554,
     "longitude": -38.5454958
-  },
-  {
-    "name": "Bung, Aquiraz - CE",
-    "neighborhood": "Jacaúna",
-    "city": "Aquiraz",
-    "state": "CE",
-    "latitude": -4.001709,
-    "longitude": -38.2299071
   },
   {
     "name": "Praia de Iracema",
@@ -672,30 +336,6 @@
     "longitude": -38.5047278
   },
   {
-    "name": "Praia Do Presidio",
-    "neighborhood": "Jacaúna",
-    "city": "Aquiraz",
-    "state": "CE",
-    "latitude": -3.9331329,
-    "longitude": -38.3104145
-  },
-  {
-    "name": "Praia Do Barro Preto",
-    "neighborhood": "Jacaúna",
-    "city": "Aquiraz",
-    "state": "CE",
-    "latitude": -3.9460985,
-    "longitude": -38.271619
-  },
-  {
-    "name": "Beach Balbino",
-    "neighborhood": "Caponga",
-    "city": "Cascavel",
-    "state": "CE",
-    "latitude": -4.021990000000001,
-    "longitude": -38.2137158
-  },
-  {
     "name": "Praia do Pacheco",
     "neighborhood": "Pacheco",
     "city": "Caucaia",
@@ -704,44 +344,12 @@
     "longitude": -38.6351512
   },
   {
-    "name": "Beach of Morro Branco",
-    "neighborhood": "Beberibe",
-    "city": "Beberibe",
-    "state": "CE",
-    "latitude": -4.12717,
-    "longitude": -38.1322063
-  },
-  {
     "name": "Mansa Beach",
     "neighborhood": "Meireles",
     "city": "Fortaleza",
     "state": "CE",
     "latitude": -3.7247875,
     "longitude": -38.498226
-  },
-  {
-    "name": "Praia das Fontes",
-    "neighborhood": "Beberibe",
-    "city": "Beberibe",
-    "state": "CE",
-    "latitude": -4.186288,
-    "longitude": -38.075699
-  },
-  {
-    "name": "Praia do Pecém",
-    "neighborhood": "Pecém",
-    "city": "São Gonçalo do Amarante",
-    "state": "CE",
-    "latitude": -3.5458731,
-    "longitude": -38.8363293
-  },
-  {
-    "name": "Praia do Barro Preto",
-    "neighborhood": "Jacaúna",
-    "city": "Aquiraz",
-    "state": "CE",
-    "latitude": -3.9666667,
-    "longitude": -38.25
   },
   {
     "name": "Praia de Mucurpe",
@@ -768,22 +376,6 @@
     "longitude": -38.3789731
   },
   {
-    "name": "Cumbuco Beach",
-    "neighborhood": "Catuana",
-    "city": "Caucaia",
-    "state": "CE",
-    "latitude": -3.592719,
-    "longitude": -38.780295
-  },
-  {
-    "name": "Praia da Leste",
-    "neighborhood": "Moura Brasil",
-    "city": "Fortaleza",
-    "state": "CE",
-    "latitude": -3.7178359,
-    "longitude": -38.5342906
-  },
-  {
     "name": "Praia Abreulândia",
     "neighborhood": "Sabiaguaba",
     "city": "Fortaleza",
@@ -792,12 +384,12 @@
     "longitude": -38.408401
   },
   {
-    "name": "Pico das Almas",
-    "neighborhood": "Guararu",
-    "city": "Caucaia",
+    "name": "Praia da Leste",
+    "neighborhood": "Moura Brasil",
+    "city": "Fortaleza",
     "state": "CE",
-    "latitude": -3.6058456,
-    "longitude": -38.7634778
+    "latitude": -3.7178359,
+    "longitude": -38.5342906
   },
   {
     "name": "Volta da Jurema",
@@ -816,22 +408,6 @@
     "longitude": -38.3855304
   },
   {
-    "name": "Praia de Iparana",
-    "neighborhood": "Caucaia",
-    "city": "Caucaia",
-    "state": "CE",
-    "latitude": -3.687589,
-    "longitude": -38.6263066
-  },
-  {
-    "name": "Praia do Retirinho",
-    "neighborhood": "Aracati",
-    "city": "Aracati",
-    "state": "CE",
-    "latitude": -4.6166667,
-    "longitude": -37.5833333
-  },
-  {
     "name": "Praia Redonda",
     "neighborhood": "Redonda",
     "city": "Icapuí",
@@ -841,51 +417,11 @@
   },
   {
     "name": "Praia de Galinhos",
-    "neighborhood": "Brasil",
+    "neighborhood": "Centro",
     "city": "Galinhos",
     "state": "RN",
     "latitude": -5.0901724,
     "longitude": -36.2764659
-  },
-  {
-    "name": "Xepa the beach",
-    "neighborhood": "Brasil",
-    "city": "São Miguel do Gostoso",
-    "state": "RN",
-    "latitude": -5.1161379,
-    "longitude": -35.6529432
-  },
-  {
-    "name": "Praia do Minhoto",
-    "neighborhood": "Brasil",
-    "city": "Macau",
-    "state": "RN",
-    "latitude": -5.0798953,
-    "longitude": -36.4127592
-  },
-  {
-    "name": "Ponta Negra",
-    "neighborhood": "Brasil",
-    "city": "Natal",
-    "state": "RN",
-    "latitude": -5.8811012,
-    "longitude": -35.1629703
-  },
-  {
-    "name": "Praia do Amor",
-    "neighborhood": "Brasil",
-    "city": "Tibau do Sul",
-    "state": "RN",
-    "latitude": -6.2313695,
-    "longitude": -35.0412131
-  },
-  {
-    "name": "Love Beach",
-    "neighborhood": "Brasil",
-    "city": "Tibau do Sul",
-    "state": "RN",
-    "latitude": -6.234357000000001,
-    "longitude": -35.040176
   },
   {
     "name": "Praia de Ponta Negra",
@@ -920,14 +456,6 @@
     "longitude": -35.045025
   },
   {
-    "name": "Praia de Búzios",
-    "neighborhood": "Brasil",
-    "city": "Nísia Floresta",
-    "state": "RN",
-    "latitude": -6.0186152,
-    "longitude": -35.109259
-  },
-  {
     "name": "Praia da Areia Preta",
     "neighborhood": "Areia Preta",
     "city": "Natal",
@@ -952,14 +480,6 @@
     "longitude": -35.145298
   },
   {
-    "name": "Praia de Piranji",
-    "neighborhood": "Brasil",
-    "city": "Parnamirim",
-    "state": "RN",
-    "latitude": -5.9791922,
-    "longitude": -35.1206893
-  },
-  {
     "name": "Ponta Negra Beach",
     "neighborhood": "Areia Preta",
     "city": "Natal",
@@ -968,52 +488,12 @@
     "longitude": -35.1899399
   },
   {
-    "name": "Praia de Barreta",
-    "neighborhood": "Brasil",
-    "city": "Nísia Floresta",
-    "state": "RN",
-    "latitude": -6.1301364,
-    "longitude": -35.0987166
-  },
-  {
-    "name": "Olheiro de Pureza -RN",
-    "neighborhood": "Brasil",
-    "city": "Pureza",
-    "state": "RN",
-    "latitude": -5.468238899999999,
-    "longitude": -35.5545546
-  },
-  {
     "name": "Barra do Rio",
     "neighborhood": "Povoado Genipabu",
     "city": "Extremoz",
     "state": "RN",
     "latitude": -5.6814259,
     "longitude": -35.2145035
-  },
-  {
-    "name": "Praia da Pititinga",
-    "neighborhood": "Brasil",
-    "city": "Rio do Fogo",
-    "state": "RN",
-    "latitude": -5.3777089,
-    "longitude": -35.3381494
-  },
-  {
-    "name": "Praia das Tartarugas",
-    "neighborhood": "Brasil",
-    "city": "Nísia Floresta",
-    "state": "RN",
-    "latitude": -6.0066751,
-    "longitude": -35.1058925
-  },
-  {
-    "name": "Praia das Cacimbinhas",
-    "neighborhood": "Brasil",
-    "city": "Tibau do Sul",
-    "state": "RN",
-    "latitude": -6.197911299999999,
-    "longitude": -35.0834974
   },
   {
     "name": "Praia do Meio",
@@ -1048,44 +528,12 @@
     "longitude": -35.152226
   },
   {
-    "name": "Camurupim Beach",
-    "neighborhood": "Brasil",
-    "city": "Nísia Floresta",
-    "state": "RN",
-    "latitude": -6.088212299999999,
-    "longitude": -35.0997127
-  },
-  {
-    "name": "Praia de Barreta",
-    "neighborhood": "Brasil",
-    "city": "Nísia Floresta",
-    "state": "RN",
-    "latitude": -6.11778,
-    "longitude": -35.099857
-  },
-  {
-    "name": "Praia de Barra de Tabatinga",
-    "neighborhood": "Brasil",
-    "city": "Nísia Floresta",
-    "state": "RN",
-    "latitude": -6.0531454,
-    "longitude": -35.107908
-  },
-  {
     "name": "Praia de Mãe Luiza",
     "neighborhood": "Mãe Luíza",
     "city": "Natal",
     "state": "RN",
     "latitude": -5.7991433,
     "longitude": -35.18015159999999
-  },
-  {
-    "name": "Enseada do Madeiro",
-    "neighborhood": "Brasil",
-    "city": "Tibau do Sul",
-    "state": "RN",
-    "latitude": -6.205898500000001,
-    "longitude": -35.0801504
   },
   {
     "name": "Praia de Maiame",
@@ -1120,30 +568,6 @@
     "longitude": -35.1895085
   },
   {
-    "name": "Praia de Pirambuzios",
-    "neighborhood": "Brasil",
-    "city": "Nísia Floresta",
-    "state": "RN",
-    "latitude": -6.000311,
-    "longitude": -35.111179
-  },
-  {
-    "name": "Praia Baía dos Golfinhos Pipa",
-    "neighborhood": "Brasil",
-    "city": "Tibau do Sul",
-    "state": "RN",
-    "latitude": -6.2266141,
-    "longitude": -35.061908
-  },
-  {
-    "name": "Praia Barra de Tabatinga",
-    "neighborhood": "Brasil",
-    "city": "Nísia Floresta",
-    "state": "RN",
-    "latitude": -6.0667569,
-    "longitude": -35.0985089
-  },
-  {
     "name": "Praia de Santa Rita",
     "neighborhood": "Santa Rita",
     "city": "Extremoz",
@@ -1152,28 +576,12 @@
     "longitude": -35.196919
   },
   {
-    "name": "Praia Redinha Nova",
-    "neighborhood": "Brasil",
-    "city": "Extremoz",
-    "state": "RN",
-    "latitude": -5.7149511,
-    "longitude": -35.2000774
-  },
-  {
     "name": "Praia de Barreira Dagua",
     "neighborhood": "Mãe Luíza",
     "city": "Natal",
     "state": "RN",
     "latitude": -5.8390433,
     "longitude": -35.1813503
-  },
-  {
-    "name": "Praia da Barra de Camaratuba",
-    "neighborhood": "Brasil",
-    "city": "Mataraca",
-    "state": "PB",
-    "latitude": -6.6034896,
-    "longitude": -34.9657059
   },
   {
     "name": "Lucena Beach",
@@ -1192,30 +600,6 @@
     "longitude": -34.8848534
   },
   {
-    "name": "Gameleira beach",
-    "neighborhood": "Praia de Fagundes",
-    "city": "Lucena",
-    "state": "PB",
-    "latitude": -6.922263099999999,
-    "longitude": -34.8643415
-  },
-  {
-    "name": "Praia de Campina",
-    "neighborhood": "Barra do Mamanguape",
-    "city": "Rio Tinto",
-    "state": "PB",
-    "latitude": -6.8137247,
-    "longitude": -34.9138294
-  },
-  {
-    "name": "Praia do Oiteiro",
-    "neighborhood": "Brasil",
-    "city": "Rio Tinto",
-    "state": "PB",
-    "latitude": -6.834853799999999,
-    "longitude": -34.90989
-  },
-  {
     "name": "Praia do Forte",
     "neighborhood": "Baia Da Traicao",
     "city": "Baía da Traição",
@@ -1232,52 +616,12 @@
     "longitude": -34.971329
   },
   {
-    "name": "North Coqueirinho Beach",
-    "neighborhood": "Brasil",
-    "city": "Marcação",
-    "state": "PB",
-    "latitude": -6.7393667,
-    "longitude": -34.9285412
-  },
-  {
-    "name": "the Mamanguape Bar Beach",
-    "neighborhood": "Barra do Mamanguape",
-    "city": "Rio Tinto",
-    "state": "PB",
-    "latitude": -6.7799758,
-    "longitude": -34.9177533
-  },
-  {
-    "name": "Lucena Beach",
-    "neighborhood": "Lucena",
-    "city": "Lucena",
-    "state": "PB",
-    "latitude": -6.9025849,
-    "longitude": -34.85517360000001
-  },
-  {
-    "name": "Love Beach",
-    "neighborhood": "Jacumã",
-    "city": "Conde",
-    "state": "PB",
-    "latitude": -7.273749199999999,
-    "longitude": -34.8019623
-  },
-  {
     "name": "Sun Beach",
     "neighborhood": "Barra de Gramame",
     "city": "João Pessoa",
     "state": "PB",
     "latitude": -7.215845,
     "longitude": -34.8041457
-  },
-  {
-    "name": "Praia do Jacaré",
-    "neighborhood": "Brasil",
-    "city": "Cabedelo",
-    "state": "PB",
-    "latitude": -7.039494299999999,
-    "longitude": -34.8553836
   },
   {
     "name": "Tabatinga Beach 2",
@@ -1336,14 +680,6 @@
     "longitude": -34.8424011
   },
   {
-    "name": "Praia de Acaú",
-    "neighborhood": "Brasil",
-    "city": "Pitimbu",
-    "state": "PB",
-    "latitude": -7.544538999999999,
-    "longitude": -34.82365
-  },
-  {
     "name": "Praia Formosa",
     "neighborhood": "Praia Formosa",
     "city": "Cabedelo",
@@ -1360,28 +696,12 @@
     "longitude": -34.8367503
   },
   {
-    "name": "Praia Azul",
-    "neighborhood": "Brasil",
-    "city": "Pitimbu",
-    "state": "PB",
-    "latitude": -7.5127409,
-    "longitude": -34.8105401
-  },
-  {
     "name": "Praia de Areia Dourada",
     "neighborhood": "Vila Sao Joao",
     "city": "Cabedelo",
     "state": "PB",
     "latitude": -6.986342899999999,
     "longitude": -34.8275614
-  },
-  {
-    "name": "Praia Ponta do Coqueiro",
-    "neighborhood": "Brasil",
-    "city": "Pitimbu",
-    "state": "PB",
-    "latitude": -7.5330204,
-    "longitude": -34.8218536
   },
   {
     "name": "Praia Barra De Gramame Norte",
@@ -1400,28 +720,12 @@
     "longitude": -34.7962707
   },
   {
-    "name": "Praia da Arapuca",
-    "neighborhood": "Brasil",
-    "city": "Conde",
-    "state": "PB",
-    "latitude": -7.3604825,
-    "longitude": -34.7998005
-  },
-  {
     "name": "Orla De Manaíra",
     "neighborhood": "Manaíra",
     "city": "João Pessoa",
     "state": "PB",
     "latitude": -7.1034472,
     "longitude": -34.8302228
-  },
-  {
-    "name": "Praia da Barra do Graú",
-    "neighborhood": "Brasil",
-    "city": "Conde",
-    "state": "PB",
-    "latitude": -7.384213600000001,
-    "longitude": -34.8027486
   },
   {
     "name": "Praia Ponta de Mato",
@@ -1432,28 +736,12 @@
     "longitude": -34.83
   },
   {
-    "name": "Praia de Pontinha",
-    "neighborhood": "Brasil",
-    "city": "Pitimbu",
-    "state": "PB",
-    "latitude": -7.5501231,
-    "longitude": -34.8270893
-  },
-  {
     "name": "Cabo Branco Beach",
     "neighborhood": "Cabo Branco",
     "city": "João Pessoa",
     "state": "PB",
     "latitude": -7.129668199999999,
     "longitude": -34.8218821
-  },
-  {
-    "name": "Praia da Barra do Abiaí",
-    "neighborhood": "Brasil",
-    "city": "Pitimbu",
-    "state": "PB",
-    "latitude": -7.433028200000001,
-    "longitude": -34.8096657
   },
   {
     "name": "Praia Formosa",
@@ -1464,12 +752,12 @@
     "longitude": -34.8283333
   },
   {
-    "name": "Praia do Arraial",
-    "neighborhood": "Brasil",
-    "city": "João Pessoa",
+    "name": "Praia Santa Catarina",
+    "neighborhood": "Vila Sao Joao",
+    "city": "Cabedelo",
     "state": "PB",
-    "latitude": -7.2107128,
-    "longitude": -34.80279640000001
+    "latitude": -6.9666667,
+    "longitude": -34.835
   },
   {
     "name": "Praia do Amor",
@@ -1480,54 +768,6 @@
     "longitude": -34.801215
   },
   {
-    "name": "Praia Santa Catarina",
-    "neighborhood": "Vila Sao Joao",
-    "city": "Cabedelo",
-    "state": "PB",
-    "latitude": -6.9666667,
-    "longitude": -34.835
-  },
-  {
-    "name": "Praia do Costinha",
-    "neighborhood": "Brasil",
-    "city": "Lucena",
-    "state": "PB",
-    "latitude": -6.9666667,
-    "longitude": -34.8533333
-  },
-  {
-    "name": "Praia Das Trincheiras",
-    "neighborhood": "Brasil",
-    "city": "Baía da Traição",
-    "state": "PB",
-    "latitude": -6.688638,
-    "longitude": -34.93096930000001
-  },
-  {
-    "name": "Praia da Gameleira",
-    "neighborhood": "Brasil",
-    "city": "Lucena",
-    "state": "PB",
-    "latitude": -6.915555599999999,
-    "longitude": -34.8583333
-  },
-  {
-    "name": "Praia de Campina",
-    "neighborhood": "Barra do Mamanguape",
-    "city": "Rio Tinto",
-    "state": "PB",
-    "latitude": -6.812307,
-    "longitude": -34.914146
-  },
-  {
-    "name": "Tambaba Beach",
-    "neighborhood": "Brasil",
-    "city": "Conde",
-    "state": "PB",
-    "latitude": -7.365375299999998,
-    "longitude": -34.7980274
-  },
-  {
     "name": "Seixas",
     "neighborhood": "Ponta do Seixas",
     "city": "João Pessoa",
@@ -1536,36 +776,12 @@
     "longitude": -34.793202
   },
   {
-    "name": "Lagoa de Praia",
-    "neighborhood": "Barra do Mamanguape",
-    "city": "Rio Tinto",
-    "state": "PB",
-    "latitude": -6.8033515,
-    "longitude": -34.9155322
-  },
-  {
-    "name": "Praia do Tambá",
-    "neighborhood": "Brasil",
-    "city": "Baía da Traição",
-    "state": "PB",
-    "latitude": -6.6546758,
-    "longitude": -34.958539
-  },
-  {
     "name": "Praia da Ribeira",
     "neighborhood": "Camalaú",
     "city": "Cabedelo",
     "state": "PB",
     "latitude": -6.9784834,
     "longitude": -34.8355541
-  },
-  {
-    "name": "Praia de Bonsucesso",
-    "neighborhood": "Brasil",
-    "city": "Lucena",
-    "state": "PB",
-    "latitude": -6.8721736,
-    "longitude": -34.8960367
   },
   {
     "name": "Costinha beach",
@@ -1582,22 +798,6 @@
     "state": "PB",
     "latitude": -6.9846138,
     "longitude": -34.8275496
-  },
-  {
-    "name": "Praia do Miriri",
-    "neighborhood": "Brasil",
-    "city": "Rio Tinto",
-    "state": "PB",
-    "latitude": -6.8600952,
-    "longitude": -34.9018973
-  },
-  {
-    "name": "Piscinas Naturais da Praia da Penha",
-    "neighborhood": "Brasil",
-    "city": "João Pessoa",
-    "state": "PB",
-    "latitude": -7.169528199999998,
-    "longitude": -34.7862333
   },
   {
     "name": "Praia de Fagundes",
@@ -1622,14 +822,6 @@
     "state": "PE",
     "latitude": -8.022201899999999,
     "longitude": -34.8515071
-  },
-  {
-    "name": "Praia do Capitão",
-    "neighborhood": "Nova Cruz",
-    "city": "Igarassu",
-    "state": "PE",
-    "latitude": -7.8197809,
-    "longitude": -34.8471539
   },
   {
     "name": "Praia do Sossego",
@@ -1712,44 +904,12 @@
     "longitude": -34.9451702
   },
   {
-    "name": "Muro Alto Beach",
-    "neighborhood": "N. São do Ó",
-    "city": "Ipojuca",
-    "state": "PE",
-    "latitude": -8.4510057,
-    "longitude": -34.9843399
-  },
-  {
-    "name": "Praia do Cupe",
-    "neighborhood": "N. São do Ó",
-    "city": "Ipojuca",
-    "state": "PE",
-    "latitude": -8.450899099999999,
-    "longitude": -34.9842476
-  },
-  {
     "name": "Gaibu Beach",
     "neighborhood": "Loteamento Enseada dos Corais",
     "city": "Cabo de Santo Agostinho",
     "state": "PE",
     "latitude": -8.3305036,
     "longitude": -34.9507486
-  },
-  {
-    "name": "Muro Alto Beach",
-    "neighborhood": "N. São do Ó",
-    "city": "Ipojuca",
-    "state": "PE",
-    "latitude": -8.429477799999999,
-    "longitude": -34.9781786
-  },
-  {
-    "name": "Praia da Cocaia",
-    "neighborhood": "Ipojuca",
-    "city": "Ipojuca",
-    "state": "PE",
-    "latitude": -8.3876495,
-    "longitude": -34.96538779999999
   },
   {
     "name": "Piedade Beach",
@@ -1760,44 +920,12 @@
     "longitude": -34.91327260000001
   },
   {
-    "name": "Saco Beach",
-    "neighborhood": "Brasil",
-    "city": "Marechal Deodoro",
-    "state": "AL",
-    "latitude": -9.7431077,
-    "longitude": -35.819518
-  },
-  {
     "name": "Ponta Verde",
     "neighborhood": "Ponta Verde",
     "city": "Maceió",
     "state": "AL",
     "latitude": -9.6642911,
     "longitude": -35.6954403
-  },
-  {
-    "name": "Praia do Gunga",
-    "neighborhood": "Brasil",
-    "city": "Roteiro",
-    "state": "AL",
-    "latitude": -9.859389799999999,
-    "longitude": -35.9040769
-  },
-  {
-    "name": "Praia Tatuamunha",
-    "neighborhood": "Porto de Pedras",
-    "city": "Porto de Pedras",
-    "state": "AL",
-    "latitude": -9.221167999999999,
-    "longitude": -35.330672
-  },
-  {
-    "name": "Praia de São Miguel dos Milagres",
-    "neighborhood": "Brasil",
-    "city": "São Miguel dos Milagres",
-    "state": "AL",
-    "latitude": -9.2696159,
-    "longitude": -35.367111
   },
   {
     "name": "Praia de Pajuçara",
@@ -1824,44 +952,12 @@
     "longitude": -35.87907
   },
   {
-    "name": "Praia do morro",
-    "neighborhood": "Brasil",
-    "city": "Passo de Camaragibe",
-    "state": "AL",
-    "latitude": -9.321584099999999,
-    "longitude": -35.4261231
-  },
-  {
-    "name": "Praia de Costa Brava",
-    "neighborhood": "Brasil",
-    "city": "Paripueira",
-    "state": "AL",
-    "latitude": -9.477042299999999,
-    "longitude": -35.5529983
-  },
-  {
-    "name": "Praia de Paripueira",
-    "neighborhood": "Brasil",
-    "city": "Paripueira",
-    "state": "AL",
-    "latitude": -9.4663362,
-    "longitude": -35.5441532
-  },
-  {
     "name": "Praia da Avenida",
     "neighborhood": "Jatiúca",
     "city": "Maceió",
     "state": "AL",
     "latitude": -9.651347399999999,
     "longitude": -35.6978537
-  },
-  {
-    "name": "Ipioca Beach",
-    "neighborhood": "Brasil",
-    "city": "Maceió",
-    "state": "AL",
-    "latitude": -9.530369799999999,
-    "longitude": -35.592916
   },
   {
     "name": "Praia de Cruz das Almas",
@@ -1872,28 +968,12 @@
     "longitude": -35.6978601
   },
   {
-    "name": "Praia de Tabuba",
-    "neighborhood": "Brasil",
-    "city": "Barra de Santo Antônio",
-    "state": "AL",
-    "latitude": -9.4394589,
-    "longitude": -35.51303
-  },
-  {
     "name": "Praia de Sete Coqueiros",
     "neighborhood": "Ponta Verde",
     "city": "Maceió",
     "state": "AL",
     "latitude": -9.6640803,
     "longitude": -35.7058097
-  },
-  {
-    "name": "Praia do Carro Quebrado",
-    "neighborhood": "Brasil",
-    "city": "Barra de Santo Antônio",
-    "state": "AL",
-    "latitude": -9.3595581,
-    "longitude": -35.4744458
   },
   {
     "name": "Praia da Sereia",
@@ -1904,22 +984,6 @@
     "longitude": -35.6469488
   },
   {
-    "name": "Praia da Laje - Rota Ecológica dos Milagres",
-    "neighborhood": "Brasil",
-    "city": "Porto de Pedras",
-    "state": "AL",
-    "latitude": -9.196712699999999,
-    "longitude": -35.316748
-  },
-  {
-    "name": "Praia Patacho",
-    "neighborhood": "Brasil",
-    "city": "Porto de Pedras",
-    "state": "AL",
-    "latitude": -9.1961776,
-    "longitude": -35.3149792
-  },
-  {
     "name": "French's Beach",
     "neighborhood": "Praia do Francês",
     "city": "Marechal Deodoro",
@@ -1928,92 +992,12 @@
     "longitude": -35.8430374
   },
   {
-    "name": "Praia Ponta da Gamela",
-    "neighborhood": "Brasil",
-    "city": "Passo de Camaragibe",
-    "state": "AL",
-    "latitude": -9.323529899999999,
-    "longitude": -35.4321339
-  },
-  {
-    "name": "Praia da Barra de Camaragibe",
-    "neighborhood": "Brasil",
-    "city": "Passo de Camaragibe",
-    "state": "AL",
-    "latitude": -9.307663,
-    "longitude": -35.408466
-  },
-  {
-    "name": "Praia de Sauaçui",
-    "neighborhood": "Brasil",
-    "city": "Maceió",
-    "state": "AL",
-    "latitude": -9.5000479,
-    "longitude": -35.5745562
-  },
-  {
     "name": "Jacarecica do Sul",
     "neighborhood": "Jacarecica",
     "city": "Maceió",
     "state": "AL",
     "latitude": -9.618113899999999,
     "longitude": -35.6898619
-  },
-  {
-    "name": "Dunas de Marapé",
-    "neighborhood": "Brasil",
-    "city": "Jequiá da Praia",
-    "state": "AL",
-    "latitude": -10.0477378,
-    "longitude": -36.0286261
-  },
-  {
-    "name": "Praia da Ilha da Croa",
-    "neighborhood": "Brasil",
-    "city": "Barra de Santo Antônio",
-    "state": "AL",
-    "latitude": -9.400318,
-    "longitude": -35.496105
-  },
-  {
-    "name": "Praia do Toque",
-    "neighborhood": "Brasil",
-    "city": "São Miguel dos Milagres",
-    "state": "AL",
-    "latitude": -9.2584768,
-    "longitude": -35.3568259
-  },
-  {
-    "name": "Praia de Jatiúca",
-    "neighborhood": "Jatiúca",
-    "city": "Maceió",
-    "state": "AL",
-    "latitude": -9.6481978,
-    "longitude": -35.6998238
-  },
-  {
-    "name": "Praia de Lages",
-    "neighborhood": "Porto de Pedras",
-    "city": "Porto de Pedras",
-    "state": "AL",
-    "latitude": -9.202925,
-    "longitude": -35.32238
-  },
-  {
-    "name": "Praia Morros de Camaragibe",
-    "neighborhood": "Brasil",
-    "city": "Passo de Camaragibe",
-    "state": "AL",
-    "latitude": -9.319927,
-    "longitude": -35.423504
-  },
-  {
-    "name": "Praia da Pedra da Cebola",
-    "neighborhood": "Brasil",
-    "city": "Passo de Camaragibe",
-    "state": "AL",
-    "latitude": -9.339575,
-    "longitude": -35.450527
   },
   {
     "name": "Praia de Porto de Pedras",
@@ -2032,36 +1016,12 @@
     "longitude": -35.654918
   },
   {
-    "name": "Praia da Croa",
-    "neighborhood": "Brasil",
-    "city": "Barra de Santo Antônio",
-    "state": "AL",
-    "latitude": -9.4086424,
-    "longitude": -35.4967628
-  },
-  {
-    "name": "Lagoa Azeda",
-    "neighborhood": "Brasil",
-    "city": "Jequiá da Praia",
-    "state": "AL",
-    "latitude": -9.963721,
-    "longitude": -35.973305
-  },
-  {
-    "name": "Prainha",
-    "neighborhood": "Brasil",
-    "city": "Marechal Deodoro",
-    "state": "AL",
-    "latitude": -9.7263735,
-    "longitude": -35.8106902
-  },
-  {
-    "name": "Praia de Pirambu",
-    "neighborhood": "Brasil",
-    "city": "Pirambu",
+    "name": "Praia do Viral",
+    "neighborhood": "Mosqueiro",
+    "city": "Aracaju",
     "state": "SE",
-    "latitude": -10.7350277,
-    "longitude": -36.8451779
+    "latitude": -11.1370428,
+    "longitude": -37.1490518
   },
   {
     "name": "Praia do Sarney",
@@ -2072,52 +1032,12 @@
     "longitude": -37.0731225
   },
   {
-    "name": "Praia da Costa",
-    "neighborhood": "Atalaia Nova",
-    "city": "Barra dos Coqueiros",
-    "state": "SE",
-    "latitude": -10.9291412,
-    "longitude": -37.0136124
-  },
-  {
-    "name": "Praia do Viral",
-    "neighborhood": "Mosqueiro",
-    "city": "Aracaju",
-    "state": "SE",
-    "latitude": -11.1370428,
-    "longitude": -37.1490518
-  },
-  {
     "name": "Praia do Robalo - Aracaju/SE",
     "neighborhood": "Robalo",
     "city": "Aracaju",
     "state": "SE",
     "latitude": -11.0457935,
     "longitude": -37.0884118
-  },
-  {
-    "name": "Mosqueiro Beach",
-    "neighborhood": "Zona De Expansao",
-    "city": "Aracaju",
-    "state": "SE",
-    "latitude": -11.1139401,
-    "longitude": -37.1345344
-  },
-  {
-    "name": "Praia do Abaís",
-    "neighborhood": "Brasil",
-    "city": "Estância",
-    "state": "SE",
-    "latitude": -11.3359025,
-    "longitude": -37.2875103
-  },
-  {
-    "name": "Praia do Refúgio",
-    "neighborhood": "Mosqueiro",
-    "city": "Aracaju",
-    "state": "SE",
-    "latitude": -11.061321,
-    "longitude": -37.09814799999999
   },
   {
     "name": "Praia de Atalaia",
@@ -2128,30 +1048,6 @@
     "longitude": -37.0365845
   },
   {
-    "name": "Praia do Porto",
-    "neighborhood": "Atalaia Nova",
-    "city": "Barra dos Coqueiros",
-    "state": "SE",
-    "latitude": -10.9491569,
-    "longitude": -37.0270731
-  },
-  {
-    "name": "Praia do Coqueirinho",
-    "neighborhood": "Brasil",
-    "city": "Itaporanga d'Ajuda",
-    "state": "SE",
-    "latitude": -11.1715589,
-    "longitude": -37.1710778
-  },
-  {
-    "name": "Praia do Robalo",
-    "neighborhood": "Mosqueiro",
-    "city": "Aracaju",
-    "state": "SE",
-    "latitude": -11.029786,
-    "longitude": -37.0777968
-  },
-  {
     "name": "Caueira",
     "neighborhood": "Caueira",
     "city": "Itaporanga d'Ajuda",
@@ -2160,12 +1056,12 @@
     "longitude": -37.1982372
   },
   {
-    "name": "Praia da Caueira",
-    "neighborhood": "Brasil",
-    "city": "Itaporanga d'Ajuda",
+    "name": "Praia da Costa",
+    "neighborhood": "Atalaia Nova",
+    "city": "Barra dos Coqueiros",
     "state": "SE",
-    "latitude": -11.2334517,
-    "longitude": -37.21660260000001
+    "latitude": -10.9291412,
+    "longitude": -37.0136124
   },
   {
     "name": "Praia de Jatobá",
@@ -2176,28 +1072,20 @@
     "longitude": -36.92925
   },
   {
-    "name": "Praia de Arauna",
-    "neighborhood": "Brasil",
+    "name": "Praia do Refúgio",
+    "neighborhood": "Mosqueiro",
     "city": "Aracaju",
     "state": "SE",
-    "latitude": -11.0107272,
-    "longitude": -37.0636375
+    "latitude": -11.061321,
+    "longitude": -37.09814799999999
   },
   {
-    "name": "Praia de Santa Isabel",
-    "neighborhood": "Brasil",
-    "city": "Pirambu",
+    "name": "Mosqueiro Beach",
+    "neighborhood": "Zona De Expansao",
+    "city": "Aracaju",
     "state": "SE",
-    "latitude": -10.6666667,
-    "longitude": -36.7333333
-  },
-  {
-    "name": "Banho do Prata",
-    "neighborhood": "Brasil",
-    "city": "Japaratuba",
-    "state": "SE",
-    "latitude": -10.6297276,
-    "longitude": -36.9239112
+    "latitude": -11.1139401,
+    "longitude": -37.1345344
   },
   {
     "name": "Praia de Atalaia Nova",
@@ -2280,6 +1168,14 @@
     "longitude": -38.2355078
   },
   {
+    "name": "Porto da Barra Beach",
+    "neighborhood": "Barra",
+    "city": "Salvador",
+    "state": "BA",
+    "latitude": -13.003306,
+    "longitude": -38.5328688
+  },
+  {
     "name": "Praia da Barra do Pote",
     "neighborhood": "Condomínio Praia do Meio",
     "city": "Vera Cruz",
@@ -2294,14 +1190,6 @@
     "state": "BA",
     "latitude": -12.640443,
     "longitude": -38.0565763
-  },
-  {
-    "name": "Porto da Barra Beach",
-    "neighborhood": "Barra",
-    "city": "Salvador",
-    "state": "BA",
-    "latitude": -13.003306,
-    "longitude": -38.5328688
   },
   {
     "name": "Praia do Rio Vermelho",
@@ -2320,12 +1208,12 @@
     "longitude": -38.5098867
   },
   {
-    "name": "Stella Maris beach",
-    "neighborhood": "Brasil",
+    "name": "Praia de Piatã",
+    "neighborhood": "Piatã",
     "city": "Salvador",
     "state": "BA",
-    "latitude": -12.9488167,
-    "longitude": -38.341097
+    "latitude": -12.9561186,
+    "longitude": -38.3861331
   },
   {
     "name": "Praia de Ipitanga",
@@ -2334,14 +1222,6 @@
     "state": "BA",
     "latitude": -12.9231499,
     "longitude": -38.3137418
-  },
-  {
-    "name": "Praia de Piatã",
-    "neighborhood": "Piatã",
-    "city": "Salvador",
-    "state": "BA",
-    "latitude": -12.9561186,
-    "longitude": -38.3861331
   },
   {
     "name": "Praia da Paciencia",
@@ -2360,20 +1240,20 @@
     "longitude": -38.36654
   },
   {
-    "name": "Praia do Corsário",
-    "neighborhood": "Pituaçu",
-    "city": "Salvador",
-    "state": "BA",
-    "latitude": -12.9681066,
-    "longitude": -38.4057227
-  },
-  {
     "name": "Pituba Beach",
     "neighborhood": "Pituba",
     "city": "Salvador",
     "state": "BA",
     "latitude": -13.0098382,
     "longitude": -38.4634244
+  },
+  {
+    "name": "Praia do Corsário",
+    "neighborhood": "Pituaçu",
+    "city": "Salvador",
+    "state": "BA",
+    "latitude": -12.9681066,
+    "longitude": -38.4057227
   },
   {
     "name": "Praia de Aleluia",
@@ -2392,14 +1272,6 @@
     "longitude": -38.50351089999999
   },
   {
-    "name": "Praia de Monte Cristo - Linda Praia",
-    "neighborhood": "Bom Jesus dos Pobres",
-    "city": "Saubara",
-    "state": "BA",
-    "latitude": -12.8339344,
-    "longitude": -38.80934999999999
-  },
-  {
     "name": "Salvador Beach Club",
     "neighborhood": "Patamares",
     "city": "Salvador",
@@ -2416,12 +1288,12 @@
     "longitude": -38.4296677
   },
   {
-    "name": "Praia de Amaralina",
-    "neighborhood": "Amaralina",
-    "city": "Salvador",
+    "name": "Buraquinho Beach",
+    "neighborhood": "Buraquinho",
+    "city": "Lauro de Freitas",
     "state": "BA",
-    "latitude": -13.014284,
-    "longitude": -38.47684270000001
+    "latitude": -12.8821859,
+    "longitude": -38.2826396
   },
   {
     "name": "Praia da Penha",
@@ -2432,36 +1304,20 @@
     "longitude": -38.4948066
   },
   {
-    "name": "Praia dos Artistas",
-    "neighborhood": "Brasil",
+    "name": "Praia de Amaralina",
+    "neighborhood": "Amaralina",
     "city": "Salvador",
     "state": "BA",
-    "latitude": -12.977609,
-    "longitude": -38.4197128
+    "latitude": -13.014284,
+    "longitude": -38.47684270000001
   },
   {
-    "name": "Buraquinho Beach",
-    "neighborhood": "Buraquinho",
-    "city": "Lauro de Freitas",
-    "state": "BA",
-    "latitude": -12.8821859,
-    "longitude": -38.2826396
-  },
-  {
-    "name": "Farol da Barra",
-    "neighborhood": "Barra",
+    "name": "Praia de Jaguaribe",
+    "neighborhood": "Jaguaribe",
     "city": "Salvador",
     "state": "BA",
-    "latitude": -13.0098997,
-    "longitude": -38.5284848
-  },
-  {
-    "name": "Jardim de Alah Beach",
-    "neighborhood": "Brasil",
-    "city": "Salvador",
-    "state": "BA",
-    "latitude": -12.997592,
-    "longitude": -38.4419699
+    "latitude": -12.9606183,
+    "longitude": -38.3947197
   },
   {
     "name": "Ondina Beach",
@@ -2480,12 +1336,12 @@
     "longitude": -38.2287507
   },
   {
-    "name": "Praia de Jaguaribe",
-    "neighborhood": "Jaguaribe",
+    "name": "Farol da Barra",
+    "neighborhood": "Barra",
     "city": "Salvador",
     "state": "BA",
-    "latitude": -12.9606183,
-    "longitude": -38.3947197
+    "latitude": -13.0098997,
+    "longitude": -38.5284848
   },
   {
     "name": "Chega Nego Beach",
@@ -2496,36 +1352,12 @@
     "longitude": -38.4492581
   },
   {
-    "name": "Playa De Itaparica",
-    "neighborhood": "Brasil",
-    "city": "Itaparica",
-    "state": "BA",
-    "latitude": -12.8880384,
-    "longitude": -38.67299149999999
-  },
-  {
-    "name": "Praia de Jiribatuba",
-    "neighborhood": "Cacha Pregos",
-    "city": "Vera Cruz",
-    "state": "BA",
-    "latitude": -13.0919621,
-    "longitude": -38.7936179
-  },
-  {
     "name": "Praia da Pedra Alta",
     "neighborhood": "Barra",
     "city": "Salvador",
     "state": "BA",
     "latitude": -13.0099899,
     "longitude": -38.5210484
-  },
-  {
-    "name": "Praia de Cabuçu",
-    "neighborhood": "Cabuçu",
-    "city": "Saubara",
-    "state": "BA",
-    "latitude": -12.7784937,
-    "longitude": -38.7697009
   },
   {
     "name": "Praia Itapua",
@@ -2544,14 +1376,6 @@
     "longitude": -38.4408488
   },
   {
-    "name": "Praia do Farol",
-    "neighborhood": "Brasil",
-    "city": "Salinas da Margarida",
-    "state": "BA",
-    "latitude": -12.8401196,
-    "longitude": -38.7939531
-  },
-  {
     "name": "Praia de Villas do Atlântico",
     "neighborhood": "Vilas do Atlântico",
     "city": "Lauro de Freitas",
@@ -2568,14 +1392,6 @@
     "longitude": -38.3805766
   },
   {
-    "name": "Praia de Barra Grande",
-    "neighborhood": "Jiribatuba",
-    "city": "Vera Cruz",
-    "state": "BA",
-    "latitude": -13.0805969,
-    "longitude": -38.7287133
-  },
-  {
     "name": "Praia da 3a Ponte",
     "neighborhood": "Piatã",
     "city": "Salvador",
@@ -2584,36 +1400,12 @@
     "longitude": -38.39589
   },
   {
-    "name": "Praia da Viração",
-    "neighborhood": "Brasil",
-    "city": "Salvador",
-    "state": "BA",
-    "latitude": -12.8094875,
-    "longitude": -38.6324143
-  },
-  {
     "name": "Praia da Ponta de Areia",
     "neighborhood": "Loteamento Nova Itaparica",
     "city": "Itaparica",
     "state": "BA",
     "latitude": -12.8793277,
     "longitude": -38.6842824
-  },
-  {
-    "name": "Itacimirim Beach",
-    "neighborhood": "Monte Gordo",
-    "city": "Camaçari",
-    "state": "BA",
-    "latitude": -12.6367034,
-    "longitude": -38.0501681
-  },
-  {
-    "name": "Chello's Beach",
-    "neighborhood": "Abrantes",
-    "city": "Camaçari",
-    "state": "BA",
-    "latitude": -12.7093969,
-    "longitude": -38.1253293
   },
   {
     "name": "Praia do Farol",
@@ -2632,92 +1424,12 @@
     "longitude": -38.4985271
   },
   {
-    "name": "Rota Tropical",
-    "neighborhood": "Cairu",
-    "city": "Cairu",
-    "state": "BA",
-    "latitude": -13.4908284,
-    "longitude": -39.0468826
-  },
-  {
-    "name": "Praia do Resende",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.2838864,
-    "longitude": -38.985149
-  },
-  {
-    "name": "Ribeira beach",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.2904461,
-    "longitude": -38.9848068
-  },
-  {
-    "name": "Praia de Algodões",
-    "neighborhood": "Maraú",
-    "city": "Maraú",
-    "state": "BA",
-    "latitude": -14.0752072,
-    "longitude": -38.955135
-  },
-  {
-    "name": "of Saquaíra beach",
-    "neighborhood": "Maraú",
-    "city": "Maraú",
-    "state": "BA",
-    "latitude": -14.0418386,
-    "longitude": -38.9492798
-  },
-  {
-    "name": "Itacarezinho Beach",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.3735455,
-    "longitude": -39.0080992
-  },
-  {
     "name": "Praia da Tiririca",
     "neighborhood": "Praia da Tiririca",
     "city": "Itacaré",
     "state": "BA",
     "latitude": -14.2861706,
     "longitude": -38.985385
-  },
-  {
-    "name": "Praia da Engenhoca",
-    "neighborhood": "Brasil",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.3526297,
-    "longitude": -39.0018886
-  },
-  {
-    "name": "Praia do Pontal",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.2720801,
-    "longitude": -38.9929918
-  },
-  {
-    "name": "Praia do Siriaco",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.292165,
-    "longitude": -38.9819384
-  },
-  {
-    "name": "Praia de Jeribucaçu",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.3449806,
-    "longitude": -39.0023054
   },
   {
     "name": "Concha Beach",
@@ -2728,30 +1440,6 @@
     "longitude": -38.9866546
   },
   {
-    "name": "Praia do Piracanga",
-    "neighborhood": "Brasil",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.2459492,
-    "longitude": -38.9944617
-  },
-  {
-    "name": "Praia da Costa",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.2884406,
-    "longitude": -38.98519539999999
-  },
-  {
-    "name": "Prainha",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.3084184,
-    "longitude": -38.9891333
-  },
-  {
     "name": "Praia de Pe de Serra",
     "neighborhood": "Sargi",
     "city": "Uruçuca",
@@ -2760,44 +1448,12 @@
     "longitude": -39.0341121
   },
   {
-    "name": "Praia da Coroa",
-    "neighborhood": "Itacaré",
-    "city": "Itacaré",
-    "state": "BA",
-    "latitude": -14.2767963,
-    "longitude": -38.9955341
-  },
-  {
-    "name": "Taipús de fora",
-    "neighborhood": "Maraú",
-    "city": "Maraú",
-    "state": "BA",
-    "latitude": -13.9308065,
-    "longitude": -38.9305989
-  },
-  {
-    "name": "Campinho",
-    "neighborhood": "Maraú",
-    "city": "Maraú",
-    "state": "BA",
-    "latitude": -13.910043,
-    "longitude": -38.988011
-  },
-  {
     "name": "Praia do Ramo",
     "neighborhood": "Ponta da Tulha",
     "city": "Ilhéus",
     "state": "BA",
     "latitude": -14.5916667,
     "longitude": -39.0541667
-  },
-  {
-    "name": "Praia Dos Milionários",
-    "neighborhood": "Coutos",
-    "city": "Ilhéus",
-    "state": "BA",
-    "latitude": -14.8649274,
-    "longitude": -39.0241127
   },
   {
     "name": "Praia do Sul",
@@ -2848,92 +1504,12 @@
     "longitude": -39.025
   },
   {
-    "name": "Balneário Tororomba",
-    "neighborhood": "Olivença",
-    "city": "Ilhéus",
-    "state": "BA",
-    "latitude": -14.9456695,
-    "longitude": -39.0149802
-  },
-  {
-    "name": "Balneário Do Rosário",
-    "neighborhood": "Ilhéus",
-    "city": "Ilhéus",
-    "state": "BA",
-    "latitude": -14.7381315,
-    "longitude": -39.0682233
-  },
-  {
-    "name": "Rio Almada, Fazenda Rosário",
-    "neighborhood": "Ilhéus",
-    "city": "Ilhéus",
-    "state": "BA",
-    "latitude": -14.735556,
-    "longitude": -39.068395
-  },
-  {
     "name": "Praia do Mutá",
     "neighborhood": "Praia de Mutá",
     "city": "Porto Seguro",
     "state": "BA",
     "latitude": -16.3463735,
     "longitude": -39.0097658
-  },
-  {
-    "name": "Praia Ponta Grande",
-    "neighborhood": "Porto Seguro",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.3757534,
-    "longitude": -39.0097046
-  },
-  {
-    "name": "Praia do Mundaí",
-    "neighborhood": "Porto Seguro",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.4086839,
-    "longitude": -39.0486137
-  },
-  {
-    "name": "Santo André Beach",
-    "neighborhood": "Brasil",
-    "city": "Santa Cruz Cabrália",
-    "state": "BA",
-    "latitude": -16.2497368,
-    "longitude": -39.0113568
-  },
-  {
-    "name": "Playa Toa-toa",
-    "neighborhood": "Porto Seguro",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.4040028,
-    "longitude": -39.0439698
-  },
-  {
-    "name": "Praia do Muta",
-    "neighborhood": "Brasil",
-    "city": "Santa Cruz Cabrália",
-    "state": "BA",
-    "latitude": -16.3442054,
-    "longitude": -39.0076247
-  },
-  {
-    "name": "Praia do Guaiamum",
-    "neighborhood": "Brasil",
-    "city": "Belmonte",
-    "state": "BA",
-    "latitude": -15.8687542,
-    "longitude": -38.862956
-  },
-  {
-    "name": "Taperapuan",
-    "neighborhood": "Porto Seguro",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.3815769,
-    "longitude": -39.0279223
   },
   {
     "name": "Praia de Coroa Vermelha",
@@ -2944,196 +1520,12 @@
     "longitude": -39.008005
   },
   {
-    "name": "Praia de Guaiu",
-    "neighborhood": "Brasil",
-    "city": "Santa Cruz Cabrália",
-    "state": "BA",
-    "latitude": -16.144276,
-    "longitude": -38.952101
-  },
-  {
-    "name": "Mundai",
-    "neighborhood": "Porto Seguro",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.409493,
-    "longitude": -39.047885
-  },
-  {
-    "name": "Itacimirim",
-    "neighborhood": "Porto Seguro",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.4230799,
-    "longitude": -39.0526437
-  },
-  {
-    "name": "Praia de Mutary",
-    "neighborhood": "Brasil",
-    "city": "Santa Cruz Cabrália",
-    "state": "BA",
-    "latitude": -16.2904109,
-    "longitude": -39.0230352
-  },
-  {
-    "name": "Praia Trancoso",
-    "neighborhood": "Trancoso",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.5895155,
-    "longitude": -39.0892381
-  },
-  {
-    "name": "Coqueiros Beach",
-    "neighborhood": "Trancoso",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.5978024,
-    "longitude": -39.0894203
-  },
-  {
-    "name": "Praia Da Paixão",
-    "neighborhood": "Prado",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.2556673,
-    "longitude": -39.2175657
-  },
-  {
-    "name": "Praia da Lagoa Pequena",
-    "neighborhood": "Prado",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.3331342,
-    "longitude": -39.2181724
-  },
-  {
-    "name": "Praia de Guaratiba",
-    "neighborhood": "Prado",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.418669,
-    "longitude": -39.200188
-  },
-  {
-    "name": "Amores Beach (Setiquara)",
-    "neighborhood": "Caraíva",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.721053,
-    "longitude": -39.1187096
-  },
-  {
-    "name": "Praia do Imbassuaba",
-    "neighborhood": "Cumuruxatiba",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.0532102,
-    "longitude": -39.17436110000001
-  },
-  {
-    "name": "Praia do Moreira",
-    "neighborhood": "Cumuruxatiba",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.0626873,
-    "longitude": -39.17147629999999
-  },
-  {
-    "name": "Mirror Beach",
-    "neighborhood": "Brasil",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.725713,
-    "longitude": -39.1224389
-  },
-  {
-    "name": "Praia de Curuipe",
-    "neighborhood": "Caraíva",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.7235227,
-    "longitude": -39.1213564
-  },
-  {
     "name": "Praia Novo Prado",
     "neighborhood": "Lagoa Pequena",
     "city": "Prado",
     "state": "BA",
     "latitude": -17.3345086,
     "longitude": -39.2178615
-  },
-  {
-    "name": "Praia",
-    "neighborhood": "Trancoso",
-    "city": "Porto Seguro",
-    "state": "BA",
-    "latitude": -16.613234,
-    "longitude": -39.094614
-  },
-  {
-    "name": "Praia do Centro",
-    "neighborhood": "Prado",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.343035,
-    "longitude": -39.21634299999999
-  },
-  {
-    "name": "Praia do Tororao",
-    "neighborhood": "Prado",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.239235,
-    "longitude": -39.213154
-  },
-  {
-    "name": "Praia do Peixe Grande",
-    "neighborhood": "Cumuruxatiba",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.082469,
-    "longitude": -39.1802929
-  },
-  {
-    "name": "Praia da Barra do Cahy",
-    "neighborhood": "Brasil",
-    "city": "Prado",
-    "state": "BA",
-    "latitude": -17.0131035,
-    "longitude": -39.1724921
-  },
-  {
-    "name": "Praia do Riacho Doce",
-    "neighborhood": "Mucuri",
-    "city": "Mucuri",
-    "state": "BA",
-    "latitude": -18.3474329,
-    "longitude": -39.66930809999999
-  },
-  {
-    "name": "Praia Lugar Comum",
-    "neighborhood": "Nova Viçosa",
-    "city": "Nova Viçosa",
-    "state": "BA",
-    "latitude": -17.9069508,
-    "longitude": -39.3697111
-  },
-  {
-    "name": "Praia Gesuel",
-    "neighborhood": "Mucuri",
-    "city": "Mucuri",
-    "state": "BA",
-    "latitude": -18.198967,
-    "longitude": -39.6177763
-  },
-  {
-    "name": "Praia da Barra",
-    "neighborhood": "Alcobaça",
-    "city": "Alcobaça",
-    "state": "BA",
-    "latitude": -17.551479,
-    "longitude": -39.189445
   },
   {
     "name": "Praia Gesuel - Mucuri, Bahia",
@@ -3144,14 +1536,6 @@
     "longitude": -39.62103370000001
   },
   {
-    "name": "Praia Dona Lloyd",
-    "neighborhood": "Alcobaça",
-    "city": "Alcobaça",
-    "state": "BA",
-    "latitude": -17.5484555,
-    "longitude": -39.1898801
-  },
-  {
     "name": "Praia de Guriri",
     "neighborhood": "Guriri Norte",
     "city": "São Mateus",
@@ -3160,76 +1544,12 @@
     "longitude": -39.7465908
   },
   {
-    "name": "Praia de Urussuquara",
-    "neighborhood": "Pontal do Ipiranga",
-    "city": "Linhares",
-    "state": "ES",
-    "latitude": -19.0995423,
-    "longitude": -39.7194778
-  },
-  {
-    "name": "Ipiranga Pontal Beach",
-    "neighborhood": "Pontal do Ipiranga",
-    "city": "Linhares",
-    "state": "ES",
-    "latitude": -19.1984891,
-    "longitude": -39.70575729999999
-  },
-  {
     "name": "Bosque da Praia, Ilha De Guriri",
     "neighborhood": "Bom Jesus",
     "city": "São Mateus",
     "state": "ES",
     "latitude": -18.7715744,
     "longitude": -39.74834240000001
-  },
-  {
-    "name": "Praia da Gameleira",
-    "neighborhood": "Barra Nova",
-    "city": "São Mateus",
-    "state": "ES",
-    "latitude": -18.898308,
-    "longitude": -39.746029
-  },
-  {
-    "name": "Praia da Barra",
-    "neighborhood": "Conceição da Barra",
-    "city": "Conceição da Barra",
-    "state": "ES",
-    "latitude": -18.590591,
-    "longitude": -39.7293198
-  },
-  {
-    "name": "Praia do Ranchinho",
-    "neighborhood": "Barra Nova",
-    "city": "São Mateus",
-    "state": "ES",
-    "latitude": -18.841196,
-    "longitude": -39.750526
-  },
-  {
-    "name": "Praia Barra Nova",
-    "neighborhood": "Barra Nova",
-    "city": "São Mateus",
-    "state": "ES",
-    "latitude": -18.977444,
-    "longitude": -39.73774
-  },
-  {
-    "name": "Praia do Caramujo",
-    "neighborhood": "Barra Nova",
-    "city": "São Mateus",
-    "state": "ES",
-    "latitude": -18.803495,
-    "longitude": -39.750095
-  },
-  {
-    "name": "Praia do Farol",
-    "neighborhood": "Conceição da Barra",
-    "city": "Conceição da Barra",
-    "state": "ES",
-    "latitude": -18.5953841,
-    "longitude": -39.7289064
   },
   {
     "name": "Praia de Itaparica",
@@ -3272,14 +1592,6 @@
     "longitude": -40.196386
   },
   {
-    "name": "Praia do Morcego",
-    "neighborhood": "Guarapari",
-    "city": "Guarapari",
-    "state": "ES",
-    "latitude": -20.6326588,
-    "longitude": -40.4693158
-  },
-  {
     "name": "Praia Do Sol",
     "neighborhood": "Interlagos",
     "city": "Vila Velha",
@@ -3296,14 +1608,6 @@
     "longitude": -40.18907069999999
   },
   {
-    "name": "Praia de Costa Bela",
-    "neighborhood": "Nova Almeida",
-    "city": "Serra",
-    "state": "ES",
-    "latitude": -20.1006845,
-    "longitude": -40.173452
-  },
-  {
     "name": "Praia de Guaibura",
     "neighborhood": "Enseada Azul",
     "city": "Guarapari",
@@ -3318,14 +1622,6 @@
     "state": "ES",
     "latitude": -20.7389114,
     "longitude": -40.536954
-  },
-  {
-    "name": "Praia dos Padres",
-    "neighborhood": "Guarapari",
-    "city": "Guarapari",
-    "state": "ES",
-    "latitude": -20.7355101,
-    "longitude": -40.5332988
   },
   {
     "name": "Praia da Fonte",
@@ -3368,28 +1664,12 @@
     "longitude": -40.1729555
   },
   {
-    "name": "Praia de São Pedro",
-    "neighborhood": "Guarapari",
-    "city": "Guarapari",
-    "state": "ES",
-    "latitude": -20.6623966,
-    "longitude": -40.49661
-  },
-  {
     "name": "Praia do Sol",
     "neighborhood": "Interlagos",
     "city": "Vila Velha",
     "state": "ES",
     "latitude": -20.529048,
     "longitude": -40.372368
-  },
-  {
-    "name": "Praia do Sauê pedra do Urubu",
-    "neighborhood": "Santa Cruz",
-    "city": "Aracruz",
-    "state": "ES",
-    "latitude": -19.9313101,
-    "longitude": -40.1165718
   },
   {
     "name": "Praia da Cerca Lado Sul",
@@ -3480,14 +1760,6 @@
     "longitude": -40.3225246
   },
   {
-    "name": "Praia d'Ulé",
-    "neighborhood": "Guarapari",
-    "city": "Guarapari",
-    "state": "ES",
-    "latitude": -20.5423388,
-    "longitude": -40.3812471
-  },
-  {
     "name": "Praia do Bananal",
     "neighborhood": "Praia da Costa",
     "city": "Vila Velha",
@@ -3552,28 +1824,52 @@
     "longitude": -40.6923653
   },
   {
-    "name": "Praia Do Pau Grande",
-    "neighborhood": "Piúma",
+    "name": "Praia do Portinho",
+    "neighborhood": "Loteamento Portinho",
     "city": "Piúma",
     "state": "ES",
-    "latitude": -20.8379707,
-    "longitude": -40.7089538
+    "latitude": -20.841825,
+    "longitude": -40.713196
   },
   {
-    "name": "Praia Doce",
-    "neighborhood": "Guarapari",
-    "city": "Guarapari",
-    "state": "ES",
-    "latitude": -20.752873,
-    "longitude": -40.565514
-  },
-  {
-    "name": "Praia do Sapê",
-    "neighborhood": "Anchieta",
+    "name": "Praia da Areia Preta",
+    "neighborhood": "Iriri",
     "city": "Anchieta",
     "state": "ES",
-    "latitude": -20.8206969,
-    "longitude": -40.6758298
+    "latitude": -20.8331652,
+    "longitude": -40.6969891
+  },
+  {
+    "name": "Praia Maria Nenem",
+    "neighborhood": "Loteamento Monte Agha",
+    "city": "Piúma",
+    "state": "ES",
+    "latitude": -20.85677,
+    "longitude": -40.753555
+  },
+  {
+    "name": "Praia Areia Preta",
+    "neighborhood": "Centro",
+    "city": "Guarapari",
+    "state": "ES",
+    "latitude": -20.6764784,
+    "longitude": -40.5018228
+  },
+  {
+    "name": "Praia dos Namorados",
+    "neighborhood": "Iriri",
+    "city": "Anchieta",
+    "state": "ES",
+    "latitude": -20.828567,
+    "longitude": -40.6909343
+  },
+  {
+    "name": "Praia das Virtudes",
+    "neighborhood": "Centro",
+    "city": "Guarapari",
+    "state": "ES",
+    "latitude": -20.6693422,
+    "longitude": -40.4933548
   },
   {
     "name": "Nova Orla de Guarapari",
@@ -3582,22 +1878,6 @@
     "state": "ES",
     "latitude": -20.6696341,
     "longitude": -40.5000335
-  },
-  {
-    "name": "Praia da Areia Vermelha",
-    "neighborhood": "Guarapari",
-    "city": "Guarapari",
-    "state": "ES",
-    "latitude": -20.6580909,
-    "longitude": -40.474929
-  },
-  {
-    "name": "Praia das Neves",
-    "neighborhood": "Barra Seca",
-    "city": "São Francisco de Itabapoana",
-    "state": "RJ",
-    "latitude": -21.3032421,
-    "longitude": -40.9577415
   },
   {
     "name": "Praia Grussaí",
@@ -3616,48 +1896,8 @@
     "longitude": -41.0187368
   },
   {
-    "name": "Praia do Furado",
-    "neighborhood": "Quissamã",
-    "city": "Quissamã",
-    "state": "RJ",
-    "latitude": -22.1166667,
-    "longitude": -41.16666670000001
-  },
-  {
-    "name": "Praia Barra do Açu",
-    "neighborhood": "Brasil",
-    "city": "São João da Barra",
-    "state": "RJ",
-    "latitude": -21.904501,
-    "longitude": -40.9834179
-  },
-  {
-    "name": "Praia do Farol",
-    "neighborhood": "Santo Amaro de Campos",
-    "city": "Campos dos Goytacazes",
-    "state": "RJ",
-    "latitude": -22.0457947,
-    "longitude": -41.0564702
-  },
-  {
-    "name": "Praia de Atafona",
-    "neighborhood": "Atafona",
-    "city": "São João da Barra",
-    "state": "RJ",
-    "latitude": -21.621409,
-    "longitude": -41.013016
-  },
-  {
-    "name": "Praia do Paulista",
-    "neighborhood": "Quissamã",
-    "city": "Quissamã",
-    "state": "RJ",
-    "latitude": -22.2,
-    "longitude": -41.45
-  },
-  {
     "name": "Praia de Nossa Senhora de Fátima",
-    "neighborhood": "São Francisco de Itabapoana",
+    "neighborhood": "Centro",
     "city": "São Francisco de Itabapoana",
     "state": "RJ",
     "latitude": -21.5528418,
@@ -3678,14 +1918,6 @@
     "state": "RJ",
     "latitude": -23.0356564,
     "longitude": -43.4962087
-  },
-  {
-    "name": "Ponta Negra",
-    "neighborhood": "Ponta Negra",
-    "city": "Maricá",
-    "state": "RJ",
-    "latitude": -22.9608701,
-    "longitude": -42.6916453
   },
   {
     "name": "Praia da Reserva",
@@ -3776,14 +2008,6 @@
     "longitude": -43.3200848
   },
   {
-    "name": "The Sacristy beach",
-    "neighborhood": "Ponta Negra",
-    "city": "Maricá",
-    "state": "RJ",
-    "latitude": -22.9504283,
-    "longitude": -42.6824409
-  },
-  {
     "name": "Praia do Perigoso",
     "neighborhood": "Grumari",
     "city": "Rio de Janeiro",
@@ -3840,14 +2064,6 @@
     "longitude": -43.4772563
   },
   {
-    "name": "Praia da Tijuca",
-    "neighborhood": "Brasil",
-    "city": "Rio de Janeiro",
-    "state": "RJ",
-    "latitude": -23.0166667,
-    "longitude": -43.3166667
-  },
-  {
     "name": "Macumba Beach",
     "neighborhood": "Recreio dos Bandeirantes",
     "city": "Rio de Janeiro",
@@ -3864,20 +2080,20 @@
     "longitude": -43.06612
   },
   {
-    "name": "Praia do Pepino",
-    "neighborhood": "São Conrado",
-    "city": "Rio de Janeiro",
-    "state": "RJ",
-    "latitude": -23.0014496,
-    "longitude": -43.2724342
-  },
-  {
     "name": "Praia da Boa Viagem",
     "neighborhood": "Ingá",
     "city": "Niterói",
     "state": "RJ",
     "latitude": -22.9079217,
     "longitude": -43.1283043
+  },
+  {
+    "name": "Praia do Pepino",
+    "neighborhood": "São Conrado",
+    "city": "Rio de Janeiro",
+    "state": "RJ",
+    "latitude": -23.0014496,
+    "longitude": -43.2724342
   },
   {
     "name": "Praia da Joatinga",
@@ -3904,20 +2120,20 @@
     "longitude": -43.5263889
   },
   {
-    "name": "Praia do Meio",
-    "neighborhood": "Grumari",
-    "city": "Rio de Janeiro",
-    "state": "RJ",
-    "latitude": -23.0663214,
-    "longitude": -43.5511305
-  },
-  {
     "name": "Praia da Urca",
     "neighborhood": "Urca",
     "city": "Rio de Janeiro",
     "state": "RJ",
     "latitude": -22.9479438,
     "longitude": -43.1633395
+  },
+  {
+    "name": "Praia do Meio",
+    "neighborhood": "Grumari",
+    "city": "Rio de Janeiro",
+    "state": "RJ",
+    "latitude": -23.0663214,
+    "longitude": -43.5511305
   },
   {
     "name": "Praia da Gávea",
@@ -3936,14 +2152,6 @@
     "longitude": -43.18531
   },
   {
-    "name": "Praia do Flamengo",
-    "neighborhood": "Brasil",
-    "city": "Rio de Janeiro",
-    "state": "RJ",
-    "latitude": -22.927567,
-    "longitude": -43.170552
-  },
-  {
     "name": "Praia das Conchas",
     "neighborhood": "Barra de Guaratiba",
     "city": "Rio de Janeiro",
@@ -3952,12 +2160,12 @@
     "longitude": -43.5541632
   },
   {
-    "name": "Praia de Jacone",
-    "neighborhood": "Ponta Negra",
-    "city": "Maricá",
+    "name": "Praia do Inferno",
+    "neighborhood": "Grumari",
+    "city": "Rio de Janeiro",
     "state": "RJ",
-    "latitude": -22.9454101,
-    "longitude": -42.6799559
+    "latitude": -23.0594069,
+    "longitude": -43.5459405
   },
   {
     "name": "Prainha Beach",
@@ -3968,12 +2176,12 @@
     "longitude": -43.5057336
   },
   {
-    "name": "Praia do Inferno",
-    "neighborhood": "Grumari",
+    "name": "Praia da Marambaia",
+    "neighborhood": "Guaratiba",
     "city": "Rio de Janeiro",
     "state": "RJ",
-    "latitude": -23.0594069,
-    "longitude": -43.5459405
+    "latitude": -23.0544078,
+    "longitude": -43.5818667
   },
   {
     "name": "Itaipu Beach",
@@ -3990,14 +2198,6 @@
     "state": "RJ",
     "latitude": -22.9745131,
     "longitude": -43.0338532
-  },
-  {
-    "name": "Praia da Marambaia",
-    "neighborhood": "Guaratiba",
-    "city": "Rio de Janeiro",
-    "state": "RJ",
-    "latitude": -23.0544078,
-    "longitude": -43.5818667
   },
   {
     "name": "Praia Marica",
@@ -4032,28 +2232,12 @@
     "longitude": -43.1988889
   },
   {
-    "name": "Praia do Coqueiro",
-    "neighborhood": "Brasil",
-    "city": "Rio de Janeiro",
-    "state": "RJ",
-    "latitude": -22.754922,
-    "longitude": -43.1191933
-  },
-  {
     "name": "Abricó Beach",
     "neighborhood": "Grumari",
     "city": "Rio de Janeiro",
     "state": "RJ",
     "latitude": -23.0483214,
     "longitude": -43.5235089
-  },
-  {
-    "name": "Praia da Aeronautica",
-    "neighborhood": "Brasil",
-    "city": "Maricá",
-    "state": "RJ",
-    "latitude": -22.9678723,
-    "longitude": -42.8878429
   },
   {
     "name": "San Francisco Beach",
@@ -4094,22 +2278,6 @@
     "state": "RJ",
     "latitude": -23.0155929,
     "longitude": -43.3064687
-  },
-  {
-    "name": "Praia da Ribeira",
-    "neighborhood": "Brasil",
-    "city": "Rio de Janeiro",
-    "state": "RJ",
-    "latitude": -22.8231342,
-    "longitude": -43.1653592
-  },
-  {
-    "name": "Praia de Guaratiba",
-    "neighborhood": "Brasil",
-    "city": "Maricá",
-    "state": "RJ",
-    "latitude": -22.9621685,
-    "longitude": -42.8375878
   },
   {
     "name": "Botafogo Beach",
@@ -4160,14 +2328,6 @@
     "longitude": -44.7178105
   },
   {
-    "name": "Lula Beach",
-    "neighborhood": "Paraty",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.1966418,
-    "longitude": -44.629248
-  },
-  {
     "name": "Praia Do Português(Félix)",
     "neighborhood": "Praia do Félix (Praia do Lúcio)",
     "city": "Ubatuba",
@@ -4176,36 +2336,12 @@
     "longitude": -44.9711019
   },
   {
-    "name": "Praia do Léo",
-    "neighborhood": "Ubatuba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3714849,
-    "longitude": -44.9502533
-  },
-  {
     "name": "Praia da Vila Residencial",
     "neighborhood": "Vila Operária de Mambucaba",
     "city": "Paraty",
     "state": "RJ",
     "latitude": -23.030548,
     "longitude": -44.5407829
-  },
-  {
-    "name": "Coconut Beach",
-    "neighborhood": "Tarituba",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.0372744,
-    "longitude": -44.5579679
-  },
-  {
-    "name": "Praia Sao Gonçalinho",
-    "neighborhood": "Tarituba",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.0478093,
-    "longitude": -44.6095193
   },
   {
     "name": "Praia das Conchas",
@@ -4222,14 +2358,6 @@
     "state": "RJ",
     "latitude": -22.956626,
     "longitude": -44.0234069
-  },
-  {
-    "name": "Praia do Meio",
-    "neighborhood": "Ubatuba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.363388,
-    "longitude": -44.9480466
   },
   {
     "name": "Historica Beach Village Mambucaba",
@@ -4264,14 +2392,6 @@
     "longitude": -44.0159723
   },
   {
-    "name": "Praia do Laboratório",
-    "neighborhood": "Cunhambebe",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.0103147,
-    "longitude": -44.4450053
-  },
-  {
     "name": "Praia do Estaleiro",
     "neighborhood": "Ubatumirim",
     "city": "Ubatuba",
@@ -4280,36 +2400,12 @@
     "longitude": -44.8818224
   },
   {
-    "name": "Praia da Bica",
-    "neighborhood": "Abraão",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.1408829,
-    "longitude": -44.15943860000001
-  },
-  {
     "name": "Praia da Puruba",
     "neighborhood": "Puruba",
     "city": "Ubatuba",
     "state": "SP",
     "latitude": -23.3548394,
     "longitude": -44.9368791
-  },
-  {
-    "name": "Praia das Conchas",
-    "neighborhood": "Picinguaba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3629145,
-    "longitude": -44.8792658
-  },
-  {
-    "name": "Praia do Prumirim",
-    "neighborhood": "Prumirim",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3794173,
-    "longitude": -44.9582686
   },
   {
     "name": "Praia Do Careca",
@@ -4328,20 +2424,20 @@
     "longitude": -44.3540812
   },
   {
+    "name": "Praia do Prumirim",
+    "neighborhood": "Prumirim",
+    "city": "Ubatuba",
+    "state": "SP",
+    "latitude": -23.3794173,
+    "longitude": -44.9582686
+  },
+  {
     "name": "Praia do Rancho",
     "neighborhood": "Trindade",
     "city": "Paraty",
     "state": "RJ",
     "latitude": -23.3517073,
     "longitude": -44.7224128
-  },
-  {
-    "name": "Praia Das Laranjeiras",
-    "neighborhood": "Paraty-Mirim",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.337468,
-    "longitude": -44.6731014
   },
   {
     "name": "Praia Canto Itaipu",
@@ -4352,14 +2448,6 @@
     "longitude": -44.9533906
   },
   {
-    "name": "Cepilho beach",
-    "neighborhood": "Trindade",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.3471188,
-    "longitude": -44.7196149
-  },
-  {
     "name": "Praia Das Gordas",
     "neighborhood": "Praia Grande",
     "city": "Angra dos Reis",
@@ -4368,36 +2456,20 @@
     "longitude": -44.3338841
   },
   {
+    "name": "Cepilho beach",
+    "neighborhood": "Trindade",
+    "city": "Paraty",
+    "state": "RJ",
+    "latitude": -23.3471188,
+    "longitude": -44.7196149
+  },
+  {
     "name": "Lopes Mendes Beach",
-    "neighborhood": "Abraão",
+    "neighborhood": "Enseada das Palmas",
     "city": "Angra dos Reis",
     "state": "RJ",
     "latitude": -23.1669785,
     "longitude": -44.1392836
-  },
-  {
-    "name": "Praia do Sul",
-    "neighborhood": "Abraão",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.1765297,
-    "longitude": -44.2921554
-  },
-  {
-    "name": "Praia do Sono",
-    "neighborhood": "Paraty-Mirim",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.3369633,
-    "longitude": -44.6288426
-  },
-  {
-    "name": "Taquara beach",
-    "neighborhood": "Picinguaba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3587962,
-    "longitude": -44.87071479999999
   },
   {
     "name": "Middle Beach",
@@ -4408,22 +2480,6 @@
     "longitude": -44.724632
   },
   {
-    "name": "Praia de Ponta Negra",
-    "neighborhood": "Paraty-Mirim",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.3475637,
-    "longitude": -44.6068783
-  },
-  {
-    "name": "Waterfall Beach",
-    "neighborhood": "Abraão",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.1438598,
-    "longitude": -44.319942
-  },
-  {
     "name": "Praia Grande",
     "neighborhood": "Conceição de Jacareí",
     "city": "Mangaratiba",
@@ -4432,172 +2488,12 @@
     "longitude": -44.0968481
   },
   {
-    "name": "Praia da pitanga",
-    "neighborhood": "Paraty",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.1418346,
-    "longitude": -44.6958117
-  },
-  {
-    "name": "Praia Brava da Almada",
-    "neighborhood": "Picinguaba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3628887,
-    "longitude": -44.87992089999999
-  },
-  {
-    "name": "Praia da Fazenda",
-    "neighborhood": "Picinguaba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3568525,
-    "longitude": -44.8642888
-  },
-  {
     "name": "Cachadaço beach",
-    "neighborhood": "Paraty-Mirim",
+    "neighborhood": "Trindade",
     "city": "Paraty",
     "state": "RJ",
     "latitude": -23.3553186,
     "longitude": -44.7294965
-  },
-  {
-    "name": "Praia de Picinguaba",
-    "neighborhood": "Picinguaba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3779954,
-    "longitude": -44.838049
-  },
-  {
-    "name": "Praia da Bica",
-    "neighborhood": "Angra dos Reis",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.0185868,
-    "longitude": -44.3603572
-  },
-  {
-    "name": "Praia da Guariba",
-    "neighborhood": "Piraquara",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.000267,
-    "longitude": -44.4401969
-  },
-  {
-    "name": "Praia do Surutuba",
-    "neighborhood": "Picinguaba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3422116,
-    "longitude": -44.9132745
-  },
-  {
-    "name": "Caetés of beach",
-    "neighborhood": "Caetés",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.0425575,
-    "longitude": -44.1761542
-  },
-  {
-    "name": "Anil Beach",
-    "neighborhood": "Praia do Anil",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.0057871,
-    "longitude": -44.3106881
-  },
-  {
-    "name": "Praia da Tapera",
-    "neighborhood": "Abraão",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.1376106,
-    "longitude": -44.2896034
-  },
-  {
-    "name": "Praia do Abrãao",
-    "neighborhood": "Vila do Abraão",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.1384167,
-    "longitude": -44.1692086
-  },
-  {
-    "name": "Praia do Saco",
-    "neighborhood": "Praia Do Saco",
-    "city": "Mangaratiba",
-    "state": "RJ",
-    "latitude": -22.9453687,
-    "longitude": -44.0429708
-  },
-  {
-    "name": "Praia d'Ana",
-    "neighborhood": "Conceição de Jacareí",
-    "city": "Mangaratiba",
-    "state": "RJ",
-    "latitude": -23.0309205,
-    "longitude": -44.1295749
-  },
-  {
-    "name": "Praia do Leste",
-    "neighborhood": "Abraão",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.1779198,
-    "longitude": -44.27735939999999
-  },
-  {
-    "name": "Pouso Beach",
-    "neighborhood": "Enseada das Palmas",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.1590695,
-    "longitude": -44.13916440000001
-  },
-  {
-    "name": "Praia da Fazenda",
-    "neighborhood": "Paraty-Mirim",
-    "city": "Paraty",
-    "state": "RJ",
-    "latitude": -23.3394111,
-    "longitude": -44.6632014
-  },
-  {
-    "name": "Praia de Maguaratiba",
-    "neighborhood": "Marina",
-    "city": "Mangaratiba",
-    "state": "RJ",
-    "latitude": -22.9554791,
-    "longitude": -44.0782766
-  },
-  {
-    "name": "Praia de Dois Rios",
-    "neighborhood": "Abraão",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.181336,
-    "longitude": -44.1873002
-  },
-  {
-    "name": "Praia do Lança",
-    "neighborhood": "Prumirim",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.3791429,
-    "longitude": -44.9508743
-  },
-  {
-    "name": "Praia de Guaxuma",
-    "neighborhood": "Abraão",
-    "city": "Angra dos Reis",
-    "state": "RJ",
-    "latitude": -23.1361992,
-    "longitude": -44.156711
   },
   {
     "name": "Praia Da Lagoinha",
@@ -4606,22 +2502,6 @@
     "state": "SP",
     "latitude": -23.5198202,
     "longitude": -45.1981802
-  },
-  {
-    "name": "Praia da Ribeira",
-    "neighborhood": "Ubatuba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.5075202,
-    "longitude": -45.1140325
-  },
-  {
-    "name": "Praia Vermelha Do Norte",
-    "neighborhood": "Ubatuba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.4163892,
-    "longitude": -45.0359798
   },
   {
     "name": "Praia da Barra Seca",
@@ -4640,22 +2520,6 @@
     "longitude": -45.2287382
   },
   {
-    "name": "Boiçucanga",
-    "neighborhood": "Maresias",
-    "city": "São Sebastião",
-    "state": "SP",
-    "latitude": -23.7841853,
-    "longitude": -45.6300931
-  },
-  {
-    "name": "Praia do Bonete",
-    "neighborhood": "Ubatuba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.536205,
-    "longitude": -45.1864821
-  },
-  {
     "name": "Praia do Centro",
     "neighborhood": "Centro",
     "city": "São Sebastião",
@@ -4672,28 +2536,12 @@
     "longitude": -45.0624282
   },
   {
-    "name": "Praia da Barra",
-    "neighborhood": "Ubatuba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.4975022,
-    "longitude": -45.1633076
-  },
-  {
     "name": "Praia do Lamberto",
     "neighborhood": "Pereque-Mirim",
     "city": "Ubatuba",
     "state": "SP",
     "latitude": -23.4960923,
     "longitude": -45.1115156
-  },
-  {
-    "name": "Praia do Camaroeiro",
-    "neighborhood": "Caraguatatuba",
-    "city": "Caraguatatuba",
-    "state": "SP",
-    "latitude": -23.6239194,
-    "longitude": -45.3992599
   },
   {
     "name": "Bonete Beach",
@@ -4750,14 +2598,6 @@
     "state": "SP",
     "latitude": -23.5768678,
     "longitude": -45.2763783
-  },
-  {
-    "name": "Praia Grande",
-    "neighborhood": "Ubatuba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.4718187,
-    "longitude": -45.0662928
   },
   {
     "name": "Praia de Camburizinho",
@@ -4880,60 +2720,20 @@
     "longitude": -45.0694641
   },
   {
-    "name": "Praia das Sete Pontas",
-    "neighborhood": "Ubatuba",
-    "city": "Ubatuba",
-    "state": "SP",
-    "latitude": -23.5193933,
-    "longitude": -45.1137215
-  },
-  {
-    "name": "Engenho Beach",
-    "neighborhood": "Maresias",
-    "city": "São Sebastião",
-    "state": "SP",
-    "latitude": -23.7641218,
-    "longitude": -45.7806856
-  },
-  {
-    "name": "Praia do Barro",
-    "neighborhood": "Praia do Ventura",
-    "city": "São Sebastião",
-    "state": "SP",
-    "latitude": -23.7262485,
-    "longitude": -45.407045
-  },
-  {
-    "name": "Maresias Beach",
-    "neighborhood": "Maresias",
-    "city": "São Sebastião",
-    "state": "SP",
-    "latitude": -23.7914022,
-    "longitude": -45.5678067
-  },
-  {
-    "name": "Praia de Calhetas",
-    "neighborhood": "Brasil",
-    "city": "São Sebastião",
-    "state": "SP",
-    "latitude": -23.8314705,
-    "longitude": -45.5214551
-  },
-  {
-    "name": "Praia da Caveira",
-    "neighborhood": "Paranabi",
-    "city": "Ilhabela",
-    "state": "SP",
-    "latitude": -23.8254432,
-    "longitude": -45.2482222
-  },
-  {
     "name": "Praia do Romance",
     "neighborhood": "Porto Novo",
     "city": "Caraguatatuba",
     "state": "SP",
     "latitude": -23.6746056,
     "longitude": -45.4317234
+  },
+  {
+    "name": "Praia Brava/Praia da Tartaruga/Kikito",
+    "neighborhood": "Portinho",
+    "city": "Ilhabela",
+    "state": "SP",
+    "latitude": -23.8415683,
+    "longitude": -45.4016659
   },
   {
     "name": "Cocanha Beach",
@@ -4960,6 +2760,14 @@
     "longitude": -45.292503
   },
   {
+    "name": "Tenório’s Beach",
+    "neighborhood": "Tenório (Praia Vermelha)",
+    "city": "Ubatuba",
+    "state": "SP",
+    "latitude": -23.4631267,
+    "longitude": -45.05926170000001
+  },
+  {
     "name": "Praia da Enseada",
     "neighborhood": "Enseada",
     "city": "Ubatuba",
@@ -4968,44 +2776,20 @@
     "longitude": -45.0908504
   },
   {
-    "name": "Praia da Mococa",
-    "neighborhood": "Praia Da Mococa",
-    "city": "Caraguatatuba",
-    "state": "SP",
-    "latitude": -23.573451,
-    "longitude": -45.3027595
-  },
-  {
-    "name": "Praia Brava/Praia da Tartaruga/Kikito",
-    "neighborhood": "Portinho",
-    "city": "Ilhabela",
-    "state": "SP",
-    "latitude": -23.8415683,
-    "longitude": -45.4016659
-  },
-  {
-    "name": "Praia do Zimbro",
-    "neighborhood": "Brasil",
+    "name": "Praia do Barro",
+    "neighborhood": "Praia do Ventura",
     "city": "São Sebastião",
     "state": "SP",
-    "latitude": -23.8238784,
-    "longitude": -45.41850669999999
+    "latitude": -23.7262485,
+    "longitude": -45.407045
   },
   {
-    "name": "Praia da Enseada",
-    "neighborhood": "Vapapesca",
-    "city": "Caraguatatuba",
+    "name": "Itamambuca Beach",
+    "neighborhood": "Praia do Itamambuca",
+    "city": "Ubatuba",
     "state": "SP",
-    "latitude": -23.7102776,
-    "longitude": -45.426972
-  },
-  {
-    "name": "Praia do Itaguá",
-    "neighborhood": "Boraceia",
-    "city": "Bertioga",
-    "state": "SP",
-    "latitude": -23.7604543,
-    "longitude": -45.8750221
+    "latitude": -23.4044778,
+    "longitude": -45.0071404
   },
   {
     "name": "Veloso Beach",
@@ -5016,6 +2800,14 @@
     "longitude": -45.4354013
   },
   {
+    "name": "Maresias Beach",
+    "neighborhood": "Maresias",
+    "city": "São Sebastião",
+    "state": "SP",
+    "latitude": -23.7914022,
+    "longitude": -45.5678067
+  },
+  {
     "name": "Praia da Armação",
     "neighborhood": "Armação",
     "city": "Ilhabela",
@@ -5024,12 +2816,12 @@
     "longitude": -45.3456086
   },
   {
-    "name": "Tenório’s Beach",
-    "neighborhood": "Tenório (Praia Vermelha)",
-    "city": "Ubatuba",
+    "name": "Praia da Enseada",
+    "neighborhood": "Vapapesca",
+    "city": "Caraguatatuba",
     "state": "SP",
-    "latitude": -23.4631267,
-    "longitude": -45.05926170000001
+    "latitude": -23.7102776,
+    "longitude": -45.426972
   },
   {
     "name": "Praia do José Menino",
@@ -5120,22 +2912,6 @@
     "longitude": -46.3093209
   },
   {
-    "name": "Góis Beach",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
-    "state": "SP",
-    "latitude": -24,
-    "longitude": -46.3166667
-  },
-  {
-    "name": "Astúrias Beach",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
-    "state": "SP",
-    "latitude": -24.0071716,
-    "longitude": -46.26846380000001
-  },
-  {
     "name": "Pitangueiras Beach",
     "neighborhood": "Centro",
     "city": "Guarujá",
@@ -5158,14 +2934,6 @@
     "state": "SP",
     "latitude": -23.9702282,
     "longitude": -46.33668309999999
-  },
-  {
-    "name": "Praia de São Pedro",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
-    "state": "SP",
-    "latitude": -23.9075133,
-    "longitude": -46.1635582
   },
   {
     "name": "Praia de Itaquitanduva",
@@ -5192,12 +2960,12 @@
     "longitude": -46.1180534
   },
   {
-    "name": "Praia do Goes",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
+    "name": "Praia de Paranapuã",
+    "neighborhood": "Japuí",
+    "city": "São Vicente",
     "state": "SP",
-    "latitude": -23.9986434,
-    "longitude": -46.3152838
+    "latitude": -23.9848019,
+    "longitude": -46.3794816
   },
   {
     "name": "Mar Casado Beach",
@@ -5216,6 +2984,22 @@
     "longitude": -46.27296860000001
   },
   {
+    "name": "Praia Grande",
+    "neighborhood": "Canto do Forte",
+    "city": "Praia Grande",
+    "state": "SP",
+    "latitude": -24.0166667,
+    "longitude": -46.4
+  },
+  {
+    "name": "Aparecida Beach",
+    "neighborhood": "Aparecida",
+    "city": "Santos",
+    "state": "SP",
+    "latitude": -23.98128,
+    "longitude": -46.312884
+  },
+  {
     "name": "São Lourenco Beach",
     "neighborhood": "Riviera de São Lourenço",
     "city": "Bertioga",
@@ -5232,12 +3016,12 @@
     "longitude": -46.18519999999999
   },
   {
-    "name": "Praia do Iporanga",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
+    "name": "Itararé Beach",
+    "neighborhood": "Itararé",
+    "city": "São Vicente",
     "state": "SP",
-    "latitude": -23.9,
-    "longitude": -46.1666667
+    "latitude": -23.9702685,
+    "longitude": -46.3619567
   },
   {
     "name": "Indaiá Beach",
@@ -5248,20 +3032,20 @@
     "longitude": -46.0643688
   },
   {
-    "name": "Praia de Paranapuã",
-    "neighborhood": "Japuí",
-    "city": "São Vicente",
+    "name": "Praia Central",
+    "neighborhood": "Centro",
+    "city": "Mongaguá",
     "state": "SP",
-    "latitude": -23.9848019,
-    "longitude": -46.3794816
+    "latitude": -24.0981004,
+    "longitude": -46.6237801
   },
   {
-    "name": "Praia das Conchas - Guarujá - SP",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
+    "name": "Praia Jardim Real",
+    "neighborhood": "Jardim Imperador",
+    "city": "Praia Grande",
     "state": "SP",
-    "latitude": -23.9068727,
-    "longitude": -46.1563205
+    "latitude": -24.0634701,
+    "longitude": -46.5518094
   },
   {
     "name": "Praia do Balneário Maracanã",
@@ -5280,14 +3064,6 @@
     "longitude": -46.34258940000001
   },
   {
-    "name": "Aviation Beach",
-    "neighborhood": "Aviação",
-    "city": "Praia Grande",
-    "state": "SP",
-    "latitude": -24.01908,
-    "longitude": -46.44165150000001
-  },
-  {
     "name": "Praia do Forte",
     "neighborhood": "Canto do Forte",
     "city": "Praia Grande",
@@ -5296,12 +3072,12 @@
     "longitude": -46.4048917
   },
   {
-    "name": "Praia de Itaquitanduva",
-    "neighborhood": "Praia Grande",
-    "city": "Praia Grande",
+    "name": "Praia do Itaguá",
+    "neighborhood": "Boraceia",
+    "city": "Bertioga",
     "state": "SP",
-    "latitude": -24.003868,
-    "longitude": -46.3902899
+    "latitude": -23.7604543,
+    "longitude": -45.8750221
   },
   {
     "name": "Praia Agenor de Campos",
@@ -5310,46 +3086,6 @@
     "state": "SP",
     "latitude": -24.1338526,
     "longitude": -46.6927797
-  },
-  {
-    "name": "Aparecida Beach",
-    "neighborhood": "Aparecida",
-    "city": "Santos",
-    "state": "SP",
-    "latitude": -23.98128,
-    "longitude": -46.312884
-  },
-  {
-    "name": "Praia Grande",
-    "neighborhood": "Canto do Forte",
-    "city": "Praia Grande",
-    "state": "SP",
-    "latitude": -24.0166667,
-    "longitude": -46.4
-  },
-  {
-    "name": "Itararé Beach",
-    "neighborhood": "Itararé",
-    "city": "São Vicente",
-    "state": "SP",
-    "latitude": -23.9702685,
-    "longitude": -46.3619567
-  },
-  {
-    "name": "Praia Central",
-    "neighborhood": "Centro",
-    "city": "Mongaguá",
-    "state": "SP",
-    "latitude": -24.0981004,
-    "longitude": -46.6237801
-  },
-  {
-    "name": "Praia Jardim Real",
-    "neighborhood": "Jardim Imperador",
-    "city": "Praia Grande",
-    "state": "SP",
-    "latitude": -24.0634701,
-    "longitude": -46.5518094
   },
   {
     "name": "Praia do Boqueirao",
@@ -5376,36 +3112,12 @@
     "longitude": -46.3065744
   },
   {
-    "name": "Praia do Sangava",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
-    "state": "SP",
-    "latitude": -24.0015784,
-    "longitude": -46.3202371
-  },
-  {
     "name": "Praia da Vila Tupi",
     "neighborhood": "Vila Tupi",
     "city": "Praia Grande",
     "state": "SP",
     "latitude": -24.0241445,
     "longitude": -46.4577166
-  },
-  {
-    "name": "Praia do Cheira Limao",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
-    "state": "SP",
-    "latitude": -23.9978264,
-    "longitude": -46.3177836
-  },
-  {
-    "name": "Praia de Itaguaré",
-    "neighborhood": "Brasil",
-    "city": "Bertioga",
-    "state": "SP",
-    "latitude": -23.7924167,
-    "longitude": -45.9922865
   },
   {
     "name": "Boqueirão Beach (Praia Grande)",
@@ -5416,28 +3128,12 @@
     "longitude": -46.3255229
   },
   {
-    "name": "Praia Saco do Major",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
+    "name": "Aviation Beach",
+    "neighborhood": "Aviação",
+    "city": "Praia Grande",
     "state": "SP",
-    "latitude": -24.0200921,
-    "longitude": -46.3137512
-  },
-  {
-    "name": "Praia do Pinheiro",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
-    "state": "SP",
-    "latitude": -23.8955794,
-    "longitude": -46.1508932
-  },
-  {
-    "name": "Praia de Fora",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
-    "state": "SP",
-    "latitude": -24.0383406,
-    "longitude": -46.2867949
+    "latitude": -24.01908,
+    "longitude": -46.44165150000001
   },
   {
     "name": "Praia do Embare",
@@ -5462,14 +3158,6 @@
     "state": "SP",
     "latitude": -23.9780594,
     "longitude": -46.3857092
-  },
-  {
-    "name": "Perequê Beach",
-    "neighborhood": "Guarujá",
-    "city": "Guarujá",
-    "state": "SP",
-    "latitude": -23.9343217,
-    "longitude": -46.180483
   },
   {
     "name": "Rio Itaguaré",
@@ -5528,22 +3216,6 @@
     "longitude": -46.7930279
   },
   {
-    "name": "Peruíbe Beach",
-    "neighborhood": "Brasil",
-    "city": "Peruíbe",
-    "state": "SP",
-    "latitude": -24.2649987,
-    "longitude": -46.9189084
-  },
-  {
-    "name": "Praia do Arpoador",
-    "neighborhood": "Brasil",
-    "city": "Peruíbe",
-    "state": "SP",
-    "latitude": -24.3939288,
-    "longitude": -47.0113553
-  },
-  {
     "name": "Praia do Sonho",
     "neighborhood": "Praia dos Sonhos",
     "city": "Itanhaém",
@@ -5552,76 +3224,12 @@
     "longitude": -46.80028790000001
   },
   {
-    "name": "Praia da Juréia",
-    "neighborhood": "Brasil",
-    "city": "Iguape",
-    "state": "SP",
-    "latitude": -24.6163468,
-    "longitude": -47.32012599999999
-  },
-  {
-    "name": "Praia do Una",
-    "neighborhood": "Brasil",
-    "city": "Peruíbe",
-    "state": "SP",
-    "latitude": -24.4881871,
-    "longitude": -47.13925039999999
-  },
-  {
-    "name": "Recanto Cascatinha",
-    "neighborhood": "Morretes",
-    "city": "Morretes",
-    "state": "PR",
-    "latitude": -25.5090109,
-    "longitude": -48.8755355
-  },
-  {
-    "name": "Praia De Guaratuba",
-    "neighborhood": "Guaratuba",
-    "city": "Guaratuba",
-    "state": "PR",
-    "latitude": -25.8830682,
-    "longitude": -48.5685396
-  },
-  {
-    "name": "Praia do Forte",
-    "neighborhood": "Brasil",
-    "city": "São Francisco do Sul",
-    "state": "SC",
-    "latitude": -26.1656081,
-    "longitude": -48.5335796
-  },
-  {
     "name": "Praia de Leste/Pontal do Paraná-PR",
     "neighborhood": "Praia de Leste",
     "city": "Pontal do Paraná",
     "state": "PR",
     "latitude": -25.699437,
     "longitude": -48.4712425
-  },
-  {
-    "name": "Praia De GUARATUBA",
-    "neighborhood": "Guaratuba",
-    "city": "Guaratuba",
-    "state": "PR",
-    "latitude": -25.9044518,
-    "longitude": -48.5687334
-  },
-  {
-    "name": "Praia de Caieiras",
-    "neighborhood": "Guaratuba",
-    "city": "Guaratuba",
-    "state": "PR",
-    "latitude": -25.8652833,
-    "longitude": -48.5640671
-  },
-  {
-    "name": "Balneário Praia Grande",
-    "neighborhood": "Brasil",
-    "city": "Matinhos",
-    "state": "PR",
-    "latitude": -25.7849851,
-    "longitude": -48.518471
   },
   {
     "name": "Balneário Shangri-lá",
@@ -5640,28 +3248,12 @@
     "longitude": -48.5366667
   },
   {
-    "name": "Praia da Lagoa",
-    "neighborhood": "Brasil",
-    "city": "Balneário Barra do Sul",
-    "state": "SC",
-    "latitude": -26.4435218,
-    "longitude": -48.6275718
-  },
-  {
     "name": "Praia do Paulas",
     "neighborhood": "Do Paulas",
     "city": "São Francisco do Sul",
     "state": "SC",
     "latitude": -26.2307131,
     "longitude": -48.6242678
-  },
-  {
-    "name": "Praia do Forte",
-    "neighborhood": "São Francisco do Sul",
-    "city": "São Francisco do Sul",
-    "state": "SC",
-    "latitude": -26.169947,
-    "longitude": -48.5386634
   },
   {
     "name": "Praia Central",
@@ -5736,28 +3328,12 @@
     "longitude": -48.64396929999999
   },
   {
-    "name": "Praia Brava",
-    "neighborhood": "Brasil",
-    "city": "São Francisco do Sul",
-    "state": "SC",
-    "latitude": -26.2431756,
-    "longitude": -48.5075467
-  },
-  {
     "name": "Praia Grande",
     "neighborhood": "Da Praia Grande",
     "city": "São Francisco do Sul",
     "state": "SC",
     "latitude": -26.2809098,
     "longitude": -48.5305408
-  },
-  {
-    "name": "Praia do Belo",
-    "neighborhood": "Paranaguá",
-    "city": "Paranaguá",
-    "state": "PR",
-    "latitude": -25.551485,
-    "longitude": -48.30733499999999
   },
   {
     "name": "Praia de Matinhos",
@@ -5824,36 +3400,12 @@
     "longitude": -48.5983344
   },
   {
-    "name": "Ubatuba",
-    "neighborhood": "São Francisco do Sul",
-    "city": "São Francisco do Sul",
-    "state": "SC",
-    "latitude": -26.2182395,
-    "longitude": -48.52091110000001
-  },
-  {
-    "name": "Praia de Ipanema - Paraná",
-    "neighborhood": "Brasil",
-    "city": "Pontal do Paraná",
-    "state": "PR",
-    "latitude": -25.6613474,
-    "longitude": -48.44365519999999
-  },
-  {
     "name": "Praia de Guaraparí",
     "neighborhood": "Guarapari",
     "city": "Pontal do Paraná",
     "state": "PR",
     "latitude": -25.6728742,
     "longitude": -48.4511592
-  },
-  {
-    "name": "Praia do olho dagua",
-    "neighborhood": "Brasil",
-    "city": "Pontal do Paraná",
-    "state": "PR",
-    "latitude": -25.641916,
-    "longitude": -48.4303307
   },
   {
     "name": "Praia do Porto",
@@ -5896,30 +3448,6 @@
     "longitude": -48.5758001
   },
   {
-    "name": "Pontal do Paraná",
-    "neighborhood": "Shangrila",
-    "city": "Pontal do Paraná",
-    "state": "PR",
-    "latitude": -25.6248233,
-    "longitude": -48.41699680000001
-  },
-  {
-    "name": "Praia Grande",
-    "neighborhood": "Florida",
-    "city": "Matinhos",
-    "state": "PR",
-    "latitude": -25.7790329,
-    "longitude": -48.51512820000001
-  },
-  {
-    "name": "Praia de Albatroz",
-    "neighborhood": "Brasil",
-    "city": "Matinhos",
-    "state": "PR",
-    "latitude": -25.7319474,
-    "longitude": -48.4890348
-  },
-  {
     "name": "Balneário Grajaú",
     "neighborhood": "Grajau",
     "city": "Pontal do Paraná",
@@ -5944,14 +3472,6 @@
     "longitude": -48.45631059999999
   },
   {
-    "name": "Praia Grande",
-    "neighborhood": "Paranaguá",
-    "city": "Paranaguá",
-    "state": "PR",
-    "latitude": -25.5502768,
-    "longitude": -48.2969186
-  },
-  {
     "name": "Balneário Ipacaraí",
     "neighborhood": "Ipacarai",
     "city": "Matinhos",
@@ -5968,14 +3488,6 @@
     "longitude": -48.6260062
   },
   {
-    "name": "Praia de Riviera",
-    "neighborhood": "Flamingo",
-    "city": "Matinhos",
-    "state": "PR",
-    "latitude": -25.7982888,
-    "longitude": -48.5253302
-  },
-  {
     "name": "Do Calixto",
     "neighborhood": "Do Paulas",
     "city": "São Francisco do Sul",
@@ -5984,36 +3496,12 @@
     "longitude": -48.6173209
   },
   {
-    "name": "Praia de Encantadas",
-    "neighborhood": "Paranaguá",
-    "city": "Paranaguá",
-    "state": "PR",
-    "latitude": -25.5672516,
-    "longitude": -48.3157574
-  },
-  {
     "name": "Praia Brava de Caioba",
     "neighborhood": "Centro",
     "city": "Matinhos",
     "state": "PR",
     "latitude": -25.8432449,
     "longitude": -48.5381069
-  },
-  {
-    "name": "Praia de Leste",
-    "neighborhood": "Praia de Leste",
-    "city": "Pontal do Paraná",
-    "state": "PR",
-    "latitude": -25.701151,
-    "longitude": -48.4699479
-  },
-  {
-    "name": "Canal do Linguado",
-    "neighborhood": "São Francisco do Sul",
-    "city": "São Francisco do Sul",
-    "state": "SC",
-    "latitude": -26.4138131,
-    "longitude": -48.6166115
   },
   {
     "name": "Canoas Beach",
@@ -6032,28 +3520,12 @@
     "longitude": -48.49910089999999
   },
   {
-    "name": "Praia Mansa de Caioba",
-    "neighborhood": "Guaratuba",
-    "city": "Matinhos",
-    "state": "PR",
-    "latitude": -25.8496803,
-    "longitude": -48.5452995
-  },
-  {
     "name": "Praia Gaivotas",
     "neighborhood": "Gaivotas",
     "city": "Matinhos",
     "state": "PR",
     "latitude": -25.7178001,
     "longitude": -48.4801315
-  },
-  {
-    "name": "Praia da Boia",
-    "neighborhood": "Paranaguá",
-    "city": "Paranaguá",
-    "state": "PR",
-    "latitude": -25.5723785,
-    "longitude": -48.31046320000001
   },
   {
     "name": "Praia da Fortaleza",
@@ -6088,14 +3560,6 @@
     "longitude": -48.4248869
   },
   {
-    "name": "Praia dos Ingleses",
-    "neighborhood": "Brasil",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.4371624,
-    "longitude": -48.3894599
-  },
-  {
     "name": "Praia do Poá",
     "neighborhood": "Armação",
     "city": "Penha",
@@ -6128,36 +3592,12 @@
     "longitude": -48.43379119999999
   },
   {
-    "name": "Praia da Armação da Piedade",
-    "neighborhood": "Brasil",
-    "city": "Governador Celso Ramos",
-    "state": "SC",
-    "latitude": -27.3788179,
-    "longitude": -48.5352536
-  },
-  {
-    "name": "Ponta Grande",
-    "neighborhood": "Brasil",
-    "city": "Porto Belo",
-    "state": "SC",
-    "latitude": -27.2096782,
-    "longitude": -48.5793154
-  },
-  {
     "name": "Praia da Saudade",
     "neighborhood": "Centro",
     "city": "Penha",
     "state": "SC",
     "latitude": -26.7655932,
     "longitude": -48.6440962
-  },
-  {
-    "name": "Praia de Porto Belo",
-    "neighborhood": "Brasil",
-    "city": "Porto Belo",
-    "state": "SC",
-    "latitude": -27.1558178,
-    "longitude": -48.5467542
   },
   {
     "name": "Praia das Laranjeiras",
@@ -6216,14 +3656,6 @@
     "longitude": -48.480866
   },
   {
-    "name": "Praia do Sissial",
-    "neighborhood": "Brasil",
-    "city": "Governador Celso Ramos",
-    "state": "SC",
-    "latitude": -27.3508045,
-    "longitude": -48.5348511
-  },
-  {
     "name": "Praia de Taquarinhas",
     "neighborhood": "Região das Praias",
     "city": "Balneário Camboriú",
@@ -6240,14 +3672,6 @@
     "longitude": -48.5878463
   },
   {
-    "name": "Praia Costeira da Armação - Baia Dos Golfinhos",
-    "neighborhood": "Brasil",
-    "city": "Governador Celso Ramos",
-    "state": "SC",
-    "latitude": -27.4045947,
-    "longitude": -48.5621667
-  },
-  {
     "name": "Praia dos Amores",
     "neighborhood": "Praia Brava",
     "city": "Itajaí",
@@ -6262,14 +3686,6 @@
     "state": "SC",
     "latitude": -27.4499966,
     "longitude": -48.5398341
-  },
-  {
-    "name": "Praia do Antenor",
-    "neighborhood": "Brasil",
-    "city": "Governador Celso Ramos",
-    "state": "SC",
-    "latitude": -27.426664,
-    "longitude": -48.5737271
   },
   {
     "name": "Praia de Camboriu",
@@ -6344,14 +3760,6 @@
     "longitude": -48.63339
   },
   {
-    "name": "Praia da Cruz",
-    "neighborhood": "Brasil",
-    "city": "Governador Celso Ramos",
-    "state": "SC",
-    "latitude": -27.3132711,
-    "longitude": -48.5792577
-  },
-  {
     "name": "Praia Brava",
     "neighborhood": "Praia Brava",
     "city": "Florianópolis",
@@ -6374,14 +3782,6 @@
     "state": "SC",
     "latitude": -26.7899068,
     "longitude": -48.6072676
-  },
-  {
-    "name": "Praia da Barra do Itapocu",
-    "neighborhood": "Itapocu",
-    "city": "Araquari",
-    "state": "SC",
-    "latitude": -26.5530012,
-    "longitude": -48.6532591
   },
   {
     "name": "Praia Brava",
@@ -6440,28 +3840,12 @@
     "longitude": -48.6128632
   },
   {
-    "name": "Praia Palmas do Arvoredo",
-    "neighborhood": "Brasil",
-    "city": "Governador Celso Ramos",
-    "state": "SC",
-    "latitude": -27.3211387,
-    "longitude": -48.5395339
-  },
-  {
     "name": "Praia da Mata de Camboriú",
     "neighborhood": "Ilhota",
     "city": "Itapema",
     "state": "SC",
     "latitude": -27.0622741,
     "longitude": -48.5938792
-  },
-  {
-    "name": "Praia Tinguá Beach",
-    "neighborhood": "Brasil",
-    "city": "Governador Celso Ramos",
-    "state": "SC",
-    "latitude": -27.3738413,
-    "longitude": -48.5392405
   },
   {
     "name": "Praia Grossa",
@@ -6480,14 +3864,6 @@
     "longitude": -48.5768329
   },
   {
-    "name": "Praia dos Ilhéus",
-    "neighborhood": "Brasil",
-    "city": "Governador Celso Ramos",
-    "state": "SC",
-    "latitude": -27.3420751,
-    "longitude": -48.5280061
-  },
-  {
     "name": "Praia do Mariscal",
     "neighborhood": "Canto Grande",
     "city": "Bombinhas",
@@ -6496,20 +3872,12 @@
     "longitude": -48.4996582
   },
   {
-    "name": "Alegre Beach - Penha",
-    "neighborhood": "Centro",
-    "city": "Penha",
+    "name": "Praia de Bombas",
+    "neighborhood": "Bombas",
+    "city": "Bombinhas",
     "state": "SC",
-    "latitude": -26.7722907,
-    "longitude": -48.6577561
-  },
-  {
-    "name": "Praia Vermelha",
-    "neighborhood": "Brasil",
-    "city": "Porto Belo",
-    "state": "SC",
-    "latitude": -27.2043826,
-    "longitude": -48.5726711
+    "latitude": -27.1401144,
+    "longitude": -48.5079844
   },
   {
     "name": "Praia Do Tomé",
@@ -6528,44 +3896,12 @@
     "longitude": -48.58135919999999
   },
   {
-    "name": "Praia do Gravatá",
-    "neighborhood": "Lagoa da Conceição",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.6133684,
-    "longitude": -48.4338418
-  },
-  {
-    "name": "Joaquina Beach",
-    "neighborhood": "Lagoa da Conceição",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.6293577,
-    "longitude": -48.4490173
-  },
-  {
     "name": "Praia do Sonho",
     "neighborhood": "Enseada da Pinheira",
     "city": "Palhoça",
     "state": "SC",
     "latitude": -27.8369412,
     "longitude": -48.5873791
-  },
-  {
-    "name": "Lagoinha do Leste Beach",
-    "neighborhood": "Brasil",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.7732103,
-    "longitude": -48.4863806
-  },
-  {
-    "name": "Campeche",
-    "neighborhood": "Campeche",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.662215,
-    "longitude": -48.4734326
   },
   {
     "name": "Praia da Barra da Lagoa",
@@ -6592,22 +3928,6 @@
     "longitude": -48.3761513
   },
   {
-    "name": "Praia da Tapera",
-    "neighborhood": "Brasil",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.6862607,
-    "longitude": -48.57166540000001
-  },
-  {
-    "name": "Praia de Naufragados",
-    "neighborhood": "Brasil",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.8335587,
-    "longitude": -48.5641537
-  },
-  {
     "name": "Praia do Morro das Pedras",
     "neighborhood": "Campeche Leste",
     "city": "Florianópolis",
@@ -6616,28 +3936,12 @@
     "longitude": -48.4821619
   },
   {
-    "name": "Praia do Moįambique",
-    "neighborhood": "São João do Rio Vermelho",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.4937746,
-    "longitude": -48.3955175
-  },
-  {
     "name": "Praia do Bom Abrigo",
     "neighborhood": "Bom Abrigo",
     "city": "Florianópolis",
     "state": "SC",
     "latitude": -27.611677,
     "longitude": -48.5971256
-  },
-  {
-    "name": "Praia de Araçatuba",
-    "neighborhood": "Enseada de Brito",
-    "city": "Palhoça",
-    "state": "SC",
-    "latitude": -27.8133342,
-    "longitude": -48.62302450000001
   },
   {
     "name": "Mole Beach",
@@ -6656,14 +3960,6 @@
     "longitude": -48.5384513
   },
   {
-    "name": "Praia da Guarda",
-    "neighborhood": "Brasil",
-    "city": "Paulo Lopes",
-    "state": "SC",
-    "latitude": -27.9175,
-    "longitude": -48.6005556
-  },
-  {
     "name": "Praia da Armaįão",
     "neighborhood": "Armacao do Pântano do Sul",
     "city": "Florianópolis",
@@ -6678,14 +3974,6 @@
     "state": "SC",
     "latitude": -27.8845081,
     "longitude": -48.5756714
-  },
-  {
-    "name": "Praia do Cacupé Grande",
-    "neighborhood": "Santo Antônio de Lisboa",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.5414801,
-    "longitude": -48.5262796
   },
   {
     "name": "Praia da Saudade",
@@ -6704,22 +3992,6 @@
     "longitude": -48.5251458
   },
   {
-    "name": "Praia da Costa da Lagoa",
-    "neighborhood": "Brasil",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.5409319,
-    "longitude": -48.4525679
-  },
-  {
-    "name": "Praia do Caldeirão",
-    "neighborhood": "Pântano do Sul",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.7266782,
-    "longitude": -48.50627309999999
-  },
-  {
     "name": "Praia do Balneário do Estreito",
     "neighborhood": "Jardim Atlântico",
     "city": "Florianópolis",
@@ -6736,14 +4008,6 @@
     "longitude": -48.5466671
   },
   {
-    "name": "Praia do Rio das Pacas",
-    "neighborhood": "Brasil",
-    "city": "Florianópolis",
-    "state": "SC",
-    "latitude": -27.8037028,
-    "longitude": -48.5368252
-  },
-  {
     "name": "Praia da Pedra Grande",
     "neighborhood": "Agronômica",
     "city": "Florianópolis",
@@ -6752,36 +4016,12 @@
     "longitude": -48.54341059999999
   },
   {
-    "name": "Estaleiro Beach",
-    "neighborhood": "Brasil",
-    "city": "Porto Belo",
-    "state": "SC",
-    "latitude": -27.12,
-    "longitude": -48.5138889
-  },
-  {
     "name": "Praia da Ilhota",
     "neighborhood": "Ilhota",
     "city": "Itapema",
     "state": "SC",
     "latitude": -27.0649025,
     "longitude": -48.5943383
-  },
-  {
-    "name": "Praia de Bombas",
-    "neighborhood": "Bombas",
-    "city": "Bombinhas",
-    "state": "SC",
-    "latitude": -27.1401144,
-    "longitude": -48.5079844
-  },
-  {
-    "name": "Praia da Barra - Garopaba",
-    "neighborhood": "Brasil",
-    "city": "Garopaba",
-    "state": "SC",
-    "latitude": -28.0859169,
-    "longitude": -48.6320399
   },
   {
     "name": "Praia do Rosa",
@@ -6800,14 +4040,6 @@
     "longitude": -48.6561804
   },
   {
-    "name": "Praia do Torneiro",
-    "neighborhood": "Brasil",
-    "city": "Jaguaruna",
-    "state": "SC",
-    "latitude": -28.7949291,
-    "longitude": -49.1805339
-  },
-  {
     "name": "Praia do Camacho",
     "neighborhood": "Barra do Camacho",
     "city": "Jaguaruna",
@@ -6816,52 +4048,12 @@
     "longitude": -48.867222
   },
   {
-    "name": "Praia da Ferrugem",
-    "neighborhood": "Brasil",
-    "city": "Garopaba",
-    "state": "SC",
-    "latitude": -28.0785719,
-    "longitude": -48.6283944
-  },
-  {
     "name": "Praia da Ribanceira",
     "neighborhood": "Vila Esperanca",
     "city": "Imbituba",
     "state": "SC",
     "latitude": -28.1859089,
     "longitude": -48.6631715
-  },
-  {
-    "name": "Praia do Cardoso",
-    "neighborhood": "Laguna",
-    "city": "Laguna",
-    "state": "SC",
-    "latitude": -28.6064296,
-    "longitude": -48.8293662
-  },
-  {
-    "name": "Galheta Beach",
-    "neighborhood": "Laguna",
-    "city": "Laguna",
-    "state": "SC",
-    "latitude": -28.5516829,
-    "longitude": -48.7849052
-  },
-  {
-    "name": "Itapirubá",
-    "neighborhood": "Brasil",
-    "city": "Laguna",
-    "state": "SC",
-    "latitude": -28.3519027,
-    "longitude": -48.7174169
-  },
-  {
-    "name": "Sol",
-    "neighborhood": "Brasil",
-    "city": "Laguna",
-    "state": "SC",
-    "latitude": -28.3961234,
-    "longitude": -48.7439317
   },
   {
     "name": "Praia do Luz",
@@ -6880,156 +4072,12 @@
     "longitude": -48.8166818
   },
   {
-    "name": "Barra",
-    "neighborhood": "Brasil",
-    "city": "Garopaba",
-    "state": "SC",
-    "latitude": -28.0870416,
-    "longitude": -48.6320121
-  },
-  {
-    "name": "Praia Figueirinha",
-    "neighborhood": "Brasil",
-    "city": "Jaguaruna",
-    "state": "SC",
-    "latitude": -28.6469613,
-    "longitude": -48.92909909999999
-  },
-  {
-    "name": "Balneário Nova Camboriú",
-    "neighborhood": "Brasil",
-    "city": "Jaguaruna",
-    "state": "SC",
-    "latitude": -28.6627613,
-    "longitude": -48.9674235
-  },
-  {
-    "name": "Ouvidor",
-    "neighborhood": "Brasil",
-    "city": "Garopaba",
-    "state": "SC",
-    "latitude": -28.104379,
-    "longitude": -48.63716489999999
-  },
-  {
-    "name": "Praia Paraiso",
-    "neighborhood": "Torres",
-    "city": "Torres",
-    "state": "RS",
-    "latitude": -29.4401492,
-    "longitude": -49.8013675
-  },
-  {
-    "name": "Praia da Guarita",
-    "neighborhood": "Torres",
-    "city": "Torres",
-    "state": "RS",
-    "latitude": -29.359621,
-    "longitude": -49.736782
-  },
-  {
-    "name": "Praia Grande",
-    "neighborhood": "Torres",
-    "city": "Torres",
-    "state": "RS",
-    "latitude": -29.3338084,
-    "longitude": -49.71753229999999
-  },
-  {
-    "name": "Praia da Cal",
-    "neighborhood": "Torres",
-    "city": "Torres",
-    "state": "RS",
-    "latitude": -29.3490602,
-    "longitude": -49.7305494
-  },
-  {
-    "name": "Praia Itapeva",
-    "neighborhood": "Torres",
-    "city": "Torres",
-    "state": "RS",
-    "latitude": -29.3595599,
-    "longitude": -49.7366409
-  },
-  {
-    "name": "Lagoinha",
-    "neighborhood": "Brasil",
-    "city": "Balneário Gaivota",
-    "state": "SC",
-    "latitude": -29.1244899,
-    "longitude": -49.5419999
-  },
-  {
-    "name": "Praia Arroio Seco",
-    "neighborhood": "Torres",
-    "city": "Torres",
-    "state": "RS",
-    "latitude": -29.3948832,
-    "longitude": -49.7657132
-  },
-  {
-    "name": "Praia Xangrilá dos Mares",
-    "neighborhood": "Balneário Rosa do Mar",
-    "city": "Passo de Torres",
-    "state": "SC",
-    "latitude": -29.2481414,
-    "longitude": -49.66227079999999
-  },
-  {
-    "name": "Prainha",
-    "neighborhood": "Torres",
-    "city": "Torres",
-    "state": "RS",
-    "latitude": -29.3432585,
-    "longitude": -49.7254474
-  },
-  {
-    "name": "Bela Torres",
-    "neighborhood": "Brasil",
-    "city": "Balneário Gaivota",
-    "state": "SC",
-    "latitude": -29.1762713,
-    "longitude": -49.5820978
-  },
-  {
-    "name": "Esplanada",
-    "neighborhood": "Brasil",
-    "city": "Jaguaruna",
-    "state": "SC",
-    "latitude": -28.7724051,
-    "longitude": -49.1417344
-  },
-  {
     "name": "Arroio do Silva",
     "neighborhood": "Areias Brancas",
     "city": "Balneário Arroio do Silva",
     "state": "SC",
     "latitude": -28.9721867,
     "longitude": -49.3941963
-  },
-  {
-    "name": "Campo Bom",
-    "neighborhood": "Brasil",
-    "city": "Jaguaruna",
-    "state": "SC",
-    "latitude": -28.7280478,
-    "longitude": -49.0693718
-  },
-  {
-    "name": "Valverde",
-    "neighborhood": "Brasil",
-    "city": "Balneário Gaivota",
-    "state": "SC",
-    "latitude": -29.2298169,
-    "longitude": -49.6364449
-  },
-  {
-    "name": "Praia da Santinha - Lagoa dos Barros",
-    "neighborhood": "Passinhos",
-    "city": "Santo Antônio da Patrulha",
-    "state": "RS",
-    "latitude": -29.9891981,
-    "longitude": -50.37923929999999
   },
   {
     "name": "Praia de Tramandaí",
@@ -7048,14 +4096,6 @@
     "longitude": -50.2376428
   },
   {
-    "name": "Praia Santa Rita de Cássia",
-    "neighborhood": "Terra de Areia",
-    "city": "Terra de Areia",
-    "state": "RS",
-    "latitude": -29.6103645,
-    "longitude": -49.9257032
-  },
-  {
     "name": "Praia da Costa do Sol",
     "neighborhood": "CIDREIRA",
     "city": "Cidreira",
@@ -7070,30 +4110,6 @@
     "state": "RS",
     "latitude": -30.0219708,
     "longitude": -50.1388335
-  },
-  {
-    "name": "Praia Rei do Peixe - Balneário Quintão/RS",
-    "neighborhood": "Quintão",
-    "city": "Palmares do Sul",
-    "state": "RS",
-    "latitude": -30.3529716,
-    "longitude": -50.2753671
-  },
-  {
-    "name": "Praia do Frade - Balneário Quintão/RS",
-    "neighborhood": "Quintão",
-    "city": "Palmares do Sul",
-    "state": "RS",
-    "latitude": -30.3677658,
-    "longitude": -50.27767069999999
-  },
-  {
-    "name": "Praia Santa Rita - Balneário Quintão/RS",
-    "neighborhood": "Quintão",
-    "city": "Palmares do Sul",
-    "state": "RS",
-    "latitude": -30.3752369,
-    "longitude": -50.2839734
   },
   {
     "name": "Portal do Éden",
@@ -7120,22 +4136,6 @@
     "longitude": -50.06658729999999
   },
   {
-    "name": "Praia da Santinha - Lagoa dos Barros",
-    "neighborhood": "Chicolomã",
-    "city": "Santo Antônio da Patrulha",
-    "state": "RS",
-    "latitude": -29.9525807,
-    "longitude": -50.4128413
-  },
-  {
-    "name": "Praia da Costa do Sol",
-    "neighborhood": "Costa do Sol",
-    "city": "Cidreira",
-    "state": "RS",
-    "latitude": -30.2210691,
-    "longitude": -50.2319246
-  },
-  {
     "name": "Albatroz",
     "neighborhood": "Albatroz",
     "city": "Imbé",
@@ -7145,7 +4145,7 @@
   },
   {
     "name": "Praia de Cidreira",
-    "neighborhood": "Nova Tramandaí",
+    "neighborhood": "Tramandaí",
     "city": "Tramandaí",
     "state": "RS",
     "latitude": -30.0873958,
@@ -7158,14 +4158,6 @@
     "state": "RS",
     "latitude": -30.0694839,
     "longitude": -50.16278029999999
-  },
-  {
-    "name": "Praia Rota do Sol",
-    "neighborhood": "Arroio Teixeira",
-    "city": "Capão da Canoa",
-    "state": "RS",
-    "latitude": -29.6438296,
-    "longitude": -49.9466228
   },
   {
     "name": "Praia de Tramandaí",
@@ -7192,22 +4184,6 @@
     "longitude": -50.2234771
   },
   {
-    "name": "Prainha da Lagoa da Rondinha",
-    "neighborhood": "Balneário Pinhal",
-    "city": "Balneário Pinhal",
-    "state": "RS",
-    "latitude": -30.231945,
-    "longitude": -50.2538066
-  },
-  {
-    "name": "Praia Sereia do Mar",
-    "neighborhood": "Brasil",
-    "city": "Arroio do Sal",
-    "state": "RS",
-    "latitude": -29.582836,
-    "longitude": -49.9069012
-  },
-  {
     "name": "Perola - Arroio do Sal",
     "neighborhood": "Pérola",
     "city": "Arroio do Sal",
@@ -7224,38 +4200,6 @@
     "longitude": -50.224404
   },
   {
-    "name": "Figueirinha - Arroio do Sal",
-    "neighborhood": "Brasil",
-    "city": "Arroio do Sal",
-    "state": "RS",
-    "latitude": -29.5592535,
-    "longitude": -49.8902516
-  },
-  {
-    "name": "Atlântida",
-    "neighborhood": "Capão da Canoa",
-    "city": "Capão da Canoa",
-    "state": "RS",
-    "latitude": -29.7301132,
-    "longitude": -49.995991
-  },
-  {
-    "name": "Dunas Altas",
-    "neighborhood": "Quintão",
-    "city": "Palmares do Sul",
-    "state": "RS",
-    "latitude": -30.3974529,
-    "longitude": -50.2905765
-  },
-  {
-    "name": "Dunas Altas",
-    "neighborhood": "Quintão",
-    "city": "Palmares do Sul",
-    "state": "RS",
-    "latitude": -30.4253979,
-    "longitude": -50.298206
-  },
-  {
     "name": "Balneário Tiarajú",
     "neighborhood": "Loteamento Tramandaí Zona Sul",
     "city": "Tramandaí",
@@ -7264,164 +4208,12 @@
     "longitude": -50.1672649
   },
   {
-    "name": "Praia dos Passarinhos",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.2886442,
-    "longitude": -51.0211834
-  },
-  {
-    "name": "Praia da Pedreira",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.3580099,
-    "longitude": -51.0476658
-  },
-  {
-    "name": "Praia do Tigre",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.38846809999999,
-    "longitude": -51.0445264
-  },
-  {
-    "name": "Praia de Itapua",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.2853509,
-    "longitude": -51.0223429
-  },
-  {
-    "name": "Praia de Fora",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.4133217,
-    "longitude": -50.9723542
-  },
-  {
-    "name": "Praia do Flôr",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.3397639,
-    "longitude": -51.0382519
-  },
-  {
-    "name": "Praia de Bacupari",
-    "neighborhood": "Doutor Edgardo Pereira Velho",
-    "city": "Mostardas",
-    "state": "RS",
-    "latitude": -30.5358011,
-    "longitude": -50.4251177
-  },
-  {
-    "name": "Praia da Onça",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.34808659999999,
-    "longitude": -51.0505194
-  },
-  {
-    "name": "Praia do Farol da Solidão Rio Grande do Sul",
-    "neighborhood": "Doutor Edgardo Pereira Velho",
-    "city": "Mostardas",
-    "state": "RS",
-    "latitude": -30.6973299,
-    "longitude": -50.4791965
-  },
-  {
-    "name": "Praia das Pombas",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.3383923,
-    "longitude": -51.0367397
-  },
-  {
-    "name": "Praia",
-    "neighborhood": "Doutor Edgardo Pereira Velho",
-    "city": "Mostardas",
-    "state": "RS",
-    "latitude": -30.5244246,
-    "longitude": -50.355248
-  },
-  {
-    "name": "Praia da Formiga",
-    "neighborhood": "Barra do Ribeiro",
-    "city": "Barra do Ribeiro",
-    "state": "RS",
-    "latitude": -30.425,
-    "longitude": -51.125
-  },
-  {
-    "name": "Praia do Sitio",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.3814744,
-    "longitude": -51.0472581
-  },
-  {
-    "name": "Praia das Pombas",
-    "neighborhood": "Itapuã",
-    "city": "Viamão",
-    "state": "RS",
-    "latitude": -30.33476,
-    "longitude": -51.03237799999999
-  },
-  {
-    "name": "Praia do Bojuru",
-    "neighborhood": "Bojuru",
-    "city": "São José do Norte",
-    "state": "RS",
-    "latitude": -31.6629574,
-    "longitude": -51.3830118
-  },
-  {
-    "name": "Balneário Mostardense",
-    "neighborhood": "Mostardas",
-    "city": "Mostardas",
-    "state": "RS",
-    "latitude": -31.15373,
-    "longitude": -50.8090482
-  },
-  {
     "name": "Balneário Lagoa Dos Patos",
     "neighborhood": "Tavares",
     "city": "Tavares",
     "state": "RS",
     "latitude": -31.2787563,
     "longitude": -51.1555634
-  },
-  {
-    "name": "Praia do Oceano",
-    "neighborhood": "São José do Norte",
-    "city": "São José do Norte",
-    "state": "RS",
-    "latitude": -31.99345629999999,
-    "longitude": -51.9273051
-  },
-  {
-    "name": "Praia do Cassino",
-    "neighborhood": "Rio Grande",
-    "city": "Rio Grande",
-    "state": "RS",
-    "latitude": -32.2112752,
-    "longitude": -52.18194
-  },
-  {
-    "name": "Praia dos Molhes",
-    "neighborhood": "Rio Grande",
-    "city": "Rio Grande",
-    "state": "RS",
-    "latitude": -32.1666667,
-    "longitude": -52.1166667
   },
   {
     "name": "Praia do Mar Grosso",
@@ -7440,22 +4232,6 @@
     "longitude": -52.2219636
   },
   {
-    "name": "Praia da MARUMBI",
-    "neighborhood": "São José do Norte",
-    "city": "São José do Norte",
-    "state": "RS",
-    "latitude": -32.0443558,
-    "longitude": -51.9870995
-  },
-  {
-    "name": "Molhe Leste",
-    "neighborhood": "Rio Grande",
-    "city": "Rio Grande",
-    "state": "RS",
-    "latitude": -32.1874041,
-    "longitude": -52.0745529
-  },
-  {
     "name": "Praia Barroduro",
     "neighborhood": "Balneario dos Prazeres",
     "city": "Pelotas",
@@ -7472,35 +4248,11 @@
     "longitude": -52.22632609999999
   },
   {
-    "name": "Praia do Oceano",
-    "neighborhood": "São José do Norte",
-    "city": "São José do Norte",
-    "state": "RS",
-    "latitude": -32.0925973,
-    "longitude": -52.036356
-  },
-  {
-    "name": "Valverde",
-    "neighborhood": "Pelotas",
-    "city": "Pelotas",
-    "state": "RS",
-    "latitude": -31.7442412,
-    "longitude": -52.217925
-  },
-  {
     "name": "Laranjal",
     "neighborhood": "Laranjal",
     "city": "Pelotas",
     "state": "RS",
     "latitude": -31.7575844,
     "longitude": -52.2274207
-  },
-  {
-    "name": "PR da Barra",
-    "neighborhood": "Brasil",
-    "city": "Rio Grande",
-    "state": "RS",
-    "latitude": -32.1609339,
-    "longitude": -52.0980959
   }
 ]

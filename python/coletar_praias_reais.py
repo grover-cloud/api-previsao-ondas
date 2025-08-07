@@ -83,7 +83,7 @@ def reverse_geocode(lat, lon):
                     city = comp["long_name"]
                 elif "administrative_area_level_1" in types and not state:
                     state = comp["short_name"]
-                elif any(t in types for t in ["sublocality", "neighborhood", "political"]):
+                elif any(t in types for t in ["sublocality", "neighborhood"]):
                     if not neighborhood:
                         neighborhood = comp["long_name"]
             if city and state:
@@ -93,6 +93,25 @@ def reverse_geocode(lat, lon):
     except requests.exceptions.RequestException as e:
         print(f"🔴 Erro de conexão no reverse geocode: {e}")
         return "", "", ""
+
+def tem_dados_meteo_validos(lat, lon):
+    url = (
+        "https://marine-api.open-meteo.com/v1/marine"
+        f"?latitude={lat}&longitude={lon}"
+        f"&hourly=wave_height,wave_direction,wave_period,sea_surface_temperature"
+        f"&timezone=America/Sao_Paulo&forecast_days=1"
+    )
+    try:
+        r = requests.get(url, timeout=10)
+        data = r.json()
+        keys = ["wave_height", "wave_direction", "wave_period", "sea_surface_temperature"]
+        if "hourly" not in data:
+            return False
+        return all(
+            key in data["hourly"] and len(data["hourly"][key]) > 0 for key in keys
+        )
+    except:
+        return False
 
 # Executar busca para todas as coordenadas
 praias_dados = []
@@ -110,8 +129,11 @@ for lat_base, lon_base in coordenadas_litoral_brasileiro:
 
         city, state, neighborhood = reverse_geocode(lat, lon)
 
-        if not city or not state:
-            continue  # ignora se não conseguir identificar cidade e estado
+        if not city or not state or not neighborhood:
+            continue  # ignora se faltar dados relevantes
+
+        if not tem_dados_meteo_validos(lat, lon):
+            continue  # ignora se não tiver dados do open-meteo
 
         praia_info = {
             "name": praia["name"],
